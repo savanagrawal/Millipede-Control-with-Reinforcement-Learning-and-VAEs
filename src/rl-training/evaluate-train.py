@@ -71,10 +71,11 @@ def main():
     '''
     register_custom_components()
     experiment = get_experiment()
-    argv = ["--env=Ant-v4", f"--experiment={experiment}", "--train_dir=./sample-factory/code/train_dir"]
+    argv = ["--env=Ant-v4", f"--experiment={experiment}", "--train_dir=./src/rl-training/train_dir"]
     cfg = parse_mujoco_cfg(argv=argv, evaluation=True)
     status = enjoy(cfg)
     return status
 
 if __name__ == "__main__": 
     sys.exit(main())
+
