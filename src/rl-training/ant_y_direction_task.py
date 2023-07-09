@@ -99,7 +99,7 @@ def main():
     '''
     register_custom_components()
     # Define the command line arguments
-    argv=["--env=Ant-v4", "--device=cpu", "--experiment=ant_y_direction_task", "--train_dir=./sample-factory/code/train_dir"]
+    argv=["--env=Ant-v4", "--device=cpu", "--experiment=ant_y_direction_task", "--train_dir=./src/rl-training/train_dir"]
     # Parse the configuration
     cfg = parse_mujoco_cfg(argv)
     # Run the training and return the status
