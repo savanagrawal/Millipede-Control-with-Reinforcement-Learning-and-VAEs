@@ -1,39 +1,40 @@
-[2023-07-09 14:51:59,815][08504] Saving configuration to /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/config.json...
-[2023-07-09 14:51:59,816][08504] Rollout worker 0 uses device cpu
-[2023-07-09 14:51:59,816][08504] Rollout worker 1 uses device cpu
-[2023-07-09 14:51:59,816][08504] Rollout worker 2 uses device cpu
-[2023-07-09 14:51:59,816][08504] Rollout worker 3 uses device cpu
-[2023-07-09 14:51:59,816][08504] Rollout worker 4 uses device cpu
-[2023-07-09 14:51:59,816][08504] Rollout worker 5 uses device cpu
-[2023-07-09 14:51:59,816][08504] Rollout worker 6 uses device cpu
-[2023-07-09 14:51:59,816][08504] Rollout worker 7 uses device cpu
-[2023-07-09 14:51:59,817][08504] In synchronous mode, we only accumulate one batch. Setting num_batches_to_accumulate to 1
-[2023-07-09 14:51:59,999][08504] InferenceWorker_p0-w0: min num requests: 2
-[2023-07-09 14:52:00,044][08504] Starting all processes...
-[2023-07-09 14:52:00,044][08504] Starting process learner_proc0
-[2023-07-09 14:52:00,106][08504] Starting all processes...
-[2023-07-09 14:52:00,160][08504] Starting process inference_proc0-0
-[2023-07-09 14:52:00,172][08504] Starting process rollout_proc0
-[2023-07-09 14:52:00,177][08504] Starting process rollout_proc1
-[2023-07-09 14:52:00,184][08504] Starting process rollout_proc2
-[2023-07-09 14:52:00,194][08504] Starting process rollout_proc3
-[2023-07-09 14:52:00,197][08504] Starting process rollout_proc4
-[2023-07-09 14:52:00,206][08504] Starting process rollout_proc5
-[2023-07-09 14:52:00,234][08504] Starting process rollout_proc6
-[2023-07-09 14:52:00,245][08504] Starting process rollout_proc7
-[2023-07-09 14:52:03,099][08555] On MacOS, not setting affinity
-[2023-07-09 14:52:03,100][08561] On MacOS, not setting affinity
-[2023-07-09 14:52:03,168][08553] Starting seed is not provided
-[2023-07-09 14:52:03,168][08553] Initializing actor-critic model on device cpu
-[2023-07-09 14:52:03,168][08553] RunningMeanStd input shape: (27,)
-[2023-07-09 14:52:03,171][08553] RunningMeanStd input shape: (1,)
-[2023-07-09 14:52:03,178][08559] On MacOS, not setting affinity
-[2023-07-09 14:52:03,193][08560] On MacOS, not setting affinity
-[2023-07-09 14:52:03,193][08557] On MacOS, not setting affinity
-[2023-07-09 14:52:03,210][08562] On MacOS, not setting affinity
-[2023-07-09 14:52:03,237][08556] On MacOS, not setting affinity
-[2023-07-09 14:52:03,247][08553] Created Actor Critic model with architecture:
-[2023-07-09 14:52:03,247][08553] ActorCriticSharedWeights(
+[2023-07-14 19:52:19,954][97365] Saving configuration to ./src/rl-training/train_dir/ant_x_direction_task/config.json...
+[2023-07-14 19:52:19,954][97365] Rollout worker 0 uses device cpu
+[2023-07-14 19:52:19,954][97365] Rollout worker 1 uses device cpu
+[2023-07-14 19:52:19,955][97365] Rollout worker 2 uses device cpu
+[2023-07-14 19:52:19,955][97365] Rollout worker 3 uses device cpu
+[2023-07-14 19:52:19,955][97365] Rollout worker 4 uses device cpu
+[2023-07-14 19:52:19,955][97365] Rollout worker 5 uses device cpu
+[2023-07-14 19:52:19,955][97365] Rollout worker 6 uses device cpu
+[2023-07-14 19:52:19,955][97365] Rollout worker 7 uses device cpu
+[2023-07-14 19:52:19,955][97365] In synchronous mode, we only accumulate one batch. Setting num_batches_to_accumulate to 1
+[2023-07-14 19:52:20,138][97365] InferenceWorker_p0-w0: min num requests: 2
+[2023-07-14 19:52:20,175][97365] Starting all processes...
+[2023-07-14 19:52:20,175][97365] Starting process learner_proc0
+[2023-07-14 19:52:20,233][97365] Starting all processes...
+[2023-07-14 19:52:20,251][97365] Starting process inference_proc0-0
+[2023-07-14 19:52:20,251][97365] Starting process rollout_proc0
+[2023-07-14 19:52:20,251][97365] Starting process rollout_proc1
+[2023-07-14 19:52:20,251][97365] Starting process rollout_proc2
+[2023-07-14 19:52:20,252][97365] Starting process rollout_proc3
+[2023-07-14 19:52:20,252][97365] Starting process rollout_proc4
+[2023-07-14 19:52:20,252][97365] Starting process rollout_proc5
+[2023-07-14 19:52:20,252][97365] Starting process rollout_proc6
+[2023-07-14 19:52:20,255][97365] Starting process rollout_proc7
+[2023-07-14 19:52:23,240][97413] On MacOS, not setting affinity
+[2023-07-14 19:52:23,255][97410] On MacOS, not setting affinity
+[2023-07-14 19:52:23,261][97415] On MacOS, not setting affinity
+[2023-07-14 19:52:23,265][97409] Starting seed is not provided
+[2023-07-14 19:52:23,266][97409] Initializing actor-critic model on device cpu
+[2023-07-14 19:52:23,267][97409] RunningMeanStd input shape: (27,)
+[2023-07-14 19:52:23,270][97417] On MacOS, not setting affinity
+[2023-07-14 19:52:23,270][97414] On MacOS, not setting affinity
+[2023-07-14 19:52:23,270][97418] On MacOS, not setting affinity
+[2023-07-14 19:52:23,270][97416] On MacOS, not setting affinity
+[2023-07-14 19:52:23,271][97409] RunningMeanStd input shape: (1,)
+[2023-07-14 19:52:23,294][97412] On MacOS, not setting affinity
+[2023-07-14 19:52:23,323][97409] Created Actor Critic model with architecture:
+[2023-07-14 19:52:23,324][97409] ActorCriticSharedWeights(
   (obs_normalizer): ObservationNormalizer(
     (running_mean_std): RunningMeanStdDictInPlace(
       (running_mean_std): ModuleDict(
@@ -64,647 +65,899 @@
     (distribution_linear): Linear(in_features=64, out_features=8, bias=True)
   )
 )
-[2023-07-09 14:52:03,249][08553] Using optimizer <class 'torch.optim.adam.Adam'>
-[2023-07-09 14:52:03,249][08553] No checkpoints found
-[2023-07-09 14:52:03,249][08553] Did not load from checkpoint, starting from scratch!
-[2023-07-09 14:52:03,250][08553] Initialized policy 0 weights for model version 0
-[2023-07-09 14:52:03,251][08553] LearnerWorker_p0 finished initialization!
-[2023-07-09 14:52:03,252][08554] RunningMeanStd input shape: (27,)
-[2023-07-09 14:52:03,252][08554] RunningMeanStd input shape: (1,)
-[2023-07-09 14:52:03,274][08558] On MacOS, not setting affinity
-[2023-07-09 14:52:03,295][08504] Inference worker 0-0 is ready!
-[2023-07-09 14:52:03,296][08504] All inference workers are ready! Signal rollout workers to start!
-[2023-07-09 14:52:03,462][08560] Decorrelating experience for 0 frames...
-[2023-07-09 14:52:03,463][08560] Decorrelating experience for 64 frames...
-[2023-07-09 14:52:03,466][08559] Decorrelating experience for 0 frames...
-[2023-07-09 14:52:03,466][08559] Decorrelating experience for 64 frames...
-[2023-07-09 14:52:03,474][08556] Decorrelating experience for 0 frames...
-[2023-07-09 14:52:03,475][08556] Decorrelating experience for 64 frames...
-[2023-07-09 14:52:03,475][08557] Decorrelating experience for 0 frames...
-[2023-07-09 14:52:03,476][08557] Decorrelating experience for 64 frames...
-[2023-07-09 14:52:03,477][08562] Decorrelating experience for 0 frames...
-[2023-07-09 14:52:03,477][08562] Decorrelating experience for 64 frames...
-[2023-07-09 14:52:03,477][08558] Decorrelating experience for 0 frames...
-[2023-07-09 14:52:03,478][08558] Decorrelating experience for 64 frames...
-[2023-07-09 14:52:03,487][08555] Decorrelating experience for 0 frames...
-[2023-07-09 14:52:03,487][08555] Decorrelating experience for 64 frames...
-[2023-07-09 14:52:03,487][08559] Decorrelating experience for 128 frames...
-[2023-07-09 14:52:03,488][08560] Decorrelating experience for 128 frames...
-[2023-07-09 14:52:03,494][08562] Decorrelating experience for 128 frames...
-[2023-07-09 14:52:03,499][08556] Decorrelating experience for 128 frames...
-[2023-07-09 14:52:03,500][08558] Decorrelating experience for 128 frames...
-[2023-07-09 14:52:03,506][08561] Decorrelating experience for 0 frames...
-[2023-07-09 14:52:03,506][08561] Decorrelating experience for 64 frames...
-[2023-07-09 14:52:03,507][08557] Decorrelating experience for 128 frames...
-[2023-07-09 14:52:03,511][08555] Decorrelating experience for 128 frames...
-[2023-07-09 14:52:03,513][08504] Fps is (10 sec: nan, 60 sec: nan, 300 sec: nan). Total num frames: 0. Throughput: 0: nan. Samples: 0. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
-[2023-07-09 14:52:03,531][08560] Decorrelating experience for 192 frames...
-[2023-07-09 14:52:03,533][08562] Decorrelating experience for 192 frames...
-[2023-07-09 14:52:03,535][08559] Decorrelating experience for 192 frames...
-[2023-07-09 14:52:03,536][08561] Decorrelating experience for 128 frames...
-[2023-07-09 14:52:03,543][08557] Decorrelating experience for 192 frames...
-[2023-07-09 14:52:03,550][08556] Decorrelating experience for 192 frames...
-[2023-07-09 14:52:03,551][08558] Decorrelating experience for 192 frames...
-[2023-07-09 14:52:03,560][08555] Decorrelating experience for 192 frames...
-[2023-07-09 14:52:03,572][08561] Decorrelating experience for 192 frames...
-[2023-07-09 14:52:03,607][08559] Decorrelating experience for 256 frames...
-[2023-07-09 14:52:03,613][08557] Decorrelating experience for 256 frames...
-[2023-07-09 14:52:03,620][08562] Decorrelating experience for 256 frames...
-[2023-07-09 14:52:03,627][08558] Decorrelating experience for 256 frames...
-[2023-07-09 14:52:03,631][08560] Decorrelating experience for 256 frames...
-[2023-07-09 14:52:03,659][08556] Decorrelating experience for 256 frames...
-[2023-07-09 14:52:03,668][08555] Decorrelating experience for 256 frames...
-[2023-07-09 14:52:03,674][08561] Decorrelating experience for 256 frames...
-[2023-07-09 14:52:03,709][08559] Decorrelating experience for 320 frames...
-[2023-07-09 14:52:03,717][08560] Decorrelating experience for 320 frames...
-[2023-07-09 14:52:03,718][08562] Decorrelating experience for 320 frames...
-[2023-07-09 14:52:03,723][08557] Decorrelating experience for 320 frames...
-[2023-07-09 14:52:03,731][08558] Decorrelating experience for 320 frames...
-[2023-07-09 14:52:03,737][08556] Decorrelating experience for 320 frames...
-[2023-07-09 14:52:03,742][08561] Decorrelating experience for 320 frames...
-[2023-07-09 14:52:03,756][08555] Decorrelating experience for 320 frames...
-[2023-07-09 14:52:03,800][08559] Decorrelating experience for 384 frames...
-[2023-07-09 14:52:03,815][08562] Decorrelating experience for 384 frames...
-[2023-07-09 14:52:03,822][08557] Decorrelating experience for 384 frames...
-[2023-07-09 14:52:03,833][08556] Decorrelating experience for 384 frames...
-[2023-07-09 14:52:03,851][08560] Decorrelating experience for 384 frames...
-[2023-07-09 14:52:03,863][08558] Decorrelating experience for 384 frames...
-[2023-07-09 14:52:03,879][08555] Decorrelating experience for 384 frames...
-[2023-07-09 14:52:03,884][08561] Decorrelating experience for 384 frames...
-[2023-07-09 14:52:03,953][08559] Decorrelating experience for 448 frames...
-[2023-07-09 14:52:03,953][08562] Decorrelating experience for 448 frames...
-[2023-07-09 14:52:03,964][08557] Decorrelating experience for 448 frames...
-[2023-07-09 14:52:03,970][08560] Decorrelating experience for 448 frames...
-[2023-07-09 14:52:03,980][08558] Decorrelating experience for 448 frames...
-[2023-07-09 14:52:03,995][08556] Decorrelating experience for 448 frames...
-[2023-07-09 14:52:04,005][08555] Decorrelating experience for 448 frames...
-[2023-07-09 14:52:04,013][08561] Decorrelating experience for 448 frames...
-[2023-07-09 14:52:07,253][08554] Updated weights for policy 0, policy_version 80 (0.0002)
-[2023-07-09 14:52:08,508][08504] Fps is (10 sec: 11478.2, 60 sec: 11478.2, 300 sec: 11478.2). Total num frames: 57344. Throughput: 0: 5703.9. Samples: 28496. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:52:08,509][08504] Avg episode reward: [(0, '-265.997')]
-[2023-07-09 14:52:10,049][08554] Updated weights for policy 0, policy_version 160 (0.0002)
-[2023-07-09 14:52:12,900][08554] Updated weights for policy 0, policy_version 240 (0.0002)
-[2023-07-09 14:52:13,507][08504] Fps is (10 sec: 13114.0, 60 sec: 13114.0, 300 sec: 13114.0). Total num frames: 131072. Throughput: 0: 11481.1. Samples: 114752. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:52:13,508][08504] Avg episode reward: [(0, '-94.368')]
-[2023-07-09 14:52:13,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000000256_131072.pth...
-[2023-07-09 14:52:13,520][08553] Saving new best policy, reward=-94.368!
-[2023-07-09 14:52:15,901][08554] Updated weights for policy 0, policy_version 320 (0.0002)
-[2023-07-09 14:52:18,508][08504] Fps is (10 sec: 13926.6, 60 sec: 13110.9, 300 sec: 13110.9). Total num frames: 196608. Throughput: 0: 13115.2. Samples: 196672. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
-[2023-07-09 14:52:18,509][08504] Avg episode reward: [(0, '-31.832')]
-[2023-07-09 14:52:18,510][08553] Saving new best policy, reward=-31.832!
-[2023-07-09 14:52:18,940][08554] Updated weights for policy 0, policy_version 400 (0.0003)
-[2023-07-09 14:52:19,985][08504] Heartbeat connected on Batcher_0
-[2023-07-09 14:52:19,992][08504] Heartbeat connected on LearnerWorker_p0
-[2023-07-09 14:52:20,002][08504] Heartbeat connected on InferenceWorker_p0-w0
-[2023-07-09 14:52:20,009][08504] Heartbeat connected on RolloutWorker_w0
-[2023-07-09 14:52:20,017][08504] Heartbeat connected on RolloutWorker_w1
-[2023-07-09 14:52:20,018][08504] Heartbeat connected on RolloutWorker_w2
-[2023-07-09 14:52:20,025][08504] Heartbeat connected on RolloutWorker_w3
-[2023-07-09 14:52:20,032][08504] Heartbeat connected on RolloutWorker_w4
-[2023-07-09 14:52:20,038][08504] Heartbeat connected on RolloutWorker_w5
-[2023-07-09 14:52:20,040][08504] Heartbeat connected on RolloutWorker_w6
-[2023-07-09 14:52:20,050][08504] Heartbeat connected on RolloutWorker_w7
-[2023-07-09 14:52:21,888][08554] Updated weights for policy 0, policy_version 480 (0.0003)
-[2023-07-09 14:52:23,507][08504] Fps is (10 sec: 13517.2, 60 sec: 13315.6, 300 sec: 13315.6). Total num frames: 266240. Throughput: 0: 11882.9. Samples: 237592. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:52:23,507][08504] Avg episode reward: [(0, '-37.307')]
-[2023-07-09 14:52:24,790][08554] Updated weights for policy 0, policy_version 560 (0.0002)
-[2023-07-09 14:52:27,814][08554] Updated weights for policy 0, policy_version 640 (0.0002)
-[2023-07-09 14:52:28,509][08504] Fps is (10 sec: 13925.9, 60 sec: 13437.0, 300 sec: 13437.0). Total num frames: 335872. Throughput: 0: 12827.4. Samples: 320636. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:52:28,509][08504] Avg episode reward: [(0, '11.440')]
-[2023-07-09 14:52:28,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000000656_335872.pth...
-[2023-07-09 14:52:28,516][08553] Saving new best policy, reward=11.440!
-[2023-07-09 14:52:30,853][08554] Updated weights for policy 0, policy_version 720 (0.0002)
-[2023-07-09 14:52:33,508][08504] Fps is (10 sec: 13516.0, 60 sec: 13382.5, 300 sec: 13382.5). Total num frames: 401408. Throughput: 0: 13405.7. Samples: 402104. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
-[2023-07-09 14:52:33,508][08504] Avg episode reward: [(0, '110.412')]
-[2023-07-09 14:52:33,509][08553] Saving new best policy, reward=110.412!
-[2023-07-09 14:52:33,882][08554] Updated weights for policy 0, policy_version 800 (0.0002)
-[2023-07-09 14:52:36,815][08554] Updated weights for policy 0, policy_version 880 (0.0002)
-[2023-07-09 14:52:38,508][08504] Fps is (10 sec: 13518.3, 60 sec: 13460.2, 300 sec: 13460.2). Total num frames: 471040. Throughput: 0: 12659.3. Samples: 443012. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:52:38,508][08504] Avg episode reward: [(0, '296.143')]
-[2023-07-09 14:52:38,514][08553] Saving new best policy, reward=296.143!
-[2023-07-09 14:52:39,598][08554] Updated weights for policy 0, policy_version 960 (0.0002)
-[2023-07-09 14:52:42,454][08554] Updated weights for policy 0, policy_version 1040 (0.0003)
-[2023-07-09 14:52:43,509][08504] Fps is (10 sec: 14333.9, 60 sec: 13620.4, 300 sec: 13620.4). Total num frames: 544768. Throughput: 0: 13270.6. Samples: 530780. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:52:43,509][08504] Avg episode reward: [(0, '501.577')]
-[2023-07-09 14:52:43,526][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001072_548864.pth...
-[2023-07-09 14:52:43,528][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000000256_131072.pth
-[2023-07-09 14:52:43,528][08553] Saving new best policy, reward=501.577!
-[2023-07-09 14:52:45,181][08554] Updated weights for policy 0, policy_version 1120 (0.0002)
-[2023-07-09 14:52:47,986][08554] Updated weights for policy 0, policy_version 1200 (0.0002)
-[2023-07-09 14:52:48,509][08504] Fps is (10 sec: 14742.8, 60 sec: 13745.3, 300 sec: 13745.3). Total num frames: 618496. Throughput: 0: 13752.0. Samples: 618796. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:52:48,510][08504] Avg episode reward: [(0, '676.439')]
-[2023-07-09 14:52:48,510][08553] Saving new best policy, reward=676.439!
-[2023-07-09 14:52:50,788][08554] Updated weights for policy 0, policy_version 1280 (0.0002)
-[2023-07-09 14:52:53,509][08504] Fps is (10 sec: 14745.1, 60 sec: 13845.3, 300 sec: 13845.3). Total num frames: 692224. Throughput: 0: 14112.0. Samples: 663552. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:52:53,510][08504] Avg episode reward: [(0, '827.419')]
-[2023-07-09 14:52:53,510][08553] Saving new best policy, reward=827.419!
-[2023-07-09 14:52:53,562][08554] Updated weights for policy 0, policy_version 1360 (0.0002)
-[2023-07-09 14:52:56,303][08554] Updated weights for policy 0, policy_version 1440 (0.0002)
-[2023-07-09 14:52:58,509][08504] Fps is (10 sec: 14746.8, 60 sec: 13927.4, 300 sec: 13927.4). Total num frames: 765952. Throughput: 0: 14169.2. Samples: 752384. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
-[2023-07-09 14:52:58,509][08504] Avg episode reward: [(0, '929.814')]
-[2023-07-09 14:52:58,514][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001496_765952.pth...
-[2023-07-09 14:52:58,515][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000000656_335872.pth
-[2023-07-09 14:52:58,516][08553] Saving new best policy, reward=929.814!
-[2023-07-09 14:52:59,097][08554] Updated weights for policy 0, policy_version 1520 (0.0002)
-[2023-07-09 14:53:01,915][08554] Updated weights for policy 0, policy_version 1600 (0.0002)
-[2023-07-09 14:53:03,509][08504] Fps is (10 sec: 14746.4, 60 sec: 13995.5, 300 sec: 13995.5). Total num frames: 839680. Throughput: 0: 14289.2. Samples: 839696. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:53:03,510][08504] Avg episode reward: [(0, '1036.710')]
-[2023-07-09 14:53:03,511][08553] Saving new best policy, reward=1036.710!
-[2023-07-09 14:53:04,785][08554] Updated weights for policy 0, policy_version 1680 (0.0002)
-[2023-07-09 14:53:07,722][08554] Updated weights for policy 0, policy_version 1760 (0.0002)
-[2023-07-09 14:53:08,508][08504] Fps is (10 sec: 14337.0, 60 sec: 14199.6, 300 sec: 13990.4). Total num frames: 909312. Throughput: 0: 14325.9. Samples: 882268. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
-[2023-07-09 14:53:08,509][08504] Avg episode reward: [(0, '1297.836')]
-[2023-07-09 14:53:08,509][08553] Saving new best policy, reward=1297.836!
-[2023-07-09 14:53:11,083][08554] Updated weights for policy 0, policy_version 1840 (0.0003)
-[2023-07-09 14:53:13,508][08504] Fps is (10 sec: 13108.4, 60 sec: 13994.5, 300 sec: 13868.8). Total num frames: 970752. Throughput: 0: 14170.6. Samples: 958304. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
-[2023-07-09 14:53:13,509][08504] Avg episode reward: [(0, '1510.006')]
-[2023-07-09 14:53:13,512][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001896_970752.pth...
-[2023-07-09 14:53:13,516][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001072_548864.pth
-[2023-07-09 14:53:13,516][08553] Saving new best policy, reward=1510.006!
-[2023-07-09 14:53:14,294][08554] Updated weights for policy 0, policy_version 1920 (0.0002)
-[2023-07-09 14:53:17,527][08554] Updated weights for policy 0, policy_version 2000 (0.0002)
-[2023-07-09 14:53:18,515][08504] Fps is (10 sec: 12688.7, 60 sec: 13993.1, 300 sec: 13816.7). Total num frames: 1036288. Throughput: 0: 14036.6. Samples: 1033856. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:53:18,516][08504] Avg episode reward: [(0, '1600.153')]
-[2023-07-09 14:53:18,516][08553] Saving new best policy, reward=1600.153!
-[2023-07-09 14:53:20,751][08554] Updated weights for policy 0, policy_version 2080 (0.0003)
-[2023-07-09 14:53:23,510][08504] Fps is (10 sec: 13104.3, 60 sec: 13925.7, 300 sec: 13773.2). Total num frames: 1101824. Throughput: 0: 13997.2. Samples: 1072924. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:53:23,511][08504] Avg episode reward: [(0, '1843.801')]
-[2023-07-09 14:53:23,512][08553] Saving new best policy, reward=1843.801!
-[2023-07-09 14:53:23,778][08554] Updated weights for policy 0, policy_version 2160 (0.0003)
-[2023-07-09 14:53:26,795][08554] Updated weights for policy 0, policy_version 2240 (0.0002)
-[2023-07-09 14:53:28,509][08504] Fps is (10 sec: 13115.2, 60 sec: 13858.1, 300 sec: 13734.2). Total num frames: 1167360. Throughput: 0: 13853.9. Samples: 1154200. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
-[2023-07-09 14:53:28,509][08504] Avg episode reward: [(0, '1918.584')]
-[2023-07-09 14:53:28,510][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002280_1167360.pth...
-[2023-07-09 14:53:28,512][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001496_765952.pth
-[2023-07-09 14:53:28,512][08553] Saving new best policy, reward=1918.584!
-[2023-07-09 14:53:29,763][08554] Updated weights for policy 0, policy_version 2320 (0.0002)
-[2023-07-09 14:53:32,694][08554] Updated weights for policy 0, policy_version 2400 (0.0003)
-[2023-07-09 14:53:33,509][08504] Fps is (10 sec: 13517.8, 60 sec: 13926.0, 300 sec: 13744.8). Total num frames: 1236992. Throughput: 0: 13739.1. Samples: 1237056. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:53:33,510][08504] Avg episode reward: [(0, '2396.796')]
-[2023-07-09 14:53:33,510][08553] Saving new best policy, reward=2396.796!
-[2023-07-09 14:53:35,653][08554] Updated weights for policy 0, policy_version 2480 (0.0003)
-[2023-07-09 14:53:38,509][08504] Fps is (10 sec: 13926.1, 60 sec: 13926.1, 300 sec: 13754.4). Total num frames: 1306624. Throughput: 0: 13677.7. Samples: 1279044. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
-[2023-07-09 14:53:38,509][08504] Avg episode reward: [(0, '2882.532')]
-[2023-07-09 14:53:38,510][08553] Saving new best policy, reward=2882.532!
-[2023-07-09 14:53:38,632][08554] Updated weights for policy 0, policy_version 2560 (0.0003)
-[2023-07-09 14:53:41,699][08554] Updated weights for policy 0, policy_version 2640 (0.0002)
-[2023-07-09 14:53:43,510][08504] Fps is (10 sec: 13516.3, 60 sec: 13789.7, 300 sec: 13722.0). Total num frames: 1372160. Throughput: 0: 13501.3. Samples: 1359960. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:53:43,510][08504] Avg episode reward: [(0, '2871.031')]
-[2023-07-09 14:53:43,512][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002680_1372160.pth...
-[2023-07-09 14:53:43,513][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001896_970752.pth
-[2023-07-09 14:53:44,799][08554] Updated weights for policy 0, policy_version 2720 (0.0003)
-[2023-07-09 14:53:47,803][08554] Updated weights for policy 0, policy_version 2800 (0.0003)
-[2023-07-09 14:53:48,510][08504] Fps is (10 sec: 13515.4, 60 sec: 13721.5, 300 sec: 13731.7). Total num frames: 1441792. Throughput: 0: 13354.3. Samples: 1440656. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:53:48,511][08504] Avg episode reward: [(0, '3372.465')]
-[2023-07-09 14:53:48,511][08553] Saving new best policy, reward=3372.465!
-[2023-07-09 14:53:50,811][08554] Updated weights for policy 0, policy_version 2880 (0.0002)
-[2023-07-09 14:53:53,509][08504] Fps is (10 sec: 13517.4, 60 sec: 13585.1, 300 sec: 13703.4). Total num frames: 1507328. Throughput: 0: 13315.8. Samples: 1481496. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:53:53,510][08504] Avg episode reward: [(0, '3654.689')]
-[2023-07-09 14:53:53,510][08553] Saving new best policy, reward=3654.689!
-[2023-07-09 14:53:53,873][08554] Updated weights for policy 0, policy_version 2960 (0.0002)
-[2023-07-09 14:53:56,843][08554] Updated weights for policy 0, policy_version 3040 (0.0002)
-[2023-07-09 14:53:58,509][08504] Fps is (10 sec: 13518.1, 60 sec: 13516.7, 300 sec: 13713.1). Total num frames: 1576960. Throughput: 0: 13441.6. Samples: 1563192. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:53:58,509][08504] Avg episode reward: [(0, '3794.347')]
-[2023-07-09 14:53:58,512][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003080_1576960.pth...
-[2023-07-09 14:53:58,517][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002280_1167360.pth
-[2023-07-09 14:53:58,517][08553] Saving new best policy, reward=3794.347!
-[2023-07-09 14:53:59,870][08554] Updated weights for policy 0, policy_version 3120 (0.0002)
-[2023-07-09 14:54:02,979][08554] Updated weights for policy 0, policy_version 3200 (0.0003)
-[2023-07-09 14:54:03,511][08504] Fps is (10 sec: 13515.0, 60 sec: 13379.9, 300 sec: 13687.7). Total num frames: 1642496. Throughput: 0: 13529.5. Samples: 1642624. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:03,513][08504] Avg episode reward: [(0, '3707.995')]
-[2023-07-09 14:54:06,115][08554] Updated weights for policy 0, policy_version 3280 (0.0002)
-[2023-07-09 14:54:08,507][08504] Fps is (10 sec: 13109.4, 60 sec: 13312.1, 300 sec: 13664.8). Total num frames: 1708032. Throughput: 0: 13539.8. Samples: 1682176. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:08,508][08504] Avg episode reward: [(0, '3624.888')]
-[2023-07-09 14:54:09,219][08554] Updated weights for policy 0, policy_version 3360 (0.0002)
-[2023-07-09 14:54:12,303][08554] Updated weights for policy 0, policy_version 3440 (0.0002)
-[2023-07-09 14:54:13,510][08504] Fps is (10 sec: 13108.5, 60 sec: 13379.9, 300 sec: 13643.1). Total num frames: 1773568. Throughput: 0: 13491.8. Samples: 1761344. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:13,510][08504] Avg episode reward: [(0, '3552.625')]
-[2023-07-09 14:54:13,534][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003472_1777664.pth...
-[2023-07-09 14:54:13,536][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002680_1372160.pth
-[2023-07-09 14:54:15,339][08554] Updated weights for policy 0, policy_version 3520 (0.0003)
-[2023-07-09 14:54:18,442][08554] Updated weights for policy 0, policy_version 3600 (0.0002)
-[2023-07-09 14:54:18,509][08504] Fps is (10 sec: 13515.0, 60 sec: 13449.9, 300 sec: 13653.7). Total num frames: 1843200. Throughput: 0: 13441.8. Samples: 1841928. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
-[2023-07-09 14:54:18,509][08504] Avg episode reward: [(0, '3592.475')]
-[2023-07-09 14:54:21,535][08554] Updated weights for policy 0, policy_version 3680 (0.0003)
-[2023-07-09 14:54:23,510][08504] Fps is (10 sec: 13516.5, 60 sec: 13448.6, 300 sec: 13634.1). Total num frames: 1908736. Throughput: 0: 13380.0. Samples: 1881156. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:23,512][08504] Avg episode reward: [(0, '3654.614')]
-[2023-07-09 14:54:24,626][08554] Updated weights for policy 0, policy_version 3760 (0.0002)
-[2023-07-09 14:54:27,744][08554] Updated weights for policy 0, policy_version 3840 (0.0002)
-[2023-07-09 14:54:28,507][08504] Fps is (10 sec: 13109.5, 60 sec: 13448.9, 300 sec: 13616.2). Total num frames: 1974272. Throughput: 0: 13353.5. Samples: 1960832. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:28,507][08504] Avg episode reward: [(0, '3869.178')]
-[2023-07-09 14:54:28,510][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003856_1974272.pth...
-[2023-07-09 14:54:28,512][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003080_1576960.pth
-[2023-07-09 14:54:28,512][08553] Saving new best policy, reward=3869.178!
-[2023-07-09 14:54:31,813][08554] Updated weights for policy 0, policy_version 3920 (0.0004)
-[2023-07-09 14:54:33,509][08504] Fps is (10 sec: 11470.4, 60 sec: 13107.4, 300 sec: 13489.9). Total num frames: 2023424. Throughput: 0: 12977.6. Samples: 2024628. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:33,510][08504] Avg episode reward: [(0, '3808.637')]
-[2023-07-09 14:54:35,381][08554] Updated weights for policy 0, policy_version 4000 (0.0003)
-[2023-07-09 14:54:38,508][08504] Fps is (10 sec: 11058.0, 60 sec: 12970.9, 300 sec: 13451.1). Total num frames: 2084864. Throughput: 0: 12863.8. Samples: 2060352. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:38,509][08504] Avg episode reward: [(0, '3437.252')]
-[2023-07-09 14:54:38,574][08554] Updated weights for policy 0, policy_version 4080 (0.0002)
-[2023-07-09 14:54:42,249][08554] Updated weights for policy 0, policy_version 4160 (0.0003)
-[2023-07-09 14:54:43,510][08504] Fps is (10 sec: 11876.6, 60 sec: 12834.1, 300 sec: 13389.0). Total num frames: 2142208. Throughput: 0: 12607.0. Samples: 2130520. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:43,512][08504] Avg episode reward: [(0, '3730.650')]
-[2023-07-09 14:54:43,519][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004184_2142208.pth...
-[2023-07-09 14:54:43,522][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003472_1777664.pth
-[2023-07-09 14:54:45,837][08554] Updated weights for policy 0, policy_version 4240 (0.0003)
-[2023-07-09 14:54:48,508][08504] Fps is (10 sec: 11879.1, 60 sec: 12698.1, 300 sec: 13355.8). Total num frames: 2203648. Throughput: 0: 12464.8. Samples: 2203500. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
-[2023-07-09 14:54:48,508][08504] Avg episode reward: [(0, '3919.730')]
-[2023-07-09 14:54:48,508][08553] Saving new best policy, reward=3919.730!
-[2023-07-09 14:54:48,994][08554] Updated weights for policy 0, policy_version 4320 (0.0002)
-[2023-07-09 14:54:52,156][08554] Updated weights for policy 0, policy_version 4400 (0.0003)
-[2023-07-09 14:54:53,510][08504] Fps is (10 sec: 12698.4, 60 sec: 12697.6, 300 sec: 13348.4). Total num frames: 2269184. Throughput: 0: 12448.8. Samples: 2242396. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:53,510][08504] Avg episode reward: [(0, '3796.794')]
-[2023-07-09 14:54:55,504][08554] Updated weights for policy 0, policy_version 4480 (0.0003)
-[2023-07-09 14:54:58,510][08504] Fps is (10 sec: 12694.6, 60 sec: 12560.9, 300 sec: 13318.1). Total num frames: 2330624. Throughput: 0: 12372.2. Samples: 2318096. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:54:58,510][08504] Avg episode reward: [(0, '3756.647')]
-[2023-07-09 14:54:58,516][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004552_2330624.pth...
-[2023-07-09 14:54:58,518][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003856_1974272.pth
-[2023-07-09 14:54:58,675][08554] Updated weights for policy 0, policy_version 4560 (0.0002)
-[2023-07-09 14:55:02,153][08554] Updated weights for policy 0, policy_version 4640 (0.0003)
-[2023-07-09 14:55:03,509][08504] Fps is (10 sec: 11878.8, 60 sec: 12424.9, 300 sec: 13266.7). Total num frames: 2387968. Throughput: 0: 12167.7. Samples: 2389480. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:55:03,509][08504] Avg episode reward: [(0, '3680.642')]
-[2023-07-09 14:55:05,632][08554] Updated weights for policy 0, policy_version 4720 (0.0003)
-[2023-07-09 14:55:08,510][08504] Fps is (10 sec: 12288.5, 60 sec: 12424.1, 300 sec: 13262.4). Total num frames: 2453504. Throughput: 0: 12095.3. Samples: 2425440. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:55:08,510][08504] Avg episode reward: [(0, '3990.564')]
-[2023-07-09 14:55:08,511][08553] Saving new best policy, reward=3990.564!
-[2023-07-09 14:55:08,742][08554] Updated weights for policy 0, policy_version 4800 (0.0003)
-[2023-07-09 14:55:11,954][08554] Updated weights for policy 0, policy_version 4880 (0.0002)
-[2023-07-09 14:55:13,509][08504] Fps is (10 sec: 12698.0, 60 sec: 12356.5, 300 sec: 13236.8). Total num frames: 2514944. Throughput: 0: 12050.2. Samples: 2503112. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:55:13,509][08504] Avg episode reward: [(0, '3756.931')]
-[2023-07-09 14:55:13,511][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004912_2514944.pth...
-[2023-07-09 14:55:13,512][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004184_2142208.pth
-[2023-07-09 14:55:15,092][08554] Updated weights for policy 0, policy_version 4960 (0.0003)
-[2023-07-09 14:55:18,229][08554] Updated weights for policy 0, policy_version 5040 (0.0002)
-[2023-07-09 14:55:18,507][08504] Fps is (10 sec: 12700.5, 60 sec: 12288.3, 300 sec: 13233.6). Total num frames: 2580480. Throughput: 0: 12375.9. Samples: 2581528. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
-[2023-07-09 14:55:18,507][08504] Avg episode reward: [(0, '3710.618')]
-[2023-07-09 14:55:21,283][08554] Updated weights for policy 0, policy_version 5120 (0.0003)
-[2023-07-09 14:55:23,509][08504] Fps is (10 sec: 13516.6, 60 sec: 12356.5, 300 sec: 13250.8). Total num frames: 2650112. Throughput: 0: 12473.6. Samples: 2621672. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:55:23,509][08504] Avg episode reward: [(0, '3713.706')]
-[2023-07-09 14:55:24,327][08554] Updated weights for policy 0, policy_version 5200 (0.0003)
-[2023-07-09 14:55:27,585][08554] Updated weights for policy 0, policy_version 5280 (0.0002)
-[2023-07-09 14:55:28,510][08504] Fps is (10 sec: 13103.8, 60 sec: 12287.4, 300 sec: 13227.3). Total num frames: 2711552. Throughput: 0: 12652.1. Samples: 2699860. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:55:28,510][08504] Avg episode reward: [(0, '4068.428')]
-[2023-07-09 14:55:28,515][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005296_2711552.pth...
-[2023-07-09 14:55:28,517][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004552_2330624.pth
-[2023-07-09 14:55:28,517][08553] Saving new best policy, reward=4068.428!
-[2023-07-09 14:55:30,945][08554] Updated weights for policy 0, policy_version 5360 (0.0003)
-[2023-07-09 14:55:33,509][08504] Fps is (10 sec: 12697.4, 60 sec: 12561.0, 300 sec: 13224.4). Total num frames: 2777088. Throughput: 0: 12719.5. Samples: 2775896. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:55:33,510][08504] Avg episode reward: [(0, '4307.488')]
-[2023-07-09 14:55:33,510][08553] Saving new best policy, reward=4307.488!
-[2023-07-09 14:55:34,021][08554] Updated weights for policy 0, policy_version 5440 (0.0003)
-[2023-07-09 14:55:37,154][08554] Updated weights for policy 0, policy_version 5520 (0.0002)
-[2023-07-09 14:55:38,509][08504] Fps is (10 sec: 13108.5, 60 sec: 12629.2, 300 sec: 13221.7). Total num frames: 2842624. Throughput: 0: 12730.1. Samples: 2815240. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
-[2023-07-09 14:55:38,509][08504] Avg episode reward: [(0, '4302.686')]
-[2023-07-09 14:55:40,297][08554] Updated weights for policy 0, policy_version 5600 (0.0003)
-[2023-07-09 14:55:43,509][08504] Fps is (10 sec: 12697.4, 60 sec: 12697.8, 300 sec: 13200.5). Total num frames: 2904064. Throughput: 0: 12751.7. Samples: 2891912. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:55:43,510][08504] Avg episode reward: [(0, '4030.809')]
-[2023-07-09 14:55:43,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005672_2904064.pth...
-[2023-07-09 14:55:43,518][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004912_2514944.pth
-[2023-07-09 14:55:43,558][08554] Updated weights for policy 0, policy_version 5680 (0.0003)
-[2023-07-09 14:55:46,703][08554] Updated weights for policy 0, policy_version 5760 (0.0003)
-[2023-07-09 14:55:48,509][08504] Fps is (10 sec: 12697.4, 60 sec: 12765.6, 300 sec: 13198.4). Total num frames: 2969600. Throughput: 0: 12910.3. Samples: 2970440. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:55:48,509][08504] Avg episode reward: [(0, '4032.201')]
-[2023-07-09 14:55:49,876][08554] Updated weights for policy 0, policy_version 5840 (0.0003)
-[2023-07-09 14:55:53,321][08554] Updated weights for policy 0, policy_version 5920 (0.0002)
-[2023-07-09 14:55:53,509][08504] Fps is (10 sec: 12697.5, 60 sec: 12697.6, 300 sec: 13178.6). Total num frames: 3031040. Throughput: 0: 12911.3. Samples: 3006444. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
-[2023-07-09 14:55:53,510][08504] Avg episode reward: [(0, '4076.733')]
-[2023-07-09 14:55:56,486][08554] Updated weights for policy 0, policy_version 6000 (0.0002)
-[2023-07-09 14:55:58,511][08504] Fps is (10 sec: 12695.2, 60 sec: 12765.7, 300 sec: 13177.0). Total num frames: 3096576. Throughput: 0: 12880.7. Samples: 3082768. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
-[2023-07-09 14:55:58,511][08504] Avg episode reward: [(0, '3974.213')]
-[2023-07-09 14:55:58,515][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006048_3096576.pth...
-[2023-07-09 14:55:58,519][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005296_2711552.pth
-[2023-07-09 14:55:59,663][08554] Updated weights for policy 0, policy_version 6080 (0.0003)
-[2023-07-09 14:56:02,856][08554] Updated weights for policy 0, policy_version 6160 (0.0003)
-[2023-07-09 14:56:03,509][08504] Fps is (10 sec: 13108.1, 60 sec: 12902.5, 300 sec: 13175.7). Total num frames: 3162112. Throughput: 0: 12852.2. Samples: 3159896. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:03,509][08504] Avg episode reward: [(0, '3616.813')]
-[2023-07-09 14:56:06,014][08554] Updated weights for policy 0, policy_version 6240 (0.0003)
-[2023-07-09 14:56:08,510][08504] Fps is (10 sec: 12698.7, 60 sec: 12834.0, 300 sec: 13157.5). Total num frames: 3223552. Throughput: 0: 12830.1. Samples: 3199040. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:08,510][08504] Avg episode reward: [(0, '3684.922')]
-[2023-07-09 14:56:09,310][08554] Updated weights for policy 0, policy_version 6320 (0.0003)
-[2023-07-09 14:56:12,567][08554] Updated weights for policy 0, policy_version 6400 (0.0003)
-[2023-07-09 14:56:13,509][08504] Fps is (10 sec: 12287.3, 60 sec: 12834.1, 300 sec: 13140.1). Total num frames: 3284992. Throughput: 0: 12751.2. Samples: 3273656. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:56:13,509][08504] Avg episode reward: [(0, '4017.948')]
-[2023-07-09 14:56:13,511][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006416_3284992.pth...
-[2023-07-09 14:56:13,512][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005672_2904064.pth
-[2023-07-09 14:56:15,802][08554] Updated weights for policy 0, policy_version 6480 (0.0002)
-[2023-07-09 14:56:18,510][08504] Fps is (10 sec: 12698.2, 60 sec: 12833.6, 300 sec: 13139.5). Total num frames: 3350528. Throughput: 0: 12770.9. Samples: 3350592. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
-[2023-07-09 14:56:18,510][08504] Avg episode reward: [(0, '4059.359')]
-[2023-07-09 14:56:18,944][08554] Updated weights for policy 0, policy_version 6560 (0.0003)
-[2023-07-09 14:56:22,191][08554] Updated weights for policy 0, policy_version 6640 (0.0003)
-[2023-07-09 14:56:23,510][08504] Fps is (10 sec: 13106.9, 60 sec: 12765.8, 300 sec: 13138.9). Total num frames: 3416064. Throughput: 0: 12749.1. Samples: 3388956. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:23,511][08504] Avg episode reward: [(0, '4157.479')]
-[2023-07-09 14:56:25,325][08554] Updated weights for policy 0, policy_version 6720 (0.0003)
-[2023-07-09 14:56:28,508][08504] Fps is (10 sec: 12699.7, 60 sec: 12766.3, 300 sec: 13122.9). Total num frames: 3477504. Throughput: 0: 12766.4. Samples: 3466384. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:28,508][08504] Avg episode reward: [(0, '4008.182')]
-[2023-07-09 14:56:28,509][08554] Updated weights for policy 0, policy_version 6800 (0.0003)
-[2023-07-09 14:56:28,510][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006800_3481600.pth...
-[2023-07-09 14:56:28,512][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006048_3096576.pth
-[2023-07-09 14:56:31,723][08554] Updated weights for policy 0, policy_version 6880 (0.0003)
-[2023-07-09 14:56:33,511][08504] Fps is (10 sec: 12696.0, 60 sec: 12765.5, 300 sec: 13122.5). Total num frames: 3543040. Throughput: 0: 12725.6. Samples: 3543112. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:33,511][08504] Avg episode reward: [(0, '3824.260')]
-[2023-07-09 14:56:34,868][08554] Updated weights for policy 0, policy_version 6960 (0.0002)
-[2023-07-09 14:56:38,159][08554] Updated weights for policy 0, policy_version 7040 (0.0003)
-[2023-07-09 14:56:38,507][08504] Fps is (10 sec: 13108.1, 60 sec: 12766.2, 300 sec: 13122.4). Total num frames: 3608576. Throughput: 0: 12752.9. Samples: 3580296. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:38,508][08504] Avg episode reward: [(0, '3815.735')]
-[2023-07-09 14:56:41,366][08554] Updated weights for policy 0, policy_version 7120 (0.0003)
-[2023-07-09 14:56:43,507][08504] Fps is (10 sec: 12702.2, 60 sec: 12766.3, 300 sec: 13107.5). Total num frames: 3670016. Throughput: 0: 12777.6. Samples: 3657712. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:43,507][08504] Avg episode reward: [(0, '3915.209')]
-[2023-07-09 14:56:43,510][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007168_3670016.pth...
-[2023-07-09 14:56:43,512][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006416_3284992.pth
-[2023-07-09 14:56:44,596][08554] Updated weights for policy 0, policy_version 7200 (0.0003)
-[2023-07-09 14:56:48,028][08554] Updated weights for policy 0, policy_version 7280 (0.0003)
-[2023-07-09 14:56:48,509][08504] Fps is (10 sec: 12285.7, 60 sec: 12697.6, 300 sec: 13093.0). Total num frames: 3731456. Throughput: 0: 12693.0. Samples: 3731084. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:48,510][08504] Avg episode reward: [(0, '4027.139')]
-[2023-07-09 14:56:51,251][08554] Updated weights for policy 0, policy_version 7360 (0.0003)
-[2023-07-09 14:56:53,510][08504] Fps is (10 sec: 12694.0, 60 sec: 12765.7, 300 sec: 13093.2). Total num frames: 3796992. Throughput: 0: 12667.1. Samples: 3769056. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:53,510][08504] Avg episode reward: [(0, '4183.885')]
-[2023-07-09 14:56:54,449][08554] Updated weights for policy 0, policy_version 7440 (0.0002)
-[2023-07-09 14:56:57,590][08554] Updated weights for policy 0, policy_version 7520 (0.0003)
-[2023-07-09 14:56:58,509][08504] Fps is (10 sec: 12697.8, 60 sec: 12698.0, 300 sec: 13079.6). Total num frames: 3858432. Throughput: 0: 12734.1. Samples: 3846688. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:56:58,509][08504] Avg episode reward: [(0, '4248.553')]
-[2023-07-09 14:56:58,519][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007544_3862528.pth...
-[2023-07-09 14:56:58,522][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006800_3481600.pth
-[2023-07-09 14:57:00,770][08554] Updated weights for policy 0, policy_version 7600 (0.0003)
-[2023-07-09 14:57:03,508][08504] Fps is (10 sec: 12700.1, 60 sec: 12697.7, 300 sec: 13107.2). Total num frames: 3923968. Throughput: 0: 12733.1. Samples: 3923560. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:57:03,508][08504] Avg episode reward: [(0, '4125.396')]
-[2023-07-09 14:57:04,032][08554] Updated weights for policy 0, policy_version 7680 (0.0002)
-[2023-07-09 14:57:07,231][08554] Updated weights for policy 0, policy_version 7760 (0.0003)
-[2023-07-09 14:57:08,509][08504] Fps is (10 sec: 12697.6, 60 sec: 12697.8, 300 sec: 13065.5). Total num frames: 3985408. Throughput: 0: 12727.6. Samples: 3961692. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:57:08,509][08504] Avg episode reward: [(0, '4238.818')]
-[2023-07-09 14:57:10,369][08554] Updated weights for policy 0, policy_version 7840 (0.0003)
-[2023-07-09 14:57:13,510][08504] Fps is (10 sec: 12695.6, 60 sec: 12765.8, 300 sec: 13065.5). Total num frames: 4050944. Throughput: 0: 12720.3. Samples: 4038820. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:57:13,510][08504] Avg episode reward: [(0, '4521.503')]
-[2023-07-09 14:57:13,511][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007912_4050944.pth...
-[2023-07-09 14:57:13,513][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007168_3670016.pth
-[2023-07-09 14:57:13,513][08553] Saving new best policy, reward=4521.503!
-[2023-07-09 14:57:13,560][08554] Updated weights for policy 0, policy_version 7920 (0.0003)
-[2023-07-09 14:57:16,694][08554] Updated weights for policy 0, policy_version 8000 (0.0003)
-[2023-07-09 14:57:18,509][08504] Fps is (10 sec: 13107.0, 60 sec: 12766.0, 300 sec: 13051.6). Total num frames: 4116480. Throughput: 0: 12744.9. Samples: 4116612. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
-[2023-07-09 14:57:18,510][08504] Avg episode reward: [(0, '4452.696')]
-[2023-07-09 14:57:19,868][08554] Updated weights for policy 0, policy_version 8080 (0.0003)
-[2023-07-09 14:57:23,048][08554] Updated weights for policy 0, policy_version 8160 (0.0002)
-[2023-07-09 14:57:23,510][08504] Fps is (10 sec: 13106.3, 60 sec: 12765.7, 300 sec: 13037.7). Total num frames: 4182016. Throughput: 0: 12789.6. Samples: 4155868. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:57:23,511][08504] Avg episode reward: [(0, '4339.261')]
-[2023-07-09 14:57:26,413][08554] Updated weights for policy 0, policy_version 8240 (0.0003)
-[2023-07-09 14:57:28,509][08504] Fps is (10 sec: 12697.6, 60 sec: 12765.6, 300 sec: 13023.8). Total num frames: 4243456. Throughput: 0: 12713.9. Samples: 4229864. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:57:28,510][08504] Avg episode reward: [(0, '4108.771')]
-[2023-07-09 14:57:28,515][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000008288_4243456.pth...
-[2023-07-09 14:57:28,517][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007544_3862528.pth
-[2023-07-09 14:57:29,773][08554] Updated weights for policy 0, policy_version 8320 (0.0003)
-[2023-07-09 14:57:32,915][08554] Updated weights for policy 0, policy_version 8400 (0.0003)
-[2023-07-09 14:57:33,509][08504] Fps is (10 sec: 12289.2, 60 sec: 12697.9, 300 sec: 12996.1). Total num frames: 4304896. Throughput: 0: 12772.2. Samples: 4305836. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:57:33,510][08504] Avg episode reward: [(0, '4249.904')]
-[2023-07-09 14:57:36,302][08554] Updated weights for policy 0, policy_version 8480 (0.0003)
-[2023-07-09 14:57:38,510][08504] Fps is (10 sec: 12286.5, 60 sec: 12628.7, 300 sec: 12954.4). Total num frames: 4366336. Throughput: 0: 12728.2. Samples: 4341832. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:57:38,510][08504] Avg episode reward: [(0, '4326.877')]
-[2023-07-09 14:57:39,826][08554] Updated weights for policy 0, policy_version 8560 (0.0003)
-[2023-07-09 14:57:43,021][08554] Updated weights for policy 0, policy_version 8640 (0.0003)
-[2023-07-09 14:57:43,507][08504] Fps is (10 sec: 12290.2, 60 sec: 12629.3, 300 sec: 12912.9). Total num frames: 4427776. Throughput: 0: 12641.8. Samples: 4415552. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
-[2023-07-09 14:57:43,508][08504] Avg episode reward: [(0, '4221.241')]
-[2023-07-09 14:57:43,511][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000008648_4427776.pth...
-[2023-07-09 14:57:43,515][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007912_4050944.pth
-[2023-07-09 14:57:46,602][08554] Updated weights for policy 0, policy_version 8720 (0.0003)
-[2023-07-09 14:57:48,508][08504] Fps is (10 sec: 11881.3, 60 sec: 12561.3, 300 sec: 12857.3). Total num frames: 4485120. Throughput: 0: 12486.7. Samples: 4485460. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
-[2023-07-09 14:57:48,508][08504] Avg episode reward: [(0, '4343.310')]
-[2023-07-09 14:57:49,918][08554] Updated weights for policy 0, policy_version 8800 (0.0003)
-[2023-07-09 14:57:53,250][08554] Updated weights for policy 0, policy_version 8880 (0.0003)
-[2023-07-09 14:57:53,509][08504] Fps is (10 sec: 11876.5, 60 sec: 12493.0, 300 sec: 12815.6). Total num frames: 4546560. Throughput: 0: 12452.6. Samples: 4522060. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:57:53,509][08504] Avg episode reward: [(0, '4108.109')]
-[2023-07-09 14:57:56,455][08554] Updated weights for policy 0, policy_version 8960 (0.0003)
-[2023-07-09 14:57:58,510][08504] Fps is (10 sec: 12695.1, 60 sec: 12560.9, 300 sec: 12787.8). Total num frames: 4612096. Throughput: 0: 12447.1. Samples: 4598944. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:57:58,510][08504] Avg episode reward: [(0, '4269.988')]
-[2023-07-09 14:57:58,514][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009008_4612096.pth...
-[2023-07-09 14:57:58,516][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000008288_4243456.pth
-[2023-07-09 14:57:59,812][08554] Updated weights for policy 0, policy_version 9040 (0.0003)
-[2023-07-09 14:58:03,359][08554] Updated weights for policy 0, policy_version 9120 (0.0003)
-[2023-07-09 14:58:03,508][08504] Fps is (10 sec: 12289.6, 60 sec: 12424.6, 300 sec: 12746.2). Total num frames: 4669440. Throughput: 0: 12284.1. Samples: 4669380. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:58:03,509][08504] Avg episode reward: [(0, '4381.986')]
-[2023-07-09 14:58:06,636][08554] Updated weights for policy 0, policy_version 9200 (0.0003)
-[2023-07-09 14:58:08,509][08504] Fps is (10 sec: 11879.2, 60 sec: 12424.5, 300 sec: 12746.1). Total num frames: 4730880. Throughput: 0: 12232.4. Samples: 4706316. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
-[2023-07-09 14:58:08,510][08504] Avg episode reward: [(0, '4555.264')]
-[2023-07-09 14:58:08,510][08553] Saving new best policy, reward=4555.264!
-[2023-07-09 14:58:09,975][08554] Updated weights for policy 0, policy_version 9280 (0.0003)
-[2023-07-09 14:58:13,510][08504] Fps is (10 sec: 11876.0, 60 sec: 12288.0, 300 sec: 12718.7). Total num frames: 4788224. Throughput: 0: 12201.4. Samples: 4778936. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:58:13,510][08504] Avg episode reward: [(0, '4450.052')]
-[2023-07-09 14:58:13,524][08554] Updated weights for policy 0, policy_version 9360 (0.0003)
-[2023-07-09 14:58:13,524][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009360_4792320.pth...
-[2023-07-09 14:58:13,526][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000008648_4427776.pth
-[2023-07-09 14:58:16,871][08554] Updated weights for policy 0, policy_version 9440 (0.0003)
-[2023-07-09 14:58:18,508][08504] Fps is (10 sec: 12289.6, 60 sec: 12288.2, 300 sec: 12718.5). Total num frames: 4853760. Throughput: 0: 12128.3. Samples: 4851592. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:58:18,508][08504] Avg episode reward: [(0, '4381.377')]
-[2023-07-09 14:58:20,116][08554] Updated weights for policy 0, policy_version 9520 (0.0003)
-[2023-07-09 14:58:23,294][08554] Updated weights for policy 0, policy_version 9600 (0.0003)
-[2023-07-09 14:58:23,510][08504] Fps is (10 sec: 12697.6, 60 sec: 12219.9, 300 sec: 12704.5). Total num frames: 4915200. Throughput: 0: 12169.9. Samples: 4889468. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:58:23,510][08504] Avg episode reward: [(0, '4136.940')]
-[2023-07-09 14:58:26,529][08554] Updated weights for policy 0, policy_version 9680 (0.0003)
-[2023-07-09 14:58:28,510][08504] Fps is (10 sec: 12695.5, 60 sec: 12287.9, 300 sec: 12690.7). Total num frames: 4980736. Throughput: 0: 12241.4. Samples: 4966444. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
-[2023-07-09 14:58:28,510][08504] Avg episode reward: [(0, '4292.809')]
-[2023-07-09 14:58:28,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009728_4980736.pth...
-[2023-07-09 14:58:28,517][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009008_4612096.pth
-[2023-07-09 14:58:29,777][08554] Updated weights for policy 0, policy_version 9760 (0.0002)
-[2023-07-09 14:58:32,953][08554] Updated weights for policy 0, policy_version 9840 (0.0003)
-[2023-07-09 14:58:33,510][08504] Fps is (10 sec: 12697.6, 60 sec: 12287.9, 300 sec: 12662.9). Total num frames: 5042176. Throughput: 0: 12382.4. Samples: 5042688. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
-[2023-07-09 14:58:33,510][08504] Avg episode reward: [(0, '4355.078')]
-[2023-07-09 14:58:36,186][08554] Updated weights for policy 0, policy_version 9920 (0.0002)
-[2023-07-09 14:58:38,510][08504] Fps is (10 sec: 12696.9, 60 sec: 12356.3, 300 sec: 12662.9). Total num frames: 5107712. Throughput: 0: 12415.7. Samples: 5080780. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:58:38,510][08504] Avg episode reward: [(0, '4473.588')]
-[2023-07-09 14:58:39,375][08554] Updated weights for policy 0, policy_version 10000 (0.0003)
-[2023-07-09 14:58:42,508][08554] Updated weights for policy 0, policy_version 10080 (0.0002)
-[2023-07-09 14:58:43,510][08504] Fps is (10 sec: 13107.0, 60 sec: 12424.0, 300 sec: 12649.0). Total num frames: 5173248. Throughput: 0: 12430.1. Samples: 5158296. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:58:43,510][08504] Avg episode reward: [(0, '4389.524')]
-[2023-07-09 14:58:43,514][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010104_5173248.pth...
-[2023-07-09 14:58:43,515][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009360_4792320.pth
-[2023-07-09 14:58:45,736][08554] Updated weights for policy 0, policy_version 10160 (0.0002)
-[2023-07-09 14:58:48,510][08504] Fps is (10 sec: 12697.8, 60 sec: 12492.4, 300 sec: 12635.1). Total num frames: 5234688. Throughput: 0: 12566.9. Samples: 5234920. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
-[2023-07-09 14:58:48,510][08504] Avg episode reward: [(0, '4128.897')]
-[2023-07-09 14:58:48,933][08554] Updated weights for policy 0, policy_version 10240 (0.0003)
-[2023-07-09 14:58:52,100][08554] Updated weights for policy 0, policy_version 10320 (0.0003)
-[2023-07-09 14:58:53,508][08504] Fps is (10 sec: 12699.5, 60 sec: 12561.2, 300 sec: 12621.3). Total num frames: 5300224. Throughput: 0: 12610.8. Samples: 5273792. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
-[2023-07-09 14:58:53,509][08504] Avg episode reward: [(0, '3995.869')]
-[2023-07-09 14:58:55,296][08554] Updated weights for policy 0, policy_version 10400 (0.0003)
-[2023-07-09 14:58:58,507][08504] Fps is (10 sec: 12701.3, 60 sec: 12493.4, 300 sec: 12607.5). Total num frames: 5361664. Throughput: 0: 12701.0. Samples: 5350448. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
-[2023-07-09 14:58:58,507][08504] Avg episode reward: [(0, '4201.315')]
-[2023-07-09 14:58:58,516][08554] Updated weights for policy 0, policy_version 10480 (0.0003)
-[2023-07-09 14:58:58,517][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010480_5365760.pth...
-[2023-07-09 14:58:58,519][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009728_4980736.pth
-[2023-07-09 14:59:01,732][08554] Updated weights for policy 0, policy_version 10560 (0.0003)
-[2023-07-09 14:59:03,509][08504] Fps is (10 sec: 12696.9, 60 sec: 12629.1, 300 sec: 12607.3). Total num frames: 5427200. Throughput: 0: 12791.0. Samples: 5427200. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
-[2023-07-09 14:59:03,509][08504] Avg episode reward: [(0, '3899.725')]
-[2023-07-09 14:59:05,004][08554] Updated weights for policy 0, policy_version 10640 (0.0003)
-[2023-07-09 14:59:08,169][08554] Updated weights for policy 0, policy_version 10720 (0.0003)
-[2023-07-09 14:59:08,508][08504] Fps is (10 sec: 13106.1, 60 sec: 12697.9, 300 sec: 12607.4). Total num frames: 5492736. Throughput: 0: 12773.1. Samples: 5464236. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:08,508][08504] Avg episode reward: [(0, '3904.262')]
-[2023-07-09 14:59:11,362][08554] Updated weights for policy 0, policy_version 10800 (0.0003)
-[2023-07-09 14:59:13,509][08504] Fps is (10 sec: 12697.7, 60 sec: 12766.0, 300 sec: 12579.6). Total num frames: 5554176. Throughput: 0: 12787.9. Samples: 5541888. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:13,509][08504] Avg episode reward: [(0, '4294.800')]
-[2023-07-09 14:59:13,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010848_5554176.pth...
-[2023-07-09 14:59:13,515][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010104_5173248.pth
-[2023-07-09 14:59:14,646][08554] Updated weights for policy 0, policy_version 10880 (0.0003)
-[2023-07-09 14:59:17,847][08554] Updated weights for policy 0, policy_version 10960 (0.0003)
-[2023-07-09 14:59:18,509][08504] Fps is (10 sec: 12696.8, 60 sec: 12765.7, 300 sec: 12579.6). Total num frames: 5619712. Throughput: 0: 12777.8. Samples: 5617676. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:18,509][08504] Avg episode reward: [(0, '4482.120')]
-[2023-07-09 14:59:21,020][08554] Updated weights for policy 0, policy_version 11040 (0.0002)
-[2023-07-09 14:59:23,510][08504] Fps is (10 sec: 12695.7, 60 sec: 12765.7, 300 sec: 12565.6). Total num frames: 5681152. Throughput: 0: 12796.8. Samples: 5656640. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:23,511][08504] Avg episode reward: [(0, '4522.900')]
-[2023-07-09 14:59:24,297][08554] Updated weights for policy 0, policy_version 11120 (0.0003)
-[2023-07-09 14:59:27,503][08554] Updated weights for policy 0, policy_version 11200 (0.0003)
-[2023-07-09 14:59:28,510][08504] Fps is (10 sec: 12695.4, 60 sec: 12765.7, 300 sec: 12621.2). Total num frames: 5746688. Throughput: 0: 12745.7. Samples: 5731860. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:28,511][08504] Avg episode reward: [(0, '4252.872')]
-[2023-07-09 14:59:28,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011224_5746688.pth...
-[2023-07-09 14:59:28,515][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010480_5365760.pth
-[2023-07-09 14:59:30,676][08554] Updated weights for policy 0, policy_version 11280 (0.0003)
-[2023-07-09 14:59:33,509][08504] Fps is (10 sec: 12699.3, 60 sec: 12766.0, 300 sec: 12621.2). Total num frames: 5808128. Throughput: 0: 12749.9. Samples: 5808652. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:33,510][08504] Avg episode reward: [(0, '4388.769')]
-[2023-07-09 14:59:33,886][08554] Updated weights for policy 0, policy_version 11360 (0.0003)
-[2023-07-09 14:59:37,101][08554] Updated weights for policy 0, policy_version 11440 (0.0003)
-[2023-07-09 14:59:38,509][08504] Fps is (10 sec: 12290.2, 60 sec: 12697.9, 300 sec: 12635.2). Total num frames: 5869568. Throughput: 0: 12755.1. Samples: 5847776. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
-[2023-07-09 14:59:38,510][08504] Avg episode reward: [(0, '4222.026')]
-[2023-07-09 14:59:40,625][08554] Updated weights for policy 0, policy_version 11520 (0.0003)
-[2023-07-09 14:59:43,510][08504] Fps is (10 sec: 12286.9, 60 sec: 12629.3, 300 sec: 12635.0). Total num frames: 5931008. Throughput: 0: 12621.3. Samples: 5918444. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:43,510][08504] Avg episode reward: [(0, '4160.058')]
-[2023-07-09 14:59:43,515][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011584_5931008.pth...
-[2023-07-09 14:59:43,519][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010848_5554176.pth
-[2023-07-09 14:59:44,047][08554] Updated weights for policy 0, policy_version 11600 (0.0003)
-[2023-07-09 14:59:47,417][08554] Updated weights for policy 0, policy_version 11680 (0.0003)
-[2023-07-09 14:59:48,510][08504] Fps is (10 sec: 12286.7, 60 sec: 12629.4, 300 sec: 12621.2). Total num frames: 5992448. Throughput: 0: 12549.2. Samples: 5991924. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:48,510][08504] Avg episode reward: [(0, '4247.999')]
-[2023-07-09 14:59:50,724][08554] Updated weights for policy 0, policy_version 11760 (0.0003)
-[2023-07-09 14:59:53,509][08504] Fps is (10 sec: 12289.1, 60 sec: 12560.9, 300 sec: 12621.3). Total num frames: 6053888. Throughput: 0: 12535.3. Samples: 6028340. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:53,509][08504] Avg episode reward: [(0, '4252.339')]
-[2023-07-09 14:59:54,194][08554] Updated weights for policy 0, policy_version 11840 (0.0003)
-[2023-07-09 14:59:57,668][08554] Updated weights for policy 0, policy_version 11920 (0.0003)
-[2023-07-09 14:59:58,509][08504] Fps is (10 sec: 11878.6, 60 sec: 12492.3, 300 sec: 12621.2). Total num frames: 6111232. Throughput: 0: 12376.7. Samples: 6098848. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 14:59:58,510][08504] Avg episode reward: [(0, '4483.386')]
-[2023-07-09 14:59:58,516][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011936_6111232.pth...
-[2023-07-09 14:59:58,519][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011224_5746688.pth
-[2023-07-09 15:00:01,150][08554] Updated weights for policy 0, policy_version 12000 (0.0003)
-[2023-07-09 15:00:03,508][08504] Fps is (10 sec: 11470.4, 60 sec: 12356.5, 300 sec: 12593.5). Total num frames: 6168576. Throughput: 0: 12257.2. Samples: 6169240. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:03,508][08504] Avg episode reward: [(0, '4481.256')]
-[2023-07-09 15:00:04,543][08554] Updated weights for policy 0, policy_version 12080 (0.0003)
-[2023-07-09 15:00:07,865][08554] Updated weights for policy 0, policy_version 12160 (0.0003)
-[2023-07-09 15:00:08,510][08504] Fps is (10 sec: 11878.0, 60 sec: 12287.6, 300 sec: 12593.4). Total num frames: 6230016. Throughput: 0: 12250.2. Samples: 6207892. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:08,510][08504] Avg episode reward: [(0, '4284.183')]
-[2023-07-09 15:00:11,363][08554] Updated weights for policy 0, policy_version 12240 (0.0003)
-[2023-07-09 15:00:13,509][08504] Fps is (10 sec: 12285.9, 60 sec: 12287.9, 300 sec: 12579.5). Total num frames: 6291456. Throughput: 0: 12147.2. Samples: 6278472. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:13,510][08504] Avg episode reward: [(0, '4338.063')]
-[2023-07-09 15:00:13,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012288_6291456.pth...
-[2023-07-09 15:00:13,515][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011584_5931008.pth
-[2023-07-09 15:00:14,821][08554] Updated weights for policy 0, policy_version 12320 (0.0003)
-[2023-07-09 15:00:18,500][08554] Updated weights for policy 0, policy_version 12400 (0.0003)
-[2023-07-09 15:00:18,509][08504] Fps is (10 sec: 11879.5, 60 sec: 12151.4, 300 sec: 12537.9). Total num frames: 6348800. Throughput: 0: 11963.5. Samples: 6347008. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:18,509][08504] Avg episode reward: [(0, '4336.973')]
-[2023-07-09 15:00:21,998][08554] Updated weights for policy 0, policy_version 12480 (0.0003)
-[2023-07-09 15:00:23,509][08504] Fps is (10 sec: 11469.3, 60 sec: 12083.5, 300 sec: 12524.1). Total num frames: 6406144. Throughput: 0: 11857.3. Samples: 6381360. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:23,509][08504] Avg episode reward: [(0, '4442.136')]
-[2023-07-09 15:00:25,229][08554] Updated weights for policy 0, policy_version 12560 (0.0003)
-[2023-07-09 15:00:28,510][08504] Fps is (10 sec: 11877.3, 60 sec: 12015.0, 300 sec: 12510.1). Total num frames: 6467584. Throughput: 0: 11931.7. Samples: 6455368. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:28,510][08504] Avg episode reward: [(0, '4528.982')]
-[2023-07-09 15:00:28,514][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012632_6467584.pth...
-[2023-07-09 15:00:28,517][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011936_6111232.pth
-[2023-07-09 15:00:28,588][08554] Updated weights for policy 0, policy_version 12640 (0.0003)
-[2023-07-09 15:00:31,898][08554] Updated weights for policy 0, policy_version 12720 (0.0003)
-[2023-07-09 15:00:33,509][08504] Fps is (10 sec: 12288.1, 60 sec: 12015.0, 300 sec: 12496.3). Total num frames: 6529024. Throughput: 0: 11935.9. Samples: 6529032. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:33,509][08504] Avg episode reward: [(0, '4461.534')]
-[2023-07-09 15:00:35,331][08554] Updated weights for policy 0, policy_version 12800 (0.0003)
-[2023-07-09 15:00:38,510][08504] Fps is (10 sec: 12287.9, 60 sec: 12014.7, 300 sec: 12496.2). Total num frames: 6590464. Throughput: 0: 11946.7. Samples: 6565952. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:38,510][08504] Avg episode reward: [(0, '4687.202')]
-[2023-07-09 15:00:38,511][08553] Saving new best policy, reward=4687.202!
-[2023-07-09 15:00:38,568][08554] Updated weights for policy 0, policy_version 12880 (0.0003)
-[2023-07-09 15:00:41,760][08554] Updated weights for policy 0, policy_version 12960 (0.0003)
-[2023-07-09 15:00:43,508][08504] Fps is (10 sec: 12699.3, 60 sec: 12083.7, 300 sec: 12496.3). Total num frames: 6656000. Throughput: 0: 12088.6. Samples: 6642812. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
-[2023-07-09 15:00:43,508][08504] Avg episode reward: [(0, '4928.093')]
-[2023-07-09 15:00:43,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013000_6656000.pth...
-[2023-07-09 15:00:43,517][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012288_6291456.pth
-[2023-07-09 15:00:43,518][08553] Saving new best policy, reward=4928.093!
-[2023-07-09 15:00:44,918][08554] Updated weights for policy 0, policy_version 13040 (0.0003)
-[2023-07-09 15:00:48,145][08554] Updated weights for policy 0, policy_version 13120 (0.0003)
-[2023-07-09 15:00:48,509][08504] Fps is (10 sec: 13108.2, 60 sec: 12151.6, 300 sec: 12510.2). Total num frames: 6721536. Throughput: 0: 12233.8. Samples: 6719780. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:48,509][08504] Avg episode reward: [(0, '4540.901')]
-[2023-07-09 15:00:51,324][08554] Updated weights for policy 0, policy_version 13200 (0.0003)
-[2023-07-09 15:00:53,511][08504] Fps is (10 sec: 12693.8, 60 sec: 12151.1, 300 sec: 12496.3). Total num frames: 6782976. Throughput: 0: 12234.7. Samples: 6758464. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:53,511][08504] Avg episode reward: [(0, '4784.005')]
-[2023-07-09 15:00:54,510][08554] Updated weights for policy 0, policy_version 13280 (0.0003)
-[2023-07-09 15:00:57,732][08554] Updated weights for policy 0, policy_version 13360 (0.0003)
-[2023-07-09 15:00:58,509][08504] Fps is (10 sec: 12697.5, 60 sec: 12288.1, 300 sec: 12496.3). Total num frames: 6848512. Throughput: 0: 12375.1. Samples: 6835348. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:00:58,509][08504] Avg episode reward: [(0, '4959.075')]
-[2023-07-09 15:00:58,513][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013376_6848512.pth...
-[2023-07-09 15:00:58,517][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012632_6467584.pth
-[2023-07-09 15:00:58,517][08553] Saving new best policy, reward=4959.075!
-[2023-07-09 15:01:00,931][08554] Updated weights for policy 0, policy_version 13440 (0.0003)
-[2023-07-09 15:01:03,508][08504] Fps is (10 sec: 13110.2, 60 sec: 12424.4, 300 sec: 12510.2). Total num frames: 6914048. Throughput: 0: 12566.5. Samples: 6912492. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
-[2023-07-09 15:01:03,509][08504] Avg episode reward: [(0, '4897.794')]
-[2023-07-09 15:01:04,121][08554] Updated weights for policy 0, policy_version 13520 (0.0003)
-[2023-07-09 15:01:07,432][08554] Updated weights for policy 0, policy_version 13600 (0.0003)
-[2023-07-09 15:01:08,508][08504] Fps is (10 sec: 12698.4, 60 sec: 12424.8, 300 sec: 12510.2). Total num frames: 6975488. Throughput: 0: 12635.3. Samples: 6949944. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
-[2023-07-09 15:01:08,509][08504] Avg episode reward: [(0, '4957.304')]
-[2023-07-09 15:01:10,683][08554] Updated weights for policy 0, policy_version 13680 (0.0003)
-[2023-07-09 15:01:13,508][08504] Fps is (10 sec: 12288.7, 60 sec: 12424.9, 300 sec: 12496.3). Total num frames: 7036928. Throughput: 0: 12651.4. Samples: 7024656. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
-[2023-07-09 15:01:13,509][08504] Avg episode reward: [(0, '5078.010')]
-[2023-07-09 15:01:13,514][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013744_7036928.pth...
-[2023-07-09 15:01:13,517][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013000_6656000.pth
-[2023-07-09 15:01:13,517][08553] Saving new best policy, reward=5078.010!
-[2023-07-09 15:01:13,997][08554] Updated weights for policy 0, policy_version 13760 (0.0003)
-[2023-07-09 15:01:17,378][08554] Updated weights for policy 0, policy_version 13840 (0.0003)
-[2023-07-09 15:01:18,508][08504] Fps is (10 sec: 12288.9, 60 sec: 12493.0, 300 sec: 12482.5). Total num frames: 7098368. Throughput: 0: 12645.1. Samples: 7098048. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
-[2023-07-09 15:01:18,508][08504] Avg episode reward: [(0, '4876.817')]
-[2023-07-09 15:01:20,918][08554] Updated weights for policy 0, policy_version 13920 (0.0003)
-[2023-07-09 15:01:23,511][08504] Fps is (10 sec: 11875.0, 60 sec: 12492.5, 300 sec: 12468.4). Total num frames: 7155712. Throughput: 0: 12561.5. Samples: 7131228. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
-[2023-07-09 15:01:23,511][08504] Avg episode reward: [(0, '4902.437')]
-[2023-07-09 15:01:24,277][08554] Updated weights for policy 0, policy_version 14000 (0.0003)
-[2023-07-09 15:01:26,346][08504] Keyboard interrupt detected in the event loop EvtLoop [Runner_EvtLoop, process=main process 8504], exiting...
-[2023-07-09 15:01:26,346][08504] Runner profile tree view:
-main_loop: 566.3024
-[2023-07-09 15:01:26,346][08504] Collected {0: 7192576}, FPS: 12700.9
-[2023-07-09 15:01:26,347][08560] Stopping RolloutWorker_w5...
-[2023-07-09 15:01:26,347][08558] Stopping RolloutWorker_w3...
-[2023-07-09 15:01:26,347][08560] Loop rollout_proc5_evt_loop terminating...
-[2023-07-09 15:01:26,348][08558] Loop rollout_proc3_evt_loop terminating...
-[2023-07-09 15:01:26,347][08555] Stopping RolloutWorker_w0...
-[2023-07-09 15:01:26,348][08555] Loop rollout_proc0_evt_loop terminating...
-[2023-07-09 15:01:26,348][08556] Stopping RolloutWorker_w1...
-[2023-07-09 15:01:26,347][08561] Stopping RolloutWorker_w6...
-[2023-07-09 15:01:26,349][08561] Loop rollout_proc6_evt_loop terminating...
-[2023-07-09 15:01:26,350][08557] Stopping RolloutWorker_w2...
-[2023-07-09 15:01:26,350][08553] Stopping Batcher_0...
-[2023-07-09 15:01:26,351][08557] Loop rollout_proc2_evt_loop terminating...
-[2023-07-09 15:01:26,351][08553] Loop batcher_evt_loop terminating...
-[2023-07-09 15:01:26,349][08556] Loop rollout_proc1_evt_loop terminating...
-[2023-07-09 15:01:26,349][08559] Stopping RolloutWorker_w4...
-[2023-07-09 15:01:26,352][08559] Loop rollout_proc4_evt_loop terminating...
-[2023-07-09 15:01:26,352][08553] Saving /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000014048_7192576.pth...
-[2023-07-09 15:01:26,351][08562] Stopping RolloutWorker_w7...
-[2023-07-09 15:01:26,365][08553] Removing /Users/savan/Documents/UofG/MSc Project/Code/sample-factory/code/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013376_6848512.pth
-[2023-07-09 15:01:26,366][08553] Stopping LearnerWorker_p0...
-[2023-07-09 15:01:26,366][08562] Loop rollout_proc7_evt_loop terminating...
-[2023-07-09 15:01:26,366][08553] Loop learner_proc0_evt_loop terminating...
-[2023-07-09 15:01:26,521][08554] Weights refcount: 2 0
-[2023-07-09 15:01:26,525][08554] Stopping InferenceWorker_p0-w0...
-[2023-07-09 15:01:26,526][08554] Loop inference_proc0-0_evt_loop terminating...
-[2023-07-09 16:51:33,417][19361] Saving configuration to ./sample-factory/code/train_dir/ant_x_direction_task/config.json...
-[2023-07-09 16:51:33,417][19361] Rollout worker 0 uses device cpu
-[2023-07-09 16:51:33,418][19361] Rollout worker 1 uses device cpu
-[2023-07-09 16:51:33,418][19361] Rollout worker 2 uses device cpu
-[2023-07-09 16:51:33,418][19361] Rollout worker 3 uses device cpu
-[2023-07-09 16:51:33,418][19361] Rollout worker 4 uses device cpu
-[2023-07-09 16:51:33,418][19361] Rollout worker 5 uses device cpu
-[2023-07-09 16:51:33,418][19361] Rollout worker 6 uses device cpu
-[2023-07-09 16:51:33,418][19361] Rollout worker 7 uses device cpu
-[2023-07-09 16:51:33,418][19361] In synchronous mode, we only accumulate one batch. Setting num_batches_to_accumulate to 1
-[2023-07-09 16:51:33,593][19361] InferenceWorker_p0-w0: min num requests: 2
-[2023-07-09 16:51:33,633][19361] Starting all processes...
-[2023-07-09 16:51:33,633][19361] Starting process learner_proc0
-[2023-07-09 16:51:33,692][19361] Starting all processes...
-[2023-07-09 16:51:33,704][19361] Starting process inference_proc0-0
-[2023-07-09 16:51:33,715][19361] Starting process rollout_proc0
-[2023-07-09 16:51:33,718][19361] Starting process rollout_proc1
-[2023-07-09 16:51:33,741][19361] Starting process rollout_proc2
-[2023-07-09 16:51:33,745][19361] Starting process rollout_proc3
-[2023-07-09 16:51:33,747][19361] Starting process rollout_proc4
-[2023-07-09 16:51:33,756][19361] Starting process rollout_proc5
-[2023-07-09 16:51:33,787][19361] Starting process rollout_proc6
-[2023-07-09 16:51:33,795][19361] Starting process rollout_proc7
-[2023-07-09 16:51:34,738][19361] Keyboard interrupt detected in the event loop EvtLoop [Runner_EvtLoop, process=main process 19361], exiting...
-[2023-07-09 16:51:34,741][19361] Runner profile tree view:
-main_loop: 1.1079
-[2023-07-09 16:51:34,741][19361] Collected {}, FPS: 0.0
+[2023-07-14 19:52:23,325][97409] Using optimizer <class 'torch.optim.adam.Adam'>
+[2023-07-14 19:52:23,326][97409] No checkpoints found
+[2023-07-14 19:52:23,326][97409] Did not load from checkpoint, starting from scratch!
+[2023-07-14 19:52:23,326][97409] Initialized policy 0 weights for model version 0
+[2023-07-14 19:52:23,327][97409] LearnerWorker_p0 finished initialization!
+[2023-07-14 19:52:23,328][97411] RunningMeanStd input shape: (27,)
+[2023-07-14 19:52:23,328][97411] RunningMeanStd input shape: (1,)
+[2023-07-14 19:52:23,370][97365] Inference worker 0-0 is ready!
+[2023-07-14 19:52:23,370][97365] All inference workers are ready! Signal rollout workers to start!
+[2023-07-14 19:52:23,515][97410] Decorrelating experience for 0 frames...
+[2023-07-14 19:52:23,516][97410] Decorrelating experience for 64 frames...
+[2023-07-14 19:52:23,523][97417] Decorrelating experience for 0 frames...
+[2023-07-14 19:52:23,523][97417] Decorrelating experience for 64 frames...
+[2023-07-14 19:52:23,529][97414] Decorrelating experience for 0 frames...
+[2023-07-14 19:52:23,530][97414] Decorrelating experience for 64 frames...
+[2023-07-14 19:52:23,530][97413] Decorrelating experience for 0 frames...
+[2023-07-14 19:52:23,531][97413] Decorrelating experience for 64 frames...
+[2023-07-14 19:52:23,533][97415] Decorrelating experience for 0 frames...
+[2023-07-14 19:52:23,534][97415] Decorrelating experience for 64 frames...
+[2023-07-14 19:52:23,542][97410] Decorrelating experience for 128 frames...
+[2023-07-14 19:52:23,543][97418] Decorrelating experience for 0 frames...
+[2023-07-14 19:52:23,544][97418] Decorrelating experience for 64 frames...
+[2023-07-14 19:52:23,546][97417] Decorrelating experience for 128 frames...
+[2023-07-14 19:52:23,551][97413] Decorrelating experience for 128 frames...
+[2023-07-14 19:52:23,553][97412] Decorrelating experience for 0 frames...
+[2023-07-14 19:52:23,554][97412] Decorrelating experience for 64 frames...
+[2023-07-14 19:52:23,554][97414] Decorrelating experience for 128 frames...
+[2023-07-14 19:52:23,557][97416] Decorrelating experience for 0 frames...
+[2023-07-14 19:52:23,558][97416] Decorrelating experience for 64 frames...
+[2023-07-14 19:52:23,561][97415] Decorrelating experience for 128 frames...
+[2023-07-14 19:52:23,565][97418] Decorrelating experience for 128 frames...
+[2023-07-14 19:52:23,571][97412] Decorrelating experience for 128 frames...
+[2023-07-14 19:52:23,576][97416] Decorrelating experience for 128 frames...
+[2023-07-14 19:52:23,586][97410] Decorrelating experience for 192 frames...
+[2023-07-14 19:52:23,594][97417] Decorrelating experience for 192 frames...
+[2023-07-14 19:52:23,597][97413] Decorrelating experience for 192 frames...
+[2023-07-14 19:52:23,599][97415] Decorrelating experience for 192 frames...
+[2023-07-14 19:52:23,606][97414] Decorrelating experience for 192 frames...
+[2023-07-14 19:52:23,606][97418] Decorrelating experience for 192 frames...
+[2023-07-14 19:52:23,610][97412] Decorrelating experience for 192 frames...
+[2023-07-14 19:52:23,616][97416] Decorrelating experience for 192 frames...
+[2023-07-14 19:52:23,661][97413] Decorrelating experience for 256 frames...
+[2023-07-14 19:52:23,666][97415] Decorrelating experience for 256 frames...
+[2023-07-14 19:52:23,666][97410] Decorrelating experience for 256 frames...
+[2023-07-14 19:52:23,668][97417] Decorrelating experience for 256 frames...
+[2023-07-14 19:52:23,676][97412] Decorrelating experience for 256 frames...
+[2023-07-14 19:52:23,684][97418] Decorrelating experience for 256 frames...
+[2023-07-14 19:52:23,687][97414] Decorrelating experience for 256 frames...
+[2023-07-14 19:52:23,701][97365] Fps is (10 sec: nan, 60 sec: nan, 300 sec: nan). Total num frames: 0. Throughput: 0: nan. Samples: 0. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-07-14 19:52:23,715][97416] Decorrelating experience for 256 frames...
+[2023-07-14 19:52:23,745][97413] Decorrelating experience for 320 frames...
+[2023-07-14 19:52:23,764][97415] Decorrelating experience for 320 frames...
+[2023-07-14 19:52:23,780][97418] Decorrelating experience for 320 frames...
+[2023-07-14 19:52:23,782][97417] Decorrelating experience for 320 frames...
+[2023-07-14 19:52:23,784][97412] Decorrelating experience for 320 frames...
+[2023-07-14 19:52:23,791][97414] Decorrelating experience for 320 frames...
+[2023-07-14 19:52:23,793][97410] Decorrelating experience for 320 frames...
+[2023-07-14 19:52:23,825][97416] Decorrelating experience for 320 frames...
+[2023-07-14 19:52:23,879][97412] Decorrelating experience for 384 frames...
+[2023-07-14 19:52:23,899][97414] Decorrelating experience for 384 frames...
+[2023-07-14 19:52:23,902][97415] Decorrelating experience for 384 frames...
+[2023-07-14 19:52:23,903][97413] Decorrelating experience for 384 frames...
+[2023-07-14 19:52:23,910][97418] Decorrelating experience for 384 frames...
+[2023-07-14 19:52:23,911][97410] Decorrelating experience for 384 frames...
+[2023-07-14 19:52:23,917][97417] Decorrelating experience for 384 frames...
+[2023-07-14 19:52:23,924][97416] Decorrelating experience for 384 frames...
+[2023-07-14 19:52:24,007][97412] Decorrelating experience for 448 frames...
+[2023-07-14 19:52:24,019][97415] Decorrelating experience for 448 frames...
+[2023-07-14 19:52:24,024][97413] Decorrelating experience for 448 frames...
+[2023-07-14 19:52:24,028][97410] Decorrelating experience for 448 frames...
+[2023-07-14 19:52:24,030][97417] Decorrelating experience for 448 frames...
+[2023-07-14 19:52:24,034][97414] Decorrelating experience for 448 frames...
+[2023-07-14 19:52:24,034][97418] Decorrelating experience for 448 frames...
+[2023-07-14 19:52:24,045][97416] Decorrelating experience for 448 frames...
+[2023-07-14 19:52:27,263][97411] Updated weights for policy 0, policy_version 80 (0.0003)
+[2023-07-14 19:52:28,695][97365] Fps is (10 sec: 10660.9, 60 sec: 10660.9, 300 sec: 10660.9). Total num frames: 53248. Throughput: 0: 5899.1. Samples: 29464. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:52:28,696][97365] Avg episode reward: [(0, '-257.295')]
+[2023-07-14 19:52:30,511][97411] Updated weights for policy 0, policy_version 160 (0.0002)
+[2023-07-14 19:52:33,271][97411] Updated weights for policy 0, policy_version 240 (0.0002)
+[2023-07-14 19:52:33,695][97365] Fps is (10 sec: 12704.3, 60 sec: 12704.3, 300 sec: 12704.3). Total num frames: 126976. Throughput: 0: 11039.8. Samples: 110340. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:52:33,696][97365] Avg episode reward: [(0, '-167.889')]
+[2023-07-14 19:52:33,699][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000000248_126976.pth...
+[2023-07-14 19:52:33,704][97409] Saving new best policy, reward=-167.889!
+[2023-07-14 19:52:36,025][97411] Updated weights for policy 0, policy_version 320 (0.0002)
+[2023-07-14 19:52:38,695][97365] Fps is (10 sec: 14336.7, 60 sec: 13112.3, 300 sec: 13112.3). Total num frames: 196608. Throughput: 0: 13087.2. Samples: 196232. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:52:38,696][97365] Avg episode reward: [(0, '-73.244')]
+[2023-07-14 19:52:38,697][97409] Saving new best policy, reward=-73.244!
+[2023-07-14 19:52:39,073][97411] Updated weights for policy 0, policy_version 400 (0.0002)
+[2023-07-14 19:52:40,125][97365] Heartbeat connected on Batcher_0
+[2023-07-14 19:52:40,131][97365] Heartbeat connected on LearnerWorker_p0
+[2023-07-14 19:52:40,140][97365] Heartbeat connected on InferenceWorker_p0-w0
+[2023-07-14 19:52:40,146][97365] Heartbeat connected on RolloutWorker_w0
+[2023-07-14 19:52:40,150][97365] Heartbeat connected on RolloutWorker_w1
+[2023-07-14 19:52:40,151][97365] Heartbeat connected on RolloutWorker_w2
+[2023-07-14 19:52:40,160][97365] Heartbeat connected on RolloutWorker_w3
+[2023-07-14 19:52:40,160][97365] Heartbeat connected on RolloutWorker_w4
+[2023-07-14 19:52:40,170][97365] Heartbeat connected on RolloutWorker_w5
+[2023-07-14 19:52:40,176][97365] Heartbeat connected on RolloutWorker_w6
+[2023-07-14 19:52:40,178][97365] Heartbeat connected on RolloutWorker_w7
+[2023-07-14 19:52:41,936][97411] Updated weights for policy 0, policy_version 480 (0.0003)
+[2023-07-14 19:52:43,695][97365] Fps is (10 sec: 14336.4, 60 sec: 13520.5, 300 sec: 13520.5). Total num frames: 270336. Throughput: 0: 11889.9. Samples: 237732. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:52:43,696][97365] Avg episode reward: [(0, '-26.408')]
+[2023-07-14 19:52:43,696][97409] Saving new best policy, reward=-26.408!
+[2023-07-14 19:52:44,742][97411] Updated weights for policy 0, policy_version 560 (0.0003)
+[2023-07-14 19:52:47,555][97411] Updated weights for policy 0, policy_version 640 (0.0002)
+[2023-07-14 19:52:48,695][97365] Fps is (10 sec: 14745.7, 60 sec: 13765.8, 300 sec: 13765.8). Total num frames: 344064. Throughput: 0: 13024.2. Samples: 325528. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:52:48,695][97365] Avg episode reward: [(0, '22.243')]
+[2023-07-14 19:52:48,698][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000000672_344064.pth...
+[2023-07-14 19:52:48,700][97409] Saving new best policy, reward=22.243!
+[2023-07-14 19:52:50,341][97411] Updated weights for policy 0, policy_version 720 (0.0002)
+[2023-07-14 19:52:53,346][97411] Updated weights for policy 0, policy_version 800 (0.0002)
+[2023-07-14 19:52:53,699][97365] Fps is (10 sec: 14331.0, 60 sec: 13790.8, 300 sec: 13790.8). Total num frames: 413696. Throughput: 0: 13670.9. Samples: 410100. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:52:53,699][97365] Avg episode reward: [(0, '140.944')]
+[2023-07-14 19:52:53,699][97409] Saving new best policy, reward=140.944!
+[2023-07-14 19:52:56,238][97411] Updated weights for policy 0, policy_version 880 (0.0003)
+[2023-07-14 19:52:58,697][97365] Fps is (10 sec: 13923.4, 60 sec: 13810.8, 300 sec: 13810.8). Total num frames: 483328. Throughput: 0: 12937.5. Samples: 452764. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 19:52:58,697][97365] Avg episode reward: [(0, '343.323')]
+[2023-07-14 19:52:58,698][97409] Saving new best policy, reward=343.323!
+[2023-07-14 19:52:59,180][97411] Updated weights for policy 0, policy_version 960 (0.0002)
+[2023-07-14 19:53:02,255][97411] Updated weights for policy 0, policy_version 1040 (0.0002)
+[2023-07-14 19:53:03,699][97365] Fps is (10 sec: 13516.3, 60 sec: 13722.2, 300 sec: 13722.2). Total num frames: 548864. Throughput: 0: 13358.6. Samples: 534324. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 19:53:03,699][97365] Avg episode reward: [(0, '505.373')]
+[2023-07-14 19:53:03,704][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001072_548864.pth...
+[2023-07-14 19:53:03,705][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000000248_126976.pth
+[2023-07-14 19:53:03,706][97409] Saving new best policy, reward=505.373!
+[2023-07-14 19:53:05,337][97411] Updated weights for policy 0, policy_version 1120 (0.0002)
+[2023-07-14 19:53:08,518][97411] Updated weights for policy 0, policy_version 1200 (0.0003)
+[2023-07-14 19:53:08,699][97365] Fps is (10 sec: 13104.3, 60 sec: 13653.8, 300 sec: 13653.8). Total num frames: 614400. Throughput: 0: 13623.3. Samples: 613028. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:53:08,700][97365] Avg episode reward: [(0, '693.939')]
+[2023-07-14 19:53:08,700][97409] Saving new best policy, reward=693.939!
+[2023-07-14 19:53:11,554][97411] Updated weights for policy 0, policy_version 1280 (0.0002)
+[2023-07-14 19:53:13,698][97365] Fps is (10 sec: 13108.6, 60 sec: 13599.5, 300 sec: 13599.5). Total num frames: 679936. Throughput: 0: 13863.6. Samples: 653364. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:53:13,698][97365] Avg episode reward: [(0, '755.401')]
+[2023-07-14 19:53:13,698][97409] Saving new best policy, reward=755.401!
+[2023-07-14 19:53:14,652][97411] Updated weights for policy 0, policy_version 1360 (0.0002)
+[2023-07-14 19:53:17,753][97411] Updated weights for policy 0, policy_version 1440 (0.0002)
+[2023-07-14 19:53:18,696][97365] Fps is (10 sec: 13111.0, 60 sec: 13555.1, 300 sec: 13555.1). Total num frames: 745472. Throughput: 0: 13835.4. Samples: 732944. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 19:53:18,697][97365] Avg episode reward: [(0, '888.395')]
+[2023-07-14 19:53:18,700][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001456_745472.pth...
+[2023-07-14 19:53:18,702][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000000672_344064.pth
+[2023-07-14 19:53:18,702][97409] Saving new best policy, reward=888.395!
+[2023-07-14 19:53:20,917][97411] Updated weights for policy 0, policy_version 1520 (0.0002)
+[2023-07-14 19:53:23,695][97365] Fps is (10 sec: 13521.0, 60 sec: 13586.4, 300 sec: 13586.4). Total num frames: 815104. Throughput: 0: 13668.4. Samples: 811308. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:53:23,695][97365] Avg episode reward: [(0, '917.040')]
+[2023-07-14 19:53:23,696][97409] Saving new best policy, reward=917.040!
+[2023-07-14 19:53:23,986][97411] Updated weights for policy 0, policy_version 1600 (0.0003)
+[2023-07-14 19:53:27,159][97411] Updated weights for policy 0, policy_version 1680 (0.0003)
+[2023-07-14 19:53:28,696][97365] Fps is (10 sec: 13108.2, 60 sec: 13721.5, 300 sec: 13486.3). Total num frames: 876544. Throughput: 0: 13623.9. Samples: 850812. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:53:28,696][97365] Avg episode reward: [(0, '1048.149')]
+[2023-07-14 19:53:28,697][97409] Saving new best policy, reward=1048.149!
+[2023-07-14 19:53:30,382][97411] Updated weights for policy 0, policy_version 1760 (0.0003)
+[2023-07-14 19:53:33,601][97411] Updated weights for policy 0, policy_version 1840 (0.0003)
+[2023-07-14 19:53:33,696][97365] Fps is (10 sec: 12696.1, 60 sec: 13584.9, 300 sec: 13459.2). Total num frames: 942080. Throughput: 0: 13354.7. Samples: 926504. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:53:33,696][97365] Avg episode reward: [(0, '1221.499')]
+[2023-07-14 19:53:33,700][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001840_942080.pth...
+[2023-07-14 19:53:33,703][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001072_548864.pth
+[2023-07-14 19:53:33,704][97409] Saving new best policy, reward=1221.499!
+[2023-07-14 19:53:36,931][97411] Updated weights for policy 0, policy_version 1920 (0.0003)
+[2023-07-14 19:53:38,698][97365] Fps is (10 sec: 12694.3, 60 sec: 13447.8, 300 sec: 13380.7). Total num frames: 1003520. Throughput: 0: 13141.3. Samples: 1001452. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:53:38,699][97365] Avg episode reward: [(0, '1348.589')]
+[2023-07-14 19:53:38,699][97409] Saving new best policy, reward=1348.589!
+[2023-07-14 19:53:40,098][97411] Updated weights for policy 0, policy_version 2000 (0.0003)
+[2023-07-14 19:53:43,263][97411] Updated weights for policy 0, policy_version 2080 (0.0003)
+[2023-07-14 19:53:43,695][97365] Fps is (10 sec: 12698.8, 60 sec: 13312.0, 300 sec: 13364.1). Total num frames: 1069056. Throughput: 0: 13060.7. Samples: 1040472. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:53:43,696][97365] Avg episode reward: [(0, '1578.447')]
+[2023-07-14 19:53:43,696][97409] Saving new best policy, reward=1578.447!
+[2023-07-14 19:53:46,499][97411] Updated weights for policy 0, policy_version 2160 (0.0003)
+[2023-07-14 19:53:48,699][97365] Fps is (10 sec: 12696.5, 60 sec: 13106.3, 300 sec: 13300.2). Total num frames: 1130496. Throughput: 0: 12965.8. Samples: 1117784. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:53:48,699][97365] Avg episode reward: [(0, '1866.465')]
+[2023-07-14 19:53:48,707][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002216_1134592.pth...
+[2023-07-14 19:53:48,708][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001456_745472.pth
+[2023-07-14 19:53:48,708][97409] Saving new best policy, reward=1866.465!
+[2023-07-14 19:53:49,674][97411] Updated weights for policy 0, policy_version 2240 (0.0003)
+[2023-07-14 19:53:52,796][97411] Updated weights for policy 0, policy_version 2320 (0.0003)
+[2023-07-14 19:53:53,695][97365] Fps is (10 sec: 12288.8, 60 sec: 12971.6, 300 sec: 13244.6). Total num frames: 1191936. Throughput: 0: 12903.2. Samples: 1193612. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:53:53,695][97365] Avg episode reward: [(0, '1660.508')]
+[2023-07-14 19:53:56,410][97411] Updated weights for policy 0, policy_version 2400 (0.0004)
+[2023-07-14 19:53:58,697][97365] Fps is (10 sec: 12699.9, 60 sec: 12902.3, 300 sec: 13237.0). Total num frames: 1257472. Throughput: 0: 12787.9. Samples: 1228812. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:53:58,698][97365] Avg episode reward: [(0, '2071.145')]
+[2023-07-14 19:53:58,700][97409] Saving new best policy, reward=2071.145!
+[2023-07-14 19:53:59,521][97411] Updated weights for policy 0, policy_version 2480 (0.0003)
+[2023-07-14 19:54:02,702][97411] Updated weights for policy 0, policy_version 2560 (0.0003)
+[2023-07-14 19:54:03,696][97365] Fps is (10 sec: 13105.9, 60 sec: 12903.2, 300 sec: 13230.8). Total num frames: 1323008. Throughput: 0: 12751.1. Samples: 1306732. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:54:03,696][97365] Avg episode reward: [(0, '1913.192')]
+[2023-07-14 19:54:03,699][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002584_1323008.pth...
+[2023-07-14 19:54:03,701][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000001840_942080.pth
+[2023-07-14 19:54:05,801][97411] Updated weights for policy 0, policy_version 2640 (0.0003)
+[2023-07-14 19:54:08,697][97365] Fps is (10 sec: 13107.2, 60 sec: 12902.8, 300 sec: 13224.7). Total num frames: 1388544. Throughput: 0: 12753.0. Samples: 1385224. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:54:08,698][97365] Avg episode reward: [(0, '2110.103')]
+[2023-07-14 19:54:08,699][97409] Saving new best policy, reward=2110.103!
+[2023-07-14 19:54:08,933][97411] Updated weights for policy 0, policy_version 2720 (0.0003)
+[2023-07-14 19:54:12,095][97411] Updated weights for policy 0, policy_version 2800 (0.0003)
+[2023-07-14 19:54:13,698][97365] Fps is (10 sec: 12694.4, 60 sec: 12834.1, 300 sec: 13182.0). Total num frames: 1449984. Throughput: 0: 12758.0. Samples: 1424952. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:54:13,698][97365] Avg episode reward: [(0, '2690.114')]
+[2023-07-14 19:54:13,702][97409] Saving new best policy, reward=2690.114!
+[2023-07-14 19:54:15,326][97411] Updated weights for policy 0, policy_version 2880 (0.0003)
+[2023-07-14 19:54:18,486][97411] Updated weights for policy 0, policy_version 2960 (0.0003)
+[2023-07-14 19:54:18,699][97365] Fps is (10 sec: 12695.7, 60 sec: 12833.6, 300 sec: 13178.7). Total num frames: 1515520. Throughput: 0: 12773.5. Samples: 1501348. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
+[2023-07-14 19:54:18,699][97365] Avg episode reward: [(0, '3015.743')]
+[2023-07-14 19:54:18,702][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002960_1515520.pth...
+[2023-07-14 19:54:18,705][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002216_1134592.pth
+[2023-07-14 19:54:18,706][97409] Saving new best policy, reward=3015.743!
+[2023-07-14 19:54:21,810][97411] Updated weights for policy 0, policy_version 3040 (0.0003)
+[2023-07-14 19:54:23,695][97365] Fps is (10 sec: 12701.2, 60 sec: 12697.5, 300 sec: 13141.9). Total num frames: 1576960. Throughput: 0: 12790.2. Samples: 1576972. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:54:23,696][97365] Avg episode reward: [(0, '3011.480')]
+[2023-07-14 19:54:25,033][97411] Updated weights for policy 0, policy_version 3120 (0.0003)
+[2023-07-14 19:54:28,212][97411] Updated weights for policy 0, policy_version 3200 (0.0003)
+[2023-07-14 19:54:28,698][97365] Fps is (10 sec: 12698.7, 60 sec: 12765.4, 300 sec: 13140.3). Total num frames: 1642496. Throughput: 0: 12764.3. Samples: 1614900. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:54:28,698][97365] Avg episode reward: [(0, '3358.190')]
+[2023-07-14 19:54:28,701][97409] Saving new best policy, reward=3358.190!
+[2023-07-14 19:54:31,420][97411] Updated weights for policy 0, policy_version 3280 (0.0003)
+[2023-07-14 19:54:33,699][97365] Fps is (10 sec: 13102.8, 60 sec: 12765.3, 300 sec: 13138.9). Total num frames: 1708032. Throughput: 0: 12755.5. Samples: 1691772. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:54:33,699][97365] Avg episode reward: [(0, '3029.135')]
+[2023-07-14 19:54:33,706][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003336_1708032.pth...
+[2023-07-14 19:54:33,709][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002584_1323008.pth
+[2023-07-14 19:54:34,580][97411] Updated weights for policy 0, policy_version 3360 (0.0003)
+[2023-07-14 19:54:37,795][97411] Updated weights for policy 0, policy_version 3440 (0.0003)
+[2023-07-14 19:54:38,696][97365] Fps is (10 sec: 12700.5, 60 sec: 12766.4, 300 sec: 13107.7). Total num frames: 1769472. Throughput: 0: 12793.2. Samples: 1769320. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:54:38,696][97365] Avg episode reward: [(0, '3649.604')]
+[2023-07-14 19:54:38,697][97409] Saving new best policy, reward=3649.604!
+[2023-07-14 19:54:40,972][97411] Updated weights for policy 0, policy_version 3520 (0.0003)
+[2023-07-14 19:54:43,697][97365] Fps is (10 sec: 12700.1, 60 sec: 12765.6, 300 sec: 13107.6). Total num frames: 1835008. Throughput: 0: 12861.7. Samples: 1807580. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:54:43,697][97365] Avg episode reward: [(0, '3344.457')]
+[2023-07-14 19:54:44,145][97411] Updated weights for policy 0, policy_version 3600 (0.0003)
+[2023-07-14 19:54:47,339][97411] Updated weights for policy 0, policy_version 3680 (0.0003)
+[2023-07-14 19:54:48,698][97365] Fps is (10 sec: 13103.8, 60 sec: 12834.3, 300 sec: 13107.4). Total num frames: 1900544. Throughput: 0: 12844.1. Samples: 1884752. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:54:48,698][97365] Avg episode reward: [(0, '3659.155')]
+[2023-07-14 19:54:48,704][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003712_1900544.pth...
+[2023-07-14 19:54:48,707][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000002960_1515520.pth
+[2023-07-14 19:54:48,708][97409] Saving new best policy, reward=3659.155!
+[2023-07-14 19:54:50,561][97411] Updated weights for policy 0, policy_version 3760 (0.0003)
+[2023-07-14 19:54:53,695][97365] Fps is (10 sec: 12699.9, 60 sec: 12834.1, 300 sec: 13080.4). Total num frames: 1961984. Throughput: 0: 12811.8. Samples: 1961724. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:54:53,695][97365] Avg episode reward: [(0, '3742.346')]
+[2023-07-14 19:54:53,696][97409] Saving new best policy, reward=3742.346!
+[2023-07-14 19:54:53,738][97411] Updated weights for policy 0, policy_version 3840 (0.0003)
+[2023-07-14 19:54:56,951][97411] Updated weights for policy 0, policy_version 3920 (0.0003)
+[2023-07-14 19:54:58,698][97365] Fps is (10 sec: 12697.7, 60 sec: 12833.9, 300 sec: 13081.0). Total num frames: 2027520. Throughput: 0: 12780.1. Samples: 2000056. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:54:58,699][97365] Avg episode reward: [(0, '3753.954')]
+[2023-07-14 19:54:58,699][97409] Saving new best policy, reward=3753.954!
+[2023-07-14 19:55:00,198][97411] Updated weights for policy 0, policy_version 4000 (0.0003)
+[2023-07-14 19:55:03,365][97411] Updated weights for policy 0, policy_version 4080 (0.0003)
+[2023-07-14 19:55:03,700][97365] Fps is (10 sec: 13100.5, 60 sec: 12833.2, 300 sec: 13081.7). Total num frames: 2093056. Throughput: 0: 12786.1. Samples: 2076736. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:55:03,700][97365] Avg episode reward: [(0, '4234.218')]
+[2023-07-14 19:55:03,705][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004088_2093056.pth...
+[2023-07-14 19:55:03,706][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003336_1708032.pth
+[2023-07-14 19:55:03,706][97409] Saving new best policy, reward=4234.218!
+[2023-07-14 19:55:06,511][97411] Updated weights for policy 0, policy_version 4160 (0.0003)
+[2023-07-14 19:55:08,698][97365] Fps is (10 sec: 12697.8, 60 sec: 12765.7, 300 sec: 13057.8). Total num frames: 2154496. Throughput: 0: 12834.5. Samples: 2154560. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:55:08,698][97365] Avg episode reward: [(0, '4367.579')]
+[2023-07-14 19:55:08,721][97409] Saving new best policy, reward=4367.579!
+[2023-07-14 19:55:09,710][97411] Updated weights for policy 0, policy_version 4240 (0.0003)
+[2023-07-14 19:55:12,894][97411] Updated weights for policy 0, policy_version 4320 (0.0003)
+[2023-07-14 19:55:13,696][97365] Fps is (10 sec: 12702.1, 60 sec: 12834.5, 300 sec: 13059.3). Total num frames: 2220032. Throughput: 0: 12843.0. Samples: 2192816. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 19:55:13,697][97365] Avg episode reward: [(0, '4325.240')]
+[2023-07-14 19:55:16,112][97411] Updated weights for policy 0, policy_version 4400 (0.0003)
+[2023-07-14 19:55:18,697][97365] Fps is (10 sec: 13109.1, 60 sec: 12834.6, 300 sec: 13060.7). Total num frames: 2285568. Throughput: 0: 12832.1. Samples: 2269192. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:55:18,698][97365] Avg episode reward: [(0, '4308.910')]
+[2023-07-14 19:55:18,701][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004464_2285568.pth...
+[2023-07-14 19:55:18,703][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000003712_1900544.pth
+[2023-07-14 19:55:19,343][97411] Updated weights for policy 0, policy_version 4480 (0.0003)
+[2023-07-14 19:55:23,165][97411] Updated weights for policy 0, policy_version 4560 (0.0003)
+[2023-07-14 19:55:23,697][97365] Fps is (10 sec: 11468.2, 60 sec: 12629.0, 300 sec: 12970.9). Total num frames: 2334720. Throughput: 0: 12598.7. Samples: 2336276. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 19:55:23,698][97365] Avg episode reward: [(0, '4381.978')]
+[2023-07-14 19:55:23,698][97409] Saving new best policy, reward=4381.978!
+[2023-07-14 19:55:26,872][97411] Updated weights for policy 0, policy_version 4640 (0.0003)
+[2023-07-14 19:55:28,699][97365] Fps is (10 sec: 11057.0, 60 sec: 12560.9, 300 sec: 12952.4). Total num frames: 2396160. Throughput: 0: 12495.3. Samples: 2369892. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:55:28,699][97365] Avg episode reward: [(0, '4432.217')]
+[2023-07-14 19:55:28,700][97409] Saving new best policy, reward=4432.217!
+[2023-07-14 19:55:30,239][97411] Updated weights for policy 0, policy_version 4720 (0.0003)
+[2023-07-14 19:55:33,536][97411] Updated weights for policy 0, policy_version 4800 (0.0003)
+[2023-07-14 19:55:33,697][97365] Fps is (10 sec: 12288.1, 60 sec: 12493.2, 300 sec: 12935.0). Total num frames: 2457600. Throughput: 0: 12412.7. Samples: 2443304. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:55:33,697][97365] Avg episode reward: [(0, '4529.744')]
+[2023-07-14 19:55:33,701][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004800_2457600.pth...
+[2023-07-14 19:55:33,704][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004088_2093056.pth
+[2023-07-14 19:55:33,705][97409] Saving new best policy, reward=4529.744!
+[2023-07-14 19:55:36,919][97411] Updated weights for policy 0, policy_version 4880 (0.0003)
+[2023-07-14 19:55:38,695][97365] Fps is (10 sec: 12292.3, 60 sec: 12492.9, 300 sec: 12918.5). Total num frames: 2519040. Throughput: 0: 12303.9. Samples: 2515404. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 19:55:38,696][97365] Avg episode reward: [(0, '4318.828')]
+[2023-07-14 19:55:40,445][97411] Updated weights for policy 0, policy_version 4960 (0.0003)
+[2023-07-14 19:55:43,698][97365] Fps is (10 sec: 11876.9, 60 sec: 12356.0, 300 sec: 12882.1). Total num frames: 2576384. Throughput: 0: 12237.5. Samples: 2550744. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 19:55:43,698][97365] Avg episode reward: [(0, '4466.346')]
+[2023-07-14 19:55:43,756][97411] Updated weights for policy 0, policy_version 5040 (0.0003)
+[2023-07-14 19:55:46,973][97411] Updated weights for policy 0, policy_version 5120 (0.0003)
+[2023-07-14 19:55:48,697][97365] Fps is (10 sec: 12286.1, 60 sec: 12356.6, 300 sec: 12887.7). Total num frames: 2641920. Throughput: 0: 12224.8. Samples: 2626812. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:55:48,697][97365] Avg episode reward: [(0, '4426.485')]
+[2023-07-14 19:55:48,700][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005160_2641920.pth...
+[2023-07-14 19:55:48,704][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004464_2285568.pth
+[2023-07-14 19:55:50,201][97411] Updated weights for policy 0, policy_version 5200 (0.0003)
+[2023-07-14 19:55:53,545][97411] Updated weights for policy 0, policy_version 5280 (0.0003)
+[2023-07-14 19:55:53,696][97365] Fps is (10 sec: 12700.4, 60 sec: 12356.0, 300 sec: 12873.4). Total num frames: 2703360. Throughput: 0: 12160.5. Samples: 2701756. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:55:53,696][97365] Avg episode reward: [(0, '3872.724')]
+[2023-07-14 19:55:56,887][97411] Updated weights for policy 0, policy_version 5360 (0.0003)
+[2023-07-14 19:55:58,697][97365] Fps is (10 sec: 12287.5, 60 sec: 12288.2, 300 sec: 12859.8). Total num frames: 2764800. Throughput: 0: 12122.2. Samples: 2738324. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:55:58,698][97365] Avg episode reward: [(0, '4238.742')]
+[2023-07-14 19:56:00,313][97411] Updated weights for policy 0, policy_version 5440 (0.0003)
+[2023-07-14 19:56:03,682][97411] Updated weights for policy 0, policy_version 5520 (0.0003)
+[2023-07-14 19:56:03,699][97365] Fps is (10 sec: 12283.7, 60 sec: 12219.8, 300 sec: 12846.6). Total num frames: 2826240. Throughput: 0: 12015.4. Samples: 2809920. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-14 19:56:03,700][97365] Avg episode reward: [(0, '4665.806')]
+[2023-07-14 19:56:03,703][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005520_2826240.pth...
+[2023-07-14 19:56:03,704][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000004800_2457600.pth
+[2023-07-14 19:56:03,705][97409] Saving new best policy, reward=4665.806!
+[2023-07-14 19:56:06,858][97411] Updated weights for policy 0, policy_version 5600 (0.0003)
+[2023-07-14 19:56:08,698][97365] Fps is (10 sec: 12286.3, 60 sec: 12219.7, 300 sec: 12834.3). Total num frames: 2887680. Throughput: 0: 12230.2. Samples: 2886652. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:56:08,699][97365] Avg episode reward: [(0, '4984.418')]
+[2023-07-14 19:56:08,700][97409] Saving new best policy, reward=4984.418!
+[2023-07-14 19:56:10,120][97411] Updated weights for policy 0, policy_version 5680 (0.0003)
+[2023-07-14 19:56:13,371][97411] Updated weights for policy 0, policy_version 5760 (0.0003)
+[2023-07-14 19:56:13,697][97365] Fps is (10 sec: 12700.8, 60 sec: 12219.6, 300 sec: 12840.3). Total num frames: 2953216. Throughput: 0: 12326.4. Samples: 2924560. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:56:13,697][97365] Avg episode reward: [(0, '4864.577')]
+[2023-07-14 19:56:16,569][97411] Updated weights for policy 0, policy_version 5840 (0.0003)
+[2023-07-14 19:56:18,698][97365] Fps is (10 sec: 12697.8, 60 sec: 12151.1, 300 sec: 12828.5). Total num frames: 3014656. Throughput: 0: 12386.9. Samples: 3000732. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:56:18,699][97365] Avg episode reward: [(0, '4373.795')]
+[2023-07-14 19:56:18,702][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005888_3014656.pth...
+[2023-07-14 19:56:18,705][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005160_2641920.pth
+[2023-07-14 19:56:19,764][97411] Updated weights for policy 0, policy_version 5920 (0.0003)
+[2023-07-14 19:56:23,051][97411] Updated weights for policy 0, policy_version 6000 (0.0003)
+[2023-07-14 19:56:23,696][97365] Fps is (10 sec: 12698.5, 60 sec: 12424.7, 300 sec: 12834.4). Total num frames: 3080192. Throughput: 0: 12463.0. Samples: 3076252. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:56:23,697][97365] Avg episode reward: [(0, '4472.363')]
+[2023-07-14 19:56:26,261][97411] Updated weights for policy 0, policy_version 6080 (0.0003)
+[2023-07-14 19:56:28,699][97365] Fps is (10 sec: 12696.5, 60 sec: 12424.4, 300 sec: 12823.1). Total num frames: 3141632. Throughput: 0: 12531.0. Samples: 3114652. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:56:28,699][97365] Avg episode reward: [(0, '4638.284')]
+[2023-07-14 19:56:29,503][97411] Updated weights for policy 0, policy_version 6160 (0.0003)
+[2023-07-14 19:56:32,740][97411] Updated weights for policy 0, policy_version 6240 (0.0003)
+[2023-07-14 19:56:33,697][97365] Fps is (10 sec: 12286.7, 60 sec: 12424.5, 300 sec: 12812.5). Total num frames: 3203072. Throughput: 0: 12526.3. Samples: 3190504. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
+[2023-07-14 19:56:33,697][97365] Avg episode reward: [(0, '4349.521')]
+[2023-07-14 19:56:33,713][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006264_3207168.pth...
+[2023-07-14 19:56:33,715][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005520_2826240.pth
+[2023-07-14 19:56:36,021][97411] Updated weights for policy 0, policy_version 6320 (0.0003)
+[2023-07-14 19:56:38,698][97365] Fps is (10 sec: 12289.3, 60 sec: 12423.9, 300 sec: 12802.1). Total num frames: 3264512. Throughput: 0: 12506.5. Samples: 3264576. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
+[2023-07-14 19:56:38,698][97365] Avg episode reward: [(0, '4730.533')]
+[2023-07-14 19:56:39,411][97411] Updated weights for policy 0, policy_version 6400 (0.0003)
+[2023-07-14 19:56:42,651][97411] Updated weights for policy 0, policy_version 6480 (0.0003)
+[2023-07-14 19:56:43,695][97365] Fps is (10 sec: 12700.3, 60 sec: 12561.7, 300 sec: 12808.2). Total num frames: 3330048. Throughput: 0: 12514.5. Samples: 3301452. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:56:43,696][97365] Avg episode reward: [(0, '4966.356')]
+[2023-07-14 19:56:45,843][97411] Updated weights for policy 0, policy_version 6560 (0.0003)
+[2023-07-14 19:56:48,696][97365] Fps is (10 sec: 12700.5, 60 sec: 12493.0, 300 sec: 12798.3). Total num frames: 3391488. Throughput: 0: 12642.3. Samples: 3378780. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:56:48,696][97365] Avg episode reward: [(0, '4898.984')]
+[2023-07-14 19:56:48,700][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006624_3391488.pth...
+[2023-07-14 19:56:48,704][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000005888_3014656.pth
+[2023-07-14 19:56:49,084][97411] Updated weights for policy 0, policy_version 6640 (0.0003)
+[2023-07-14 19:56:52,332][97411] Updated weights for policy 0, policy_version 6720 (0.0003)
+[2023-07-14 19:56:53,699][97365] Fps is (10 sec: 12692.2, 60 sec: 12560.3, 300 sec: 12803.9). Total num frames: 3457024. Throughput: 0: 12609.6. Samples: 3454096. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:56:53,700][97365] Avg episode reward: [(0, '5000.844')]
+[2023-07-14 19:56:53,701][97409] Saving new best policy, reward=5000.844!
+[2023-07-14 19:56:55,550][97411] Updated weights for policy 0, policy_version 6800 (0.0003)
+[2023-07-14 19:56:58,700][97365] Fps is (10 sec: 12692.7, 60 sec: 12560.5, 300 sec: 12794.5). Total num frames: 3518464. Throughput: 0: 12601.4. Samples: 3491660. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 19:56:58,700][97365] Avg episode reward: [(0, '4841.072')]
+[2023-07-14 19:56:58,827][97411] Updated weights for policy 0, policy_version 6880 (0.0003)
+[2023-07-14 19:57:02,158][97411] Updated weights for policy 0, policy_version 6960 (0.0003)
+[2023-07-14 19:57:03,698][97365] Fps is (10 sec: 12289.2, 60 sec: 12561.3, 300 sec: 12785.5). Total num frames: 3579904. Throughput: 0: 12575.4. Samples: 3566628. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:57:03,699][97365] Avg episode reward: [(0, '5025.574')]
+[2023-07-14 19:57:03,702][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006992_3579904.pth...
+[2023-07-14 19:57:03,705][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006264_3207168.pth
+[2023-07-14 19:57:03,706][97409] Saving new best policy, reward=5025.574!
+[2023-07-14 19:57:05,446][97411] Updated weights for policy 0, policy_version 7040 (0.0003)
+[2023-07-14 19:57:08,696][97365] Fps is (10 sec: 12293.0, 60 sec: 12561.6, 300 sec: 12776.9). Total num frames: 3641344. Throughput: 0: 12518.4. Samples: 3639572. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:57:08,696][97365] Avg episode reward: [(0, '4737.919')]
+[2023-07-14 19:57:08,898][97411] Updated weights for policy 0, policy_version 7120 (0.0003)
+[2023-07-14 19:57:13,110][97411] Updated weights for policy 0, policy_version 7200 (0.0003)
+[2023-07-14 19:57:13,696][97365] Fps is (10 sec: 11063.0, 60 sec: 12288.4, 300 sec: 12726.1). Total num frames: 3690496. Throughput: 0: 12435.0. Samples: 3674176. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:57:13,699][97365] Avg episode reward: [(0, '4760.441')]
+[2023-07-14 19:57:17,666][97411] Updated weights for policy 0, policy_version 7280 (0.0003)
+[2023-07-14 19:57:18,697][97365] Fps is (10 sec: 9419.3, 60 sec: 12015.1, 300 sec: 12663.0). Total num frames: 3735552. Throughput: 0: 11862.3. Samples: 3724308. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:57:18,697][97365] Avg episode reward: [(0, '4871.168')]
+[2023-07-14 19:57:18,701][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007296_3735552.pth...
+[2023-07-14 19:57:18,704][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006624_3391488.pth
+[2023-07-14 19:57:21,363][97411] Updated weights for policy 0, policy_version 7360 (0.0003)
+[2023-07-14 19:57:23,699][97365] Fps is (10 sec: 10236.2, 60 sec: 11877.9, 300 sec: 12676.6). Total num frames: 3792896. Throughput: 0: 11729.5. Samples: 3792408. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:57:23,699][97365] Avg episode reward: [(0, '5190.236')]
+[2023-07-14 19:57:23,700][97409] Saving new best policy, reward=5190.236!
+[2023-07-14 19:57:25,039][97411] Updated weights for policy 0, policy_version 7440 (0.0003)
+[2023-07-14 19:57:28,679][97411] Updated weights for policy 0, policy_version 7520 (0.0003)
+[2023-07-14 19:57:28,697][97365] Fps is (10 sec: 11469.7, 60 sec: 11810.7, 300 sec: 12621.2). Total num frames: 3850240. Throughput: 0: 11606.0. Samples: 3823740. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:57:28,697][97365] Avg episode reward: [(0, '4964.201')]
+[2023-07-14 19:57:31,960][97411] Updated weights for policy 0, policy_version 7600 (0.0003)
+[2023-07-14 19:57:33,698][97365] Fps is (10 sec: 11879.0, 60 sec: 11810.0, 300 sec: 12593.3). Total num frames: 3911680. Throughput: 0: 11504.7. Samples: 3896516. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-14 19:57:33,698][97365] Avg episode reward: [(0, '4983.340')]
+[2023-07-14 19:57:33,702][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007640_3911680.pth...
+[2023-07-14 19:57:33,705][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000006992_3579904.pth
+[2023-07-14 19:57:35,281][97411] Updated weights for policy 0, policy_version 7680 (0.0003)
+[2023-07-14 19:57:38,614][97411] Updated weights for policy 0, policy_version 7760 (0.0003)
+[2023-07-14 19:57:38,697][97365] Fps is (10 sec: 12287.5, 60 sec: 11810.4, 300 sec: 12551.7). Total num frames: 3973120. Throughput: 0: 11477.6. Samples: 3970560. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:57:38,697][97365] Avg episode reward: [(0, '5007.181')]
+[2023-07-14 19:57:42,051][97411] Updated weights for policy 0, policy_version 7840 (0.0003)
+[2023-07-14 19:57:43,699][97365] Fps is (10 sec: 11877.2, 60 sec: 11672.8, 300 sec: 12496.1). Total num frames: 4030464. Throughput: 0: 11435.0. Samples: 4006228. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 19:57:43,700][97365] Avg episode reward: [(0, '5054.458')]
+[2023-07-14 19:57:45,404][97411] Updated weights for policy 0, policy_version 7920 (0.0003)
+[2023-07-14 19:57:48,699][97365] Fps is (10 sec: 11875.9, 60 sec: 11673.0, 300 sec: 12468.5). Total num frames: 4091904. Throughput: 0: 11389.6. Samples: 4079168. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 19:57:48,701][97365] Avg episode reward: [(0, '4837.944')]
+[2023-07-14 19:57:48,708][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007992_4091904.pth...
+[2023-07-14 19:57:48,710][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007296_3735552.pth
+[2023-07-14 19:57:48,995][97411] Updated weights for policy 0, policy_version 8000 (0.0003)
+[2023-07-14 19:57:52,480][97411] Updated weights for policy 0, policy_version 8080 (0.0003)
+[2023-07-14 19:57:53,695][97365] Fps is (10 sec: 11883.1, 60 sec: 11537.9, 300 sec: 12426.9). Total num frames: 4149248. Throughput: 0: 11304.4. Samples: 4148264. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 19:57:53,696][97365] Avg episode reward: [(0, '5169.984')]
+[2023-07-14 19:57:55,975][97411] Updated weights for policy 0, policy_version 8160 (0.0003)
+[2023-07-14 19:57:58,696][97365] Fps is (10 sec: 11472.6, 60 sec: 11469.6, 300 sec: 12399.2). Total num frames: 4206592. Throughput: 0: 11305.0. Samples: 4182908. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:57:58,696][97365] Avg episode reward: [(0, '5205.718')]
+[2023-07-14 19:57:58,696][97409] Saving new best policy, reward=5205.718!
+[2023-07-14 19:57:59,561][97411] Updated weights for policy 0, policy_version 8240 (0.0003)
+[2023-07-14 19:58:03,157][97411] Updated weights for policy 0, policy_version 8320 (0.0003)
+[2023-07-14 19:58:03,695][97365] Fps is (10 sec: 11468.5, 60 sec: 11401.1, 300 sec: 12371.5). Total num frames: 4263936. Throughput: 0: 11717.0. Samples: 4251552. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
+[2023-07-14 19:58:03,696][97365] Avg episode reward: [(0, '5139.736')]
+[2023-07-14 19:58:03,699][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000008328_4263936.pth...
+[2023-07-14 19:58:03,703][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007640_3911680.pth
+[2023-07-14 19:58:06,646][97411] Updated weights for policy 0, policy_version 8400 (0.0003)
+[2023-07-14 19:58:08,699][97365] Fps is (10 sec: 11874.6, 60 sec: 11399.9, 300 sec: 12357.4). Total num frames: 4325376. Throughput: 0: 11768.4. Samples: 4321988. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
+[2023-07-14 19:58:08,700][97365] Avg episode reward: [(0, '5335.021')]
+[2023-07-14 19:58:08,701][97409] Saving new best policy, reward=5335.021!
+[2023-07-14 19:58:10,006][97411] Updated weights for policy 0, policy_version 8480 (0.0003)
+[2023-07-14 19:58:13,339][97411] Updated weights for policy 0, policy_version 8560 (0.0003)
+[2023-07-14 19:58:13,695][97365] Fps is (10 sec: 12288.7, 60 sec: 11605.4, 300 sec: 12343.6). Total num frames: 4386816. Throughput: 0: 11883.2. Samples: 4358464. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:58:13,695][97365] Avg episode reward: [(0, '5042.767')]
+[2023-07-14 19:58:16,645][97411] Updated weights for policy 0, policy_version 8640 (0.0003)
+[2023-07-14 19:58:18,695][97365] Fps is (10 sec: 12292.2, 60 sec: 11878.8, 300 sec: 12315.7). Total num frames: 4448256. Throughput: 0: 11919.2. Samples: 4432848. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 19:58:18,696][97365] Avg episode reward: [(0, '4906.883')]
+[2023-07-14 19:58:18,701][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000008688_4448256.pth...
+[2023-07-14 19:58:18,705][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000007992_4091904.pth
+[2023-07-14 19:58:19,991][97411] Updated weights for policy 0, policy_version 8720 (0.0003)
+[2023-07-14 19:58:23,314][97411] Updated weights for policy 0, policy_version 8800 (0.0003)
+[2023-07-14 19:58:23,697][97365] Fps is (10 sec: 12285.6, 60 sec: 11947.0, 300 sec: 12315.7). Total num frames: 4509696. Throughput: 0: 11907.7. Samples: 4506404. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 19:58:23,697][97365] Avg episode reward: [(0, '5039.671')]
+[2023-07-14 19:58:26,783][97411] Updated weights for policy 0, policy_version 8880 (0.0003)
+[2023-07-14 19:58:28,699][97365] Fps is (10 sec: 11874.6, 60 sec: 11946.2, 300 sec: 12287.9). Total num frames: 4567040. Throughput: 0: 11904.0. Samples: 4541900. Policy #0 lag: (min: 2.0, avg: 2.0, max: 2.0)
+[2023-07-14 19:58:28,699][97365] Avg episode reward: [(0, '4553.302')]
+[2023-07-14 19:58:30,072][97411] Updated weights for policy 0, policy_version 8960 (0.0003)
+[2023-07-14 19:58:33,394][97411] Updated weights for policy 0, policy_version 9040 (0.0003)
+[2023-07-14 19:58:33,695][97365] Fps is (10 sec: 11880.7, 60 sec: 11947.3, 300 sec: 12288.1). Total num frames: 4628480. Throughput: 0: 11936.4. Samples: 4616256. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:58:33,695][97365] Avg episode reward: [(0, '4639.867')]
+[2023-07-14 19:58:33,698][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009040_4628480.pth...
+[2023-07-14 19:58:33,701][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000008328_4263936.pth
+[2023-07-14 19:58:36,709][97411] Updated weights for policy 0, policy_version 9120 (0.0003)
+[2023-07-14 19:58:38,699][97365] Fps is (10 sec: 12287.6, 60 sec: 11946.3, 300 sec: 12274.0). Total num frames: 4689920. Throughput: 0: 12017.7. Samples: 4689104. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 19:58:38,699][97365] Avg episode reward: [(0, '4560.270')]
+[2023-07-14 19:58:40,215][97411] Updated weights for policy 0, policy_version 9200 (0.0003)
+[2023-07-14 19:58:43,698][97365] Fps is (10 sec: 11874.4, 60 sec: 11946.9, 300 sec: 12260.3). Total num frames: 4747264. Throughput: 0: 12028.5. Samples: 4724220. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:58:43,698][97365] Avg episode reward: [(0, '4666.947')]
+[2023-07-14 19:58:43,739][97411] Updated weights for policy 0, policy_version 9280 (0.0003)
+[2023-07-14 19:58:47,290][97411] Updated weights for policy 0, policy_version 9360 (0.0003)
+[2023-07-14 19:58:48,695][97365] Fps is (10 sec: 11473.1, 60 sec: 11879.2, 300 sec: 12246.3). Total num frames: 4804608. Throughput: 0: 12042.0. Samples: 4793440. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:58:48,695][97365] Avg episode reward: [(0, '4833.255')]
+[2023-07-14 19:58:48,704][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009392_4808704.pth...
+[2023-07-14 19:58:48,706][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000008688_4448256.pth
+[2023-07-14 19:58:50,825][97411] Updated weights for policy 0, policy_version 9440 (0.0003)
+[2023-07-14 19:58:53,698][97365] Fps is (10 sec: 11878.2, 60 sec: 11946.0, 300 sec: 12232.4). Total num frames: 4866048. Throughput: 0: 12066.5. Samples: 4864972. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:58:53,699][97365] Avg episode reward: [(0, '4767.211')]
+[2023-07-14 19:58:54,174][97411] Updated weights for policy 0, policy_version 9520 (0.0003)
+[2023-07-14 19:58:57,688][97411] Updated weights for policy 0, policy_version 9600 (0.0003)
+[2023-07-14 19:58:58,696][97365] Fps is (10 sec: 12287.3, 60 sec: 12014.9, 300 sec: 12218.6). Total num frames: 4927488. Throughput: 0: 12050.8. Samples: 4900760. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 19:58:58,696][97365] Avg episode reward: [(0, '5000.646')]
+[2023-07-14 19:59:01,104][97411] Updated weights for policy 0, policy_version 9680 (0.0003)
+[2023-07-14 19:59:03,697][97365] Fps is (10 sec: 11880.1, 60 sec: 12014.6, 300 sec: 12190.8). Total num frames: 4984832. Throughput: 0: 11993.5. Samples: 4972572. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:03,697][97365] Avg episode reward: [(0, '5035.542')]
+[2023-07-14 19:59:03,699][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009744_4988928.pth...
+[2023-07-14 19:59:03,701][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009040_4628480.pth
+[2023-07-14 19:59:04,355][97411] Updated weights for policy 0, policy_version 9760 (0.0003)
+[2023-07-14 19:59:07,692][97411] Updated weights for policy 0, policy_version 9840 (0.0003)
+[2023-07-14 19:59:08,699][97365] Fps is (10 sec: 11874.6, 60 sec: 12014.9, 300 sec: 12190.8). Total num frames: 5046272. Throughput: 0: 11997.9. Samples: 5046336. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:08,699][97365] Avg episode reward: [(0, '5164.853')]
+[2023-07-14 19:59:11,073][97411] Updated weights for policy 0, policy_version 9920 (0.0003)
+[2023-07-14 19:59:13,699][97365] Fps is (10 sec: 12285.4, 60 sec: 12014.1, 300 sec: 12176.9). Total num frames: 5107712. Throughput: 0: 12027.4. Samples: 5083136. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:59:13,700][97365] Avg episode reward: [(0, '5139.689')]
+[2023-07-14 19:59:14,575][97411] Updated weights for policy 0, policy_version 10000 (0.0003)
+[2023-07-14 19:59:17,886][97411] Updated weights for policy 0, policy_version 10080 (0.0003)
+[2023-07-14 19:59:18,700][97365] Fps is (10 sec: 12286.9, 60 sec: 12014.1, 300 sec: 12176.7). Total num frames: 5169152. Throughput: 0: 11970.8. Samples: 5155004. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 19:59:18,700][97365] Avg episode reward: [(0, '5185.690')]
+[2023-07-14 19:59:18,708][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010096_5169152.pth...
+[2023-07-14 19:59:18,710][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009392_4808704.pth
+[2023-07-14 19:59:21,375][97411] Updated weights for policy 0, policy_version 10160 (0.0003)
+[2023-07-14 19:59:23,695][97365] Fps is (10 sec: 11882.8, 60 sec: 11947.0, 300 sec: 12149.3). Total num frames: 5226496. Throughput: 0: 11943.0. Samples: 5226496. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:23,696][97365] Avg episode reward: [(0, '5103.114')]
+[2023-07-14 19:59:24,902][97411] Updated weights for policy 0, policy_version 10240 (0.0003)
+[2023-07-14 19:59:28,266][97411] Updated weights for policy 0, policy_version 10320 (0.0003)
+[2023-07-14 19:59:28,701][97365] Fps is (10 sec: 11876.5, 60 sec: 12014.4, 300 sec: 12135.1). Total num frames: 5287936. Throughput: 0: 11938.9. Samples: 5261508. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:28,702][97365] Avg episode reward: [(0, '5160.269')]
+[2023-07-14 19:59:31,894][97411] Updated weights for policy 0, policy_version 10400 (0.0003)
+[2023-07-14 19:59:33,698][97365] Fps is (10 sec: 11465.5, 60 sec: 11877.7, 300 sec: 12107.4). Total num frames: 5341184. Throughput: 0: 11931.1. Samples: 5330376. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:33,698][97365] Avg episode reward: [(0, '5157.903')]
+[2023-07-14 19:59:33,713][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010440_5345280.pth...
+[2023-07-14 19:59:33,715][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000009744_4988928.pth
+[2023-07-14 19:59:35,422][97411] Updated weights for policy 0, policy_version 10480 (0.0003)
+[2023-07-14 19:59:38,698][97365] Fps is (10 sec: 11472.6, 60 sec: 11878.6, 300 sec: 12093.6). Total num frames: 5402624. Throughput: 0: 11894.9. Samples: 5400240. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:38,698][97365] Avg episode reward: [(0, '5128.206')]
+[2023-07-14 19:59:38,999][97411] Updated weights for policy 0, policy_version 10560 (0.0003)
+[2023-07-14 19:59:42,403][97411] Updated weights for policy 0, policy_version 10640 (0.0003)
+[2023-07-14 19:59:43,699][97365] Fps is (10 sec: 11878.0, 60 sec: 11878.3, 300 sec: 12065.8). Total num frames: 5459968. Throughput: 0: 11877.0. Samples: 5435260. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:43,699][97365] Avg episode reward: [(0, '5038.353')]
+[2023-07-14 19:59:45,811][97411] Updated weights for policy 0, policy_version 10720 (0.0003)
+[2023-07-14 19:59:48,698][97365] Fps is (10 sec: 11059.1, 60 sec: 11809.5, 300 sec: 12037.9). Total num frames: 5513216. Throughput: 0: 11835.0. Samples: 5505164. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:48,699][97365] Avg episode reward: [(0, '5010.557')]
+[2023-07-14 19:59:48,737][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010776_5517312.pth...
+[2023-07-14 19:59:48,740][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010096_5169152.pth
+[2023-07-14 19:59:49,756][97411] Updated weights for policy 0, policy_version 10800 (0.0003)
+[2023-07-14 19:59:53,192][97411] Updated weights for policy 0, policy_version 10880 (0.0003)
+[2023-07-14 19:59:53,700][97365] Fps is (10 sec: 11468.0, 60 sec: 11810.0, 300 sec: 12024.1). Total num frames: 5574656. Throughput: 0: 11708.9. Samples: 5573240. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:53,700][97365] Avg episode reward: [(0, '5250.135')]
+[2023-07-14 19:59:56,647][97411] Updated weights for policy 0, policy_version 10960 (0.0003)
+[2023-07-14 19:59:58,695][97365] Fps is (10 sec: 11472.5, 60 sec: 11673.8, 300 sec: 11982.7). Total num frames: 5627904. Throughput: 0: 11679.8. Samples: 5608680. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 19:59:58,697][97365] Avg episode reward: [(0, '5148.987')]
+[2023-07-14 20:00:00,826][97411] Updated weights for policy 0, policy_version 11040 (0.0003)
+[2023-07-14 20:00:03,698][97365] Fps is (10 sec: 11060.2, 60 sec: 11673.3, 300 sec: 11968.6). Total num frames: 5685248. Throughput: 0: 11456.3. Samples: 5670520. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:00:03,699][97365] Avg episode reward: [(0, '5219.010')]
+[2023-07-14 20:00:03,702][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011104_5685248.pth...
+[2023-07-14 20:00:03,706][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010440_5345280.pth
+[2023-07-14 20:00:04,373][97411] Updated weights for policy 0, policy_version 11120 (0.0003)
+[2023-07-14 20:00:08,032][97411] Updated weights for policy 0, policy_version 11200 (0.0003)
+[2023-07-14 20:00:08,695][97365] Fps is (10 sec: 11058.7, 60 sec: 11537.7, 300 sec: 11927.0). Total num frames: 5738496. Throughput: 0: 11378.0. Samples: 5738508. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:00:08,696][97365] Avg episode reward: [(0, '5128.991')]
+[2023-07-14 20:00:11,810][97411] Updated weights for policy 0, policy_version 11280 (0.0003)
+[2023-07-14 20:00:13,695][97365] Fps is (10 sec: 11062.8, 60 sec: 11469.5, 300 sec: 11899.3). Total num frames: 5795840. Throughput: 0: 11330.9. Samples: 5771328. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 20:00:13,696][97365] Avg episode reward: [(0, '5243.434')]
+[2023-07-14 20:00:15,233][97411] Updated weights for policy 0, policy_version 11360 (0.0003)
+[2023-07-14 20:00:18,699][97365] Fps is (10 sec: 11464.8, 60 sec: 11400.7, 300 sec: 11926.9). Total num frames: 5853184. Throughput: 0: 11345.0. Samples: 5840908. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 20:00:18,700][97365] Avg episode reward: [(0, '5056.854')]
+[2023-07-14 20:00:18,709][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011432_5853184.pth...
+[2023-07-14 20:00:18,713][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000010776_5517312.pth
+[2023-07-14 20:00:18,780][97411] Updated weights for policy 0, policy_version 11440 (0.0003)
+[2023-07-14 20:00:22,195][97411] Updated weights for policy 0, policy_version 11520 (0.0003)
+[2023-07-14 20:00:23,699][97365] Fps is (10 sec: 11873.5, 60 sec: 11468.1, 300 sec: 11927.0). Total num frames: 5914624. Throughput: 0: 11404.7. Samples: 5913464. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-14 20:00:23,700][97365] Avg episode reward: [(0, '5058.023')]
+[2023-07-14 20:00:25,465][97411] Updated weights for policy 0, policy_version 11600 (0.0003)
+[2023-07-14 20:00:28,697][97365] Fps is (10 sec: 12290.6, 60 sec: 11469.7, 300 sec: 11927.0). Total num frames: 5976064. Throughput: 0: 11460.2. Samples: 5950948. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 20:00:28,697][97365] Avg episode reward: [(0, '4920.553')]
+[2023-07-14 20:00:28,865][97411] Updated weights for policy 0, policy_version 11680 (0.0003)
+[2023-07-14 20:00:32,153][97411] Updated weights for policy 0, policy_version 11760 (0.0003)
+[2023-07-14 20:00:33,698][97365] Fps is (10 sec: 12289.1, 60 sec: 11605.3, 300 sec: 11926.9). Total num frames: 6037504. Throughput: 0: 11536.9. Samples: 6024328. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 20:00:33,699][97365] Avg episode reward: [(0, '4839.023')]
+[2023-07-14 20:00:33,704][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011792_6037504.pth...
+[2023-07-14 20:00:33,709][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011104_5685248.pth
+[2023-07-14 20:00:35,556][97411] Updated weights for policy 0, policy_version 11840 (0.0003)
+[2023-07-14 20:00:38,699][97365] Fps is (10 sec: 12285.9, 60 sec: 11605.3, 300 sec: 11940.9). Total num frames: 6098944. Throughput: 0: 11609.0. Samples: 6095636. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 20:00:38,699][97365] Avg episode reward: [(0, '5114.470')]
+[2023-07-14 20:00:39,010][97411] Updated weights for policy 0, policy_version 11920 (0.0003)
+[2023-07-14 20:00:42,403][97411] Updated weights for policy 0, policy_version 12000 (0.0003)
+[2023-07-14 20:00:43,699][97365] Fps is (10 sec: 11878.0, 60 sec: 11605.3, 300 sec: 11913.0). Total num frames: 6156288. Throughput: 0: 11623.4. Samples: 6131776. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 20:00:43,699][97365] Avg episode reward: [(0, '4966.976')]
+[2023-07-14 20:00:45,771][97411] Updated weights for policy 0, policy_version 12080 (0.0003)
+[2023-07-14 20:00:48,696][97365] Fps is (10 sec: 11881.6, 60 sec: 11742.3, 300 sec: 11913.1). Total num frames: 6217728. Throughput: 0: 11881.7. Samples: 6205168. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:00:48,696][97365] Avg episode reward: [(0, '4691.181')]
+[2023-07-14 20:00:48,706][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012144_6217728.pth...
+[2023-07-14 20:00:48,708][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011432_5853184.pth
+[2023-07-14 20:00:49,215][97411] Updated weights for policy 0, policy_version 12160 (0.0003)
+[2023-07-14 20:00:52,695][97411] Updated weights for policy 0, policy_version 12240 (0.0003)
+[2023-07-14 20:00:53,699][97365] Fps is (10 sec: 11877.8, 60 sec: 11673.6, 300 sec: 11899.1). Total num frames: 6275072. Throughput: 0: 11922.9. Samples: 6275084. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:00:53,700][97365] Avg episode reward: [(0, '4493.886')]
+[2023-07-14 20:00:56,322][97411] Updated weights for policy 0, policy_version 12320 (0.0003)
+[2023-07-14 20:00:58,698][97365] Fps is (10 sec: 11466.3, 60 sec: 11741.3, 300 sec: 11885.4). Total num frames: 6332416. Throughput: 0: 11938.8. Samples: 6308608. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 20:00:58,699][97365] Avg episode reward: [(0, '4835.062')]
+[2023-07-14 20:00:59,802][97411] Updated weights for policy 0, policy_version 12400 (0.0003)
+[2023-07-14 20:01:03,184][97411] Updated weights for policy 0, policy_version 12480 (0.0003)
+[2023-07-14 20:01:03,699][97365] Fps is (10 sec: 11878.4, 60 sec: 11810.0, 300 sec: 11885.3). Total num frames: 6393856. Throughput: 0: 11985.3. Samples: 6380252. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 20:01:03,700][97365] Avg episode reward: [(0, '4655.551')]
+[2023-07-14 20:01:03,703][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012488_6393856.pth...
+[2023-07-14 20:01:03,707][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000011792_6037504.pth
+[2023-07-14 20:01:06,498][97411] Updated weights for policy 0, policy_version 12560 (0.0004)
+[2023-07-14 20:01:08,698][97365] Fps is (10 sec: 12287.9, 60 sec: 11946.1, 300 sec: 11871.4). Total num frames: 6455296. Throughput: 0: 12006.2. Samples: 6453728. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:01:08,698][97365] Avg episode reward: [(0, '4472.494')]
+[2023-07-14 20:01:09,931][97411] Updated weights for policy 0, policy_version 12640 (0.0003)
+[2023-07-14 20:01:13,360][97411] Updated weights for policy 0, policy_version 12720 (0.0003)
+[2023-07-14 20:01:13,698][97365] Fps is (10 sec: 11879.5, 60 sec: 11946.0, 300 sec: 11857.6). Total num frames: 6512640. Throughput: 0: 11947.5. Samples: 6488604. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:01:13,698][97365] Avg episode reward: [(0, '4531.276')]
+[2023-07-14 20:01:16,805][97411] Updated weights for policy 0, policy_version 12800 (0.0003)
+[2023-07-14 20:01:18,699][97365] Fps is (10 sec: 11876.9, 60 sec: 12014.8, 300 sec: 11843.6). Total num frames: 6574080. Throughput: 0: 11924.6. Samples: 6560948. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 20:01:18,700][97365] Avg episode reward: [(0, '4677.488')]
+[2023-07-14 20:01:18,704][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012840_6574080.pth...
+[2023-07-14 20:01:18,707][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012144_6217728.pth
+[2023-07-14 20:01:20,381][97411] Updated weights for policy 0, policy_version 12880 (0.0003)
+[2023-07-14 20:01:23,700][97365] Fps is (10 sec: 11876.9, 60 sec: 11946.6, 300 sec: 11829.8). Total num frames: 6631424. Throughput: 0: 11828.4. Samples: 6627928. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 20:01:23,700][97365] Avg episode reward: [(0, '4883.165')]
+[2023-07-14 20:01:24,022][97411] Updated weights for policy 0, policy_version 12960 (0.0003)
+[2023-07-14 20:01:27,613][97411] Updated weights for policy 0, policy_version 13040 (0.0003)
+[2023-07-14 20:01:28,698][97365] Fps is (10 sec: 11060.6, 60 sec: 11809.9, 300 sec: 11802.0). Total num frames: 6684672. Throughput: 0: 11811.6. Samples: 6663292. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-14 20:01:28,698][97365] Avg episode reward: [(0, '4945.884')]
+[2023-07-14 20:01:31,290][97411] Updated weights for policy 0, policy_version 13120 (0.0004)
+[2023-07-14 20:01:33,698][97365] Fps is (10 sec: 11060.6, 60 sec: 11741.9, 300 sec: 11788.1). Total num frames: 6742016. Throughput: 0: 11665.2. Samples: 6730132. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-14 20:01:33,699][97365] Avg episode reward: [(0, '4878.013')]
+[2023-07-14 20:01:33,704][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013168_6742016.pth...
+[2023-07-14 20:01:33,709][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012488_6393856.pth
+[2023-07-14 20:01:34,818][97411] Updated weights for policy 0, policy_version 13200 (0.0003)
+[2023-07-14 20:01:38,453][97411] Updated weights for policy 0, policy_version 13280 (0.0003)
+[2023-07-14 20:01:38,700][97365] Fps is (10 sec: 11466.4, 60 sec: 11673.3, 300 sec: 11760.2). Total num frames: 6799360. Throughput: 0: 11637.5. Samples: 6798780. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:01:38,701][97365] Avg episode reward: [(0, '4958.186')]
+[2023-07-14 20:01:41,865][97411] Updated weights for policy 0, policy_version 13360 (0.0003)
+[2023-07-14 20:01:43,698][97365] Fps is (10 sec: 11879.1, 60 sec: 11742.1, 300 sec: 11760.3). Total num frames: 6860800. Throughput: 0: 11703.8. Samples: 6835276. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:01:43,698][97365] Avg episode reward: [(0, '5000.007')]
+[2023-07-14 20:01:45,397][97411] Updated weights for policy 0, policy_version 13440 (0.0003)
+[2023-07-14 20:01:48,697][97365] Fps is (10 sec: 11881.6, 60 sec: 11673.3, 300 sec: 11732.7). Total num frames: 6918144. Throughput: 0: 11680.6. Samples: 6905856. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:01:48,698][97365] Avg episode reward: [(0, '4906.613')]
+[2023-07-14 20:01:48,706][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013512_6918144.pth...
+[2023-07-14 20:01:48,710][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000012840_6574080.pth
+[2023-07-14 20:01:48,760][97411] Updated weights for policy 0, policy_version 13520 (0.0003)
+[2023-07-14 20:01:52,150][97411] Updated weights for policy 0, policy_version 13600 (0.0003)
+[2023-07-14 20:01:53,699][97365] Fps is (10 sec: 11876.7, 60 sec: 11741.9, 300 sec: 11732.6). Total num frames: 6979584. Throughput: 0: 11662.3. Samples: 6978544. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:01:53,700][97365] Avg episode reward: [(0, '4649.667')]
+[2023-07-14 20:01:55,531][97411] Updated weights for policy 0, policy_version 13680 (0.0003)
+[2023-07-14 20:01:58,696][97365] Fps is (10 sec: 12289.7, 60 sec: 11810.5, 300 sec: 11732.7). Total num frames: 7041024. Throughput: 0: 11703.2. Samples: 7015220. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 20:01:58,696][97365] Avg episode reward: [(0, '4550.634')]
+[2023-07-14 20:01:58,884][97411] Updated weights for policy 0, policy_version 13760 (0.0003)
+[2023-07-14 20:02:02,292][97411] Updated weights for policy 0, policy_version 13840 (0.0003)
+[2023-07-14 20:02:03,699][97365] Fps is (10 sec: 11878.8, 60 sec: 11741.9, 300 sec: 11718.6). Total num frames: 7098368. Throughput: 0: 11697.7. Samples: 7087340. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 20:02:03,700][97365] Avg episode reward: [(0, '4910.570')]
+[2023-07-14 20:02:03,709][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013864_7098368.pth...
+[2023-07-14 20:02:03,712][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013168_6742016.pth
+[2023-07-14 20:02:05,869][97411] Updated weights for policy 0, policy_version 13920 (0.0003)
+[2023-07-14 20:02:08,695][97365] Fps is (10 sec: 11880.2, 60 sec: 11742.5, 300 sec: 11760.4). Total num frames: 7159808. Throughput: 0: 11770.9. Samples: 7157560. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:02:08,695][97365] Avg episode reward: [(0, '5094.985')]
+[2023-07-14 20:02:09,262][97411] Updated weights for policy 0, policy_version 14000 (0.0003)
+[2023-07-14 20:02:12,621][97411] Updated weights for policy 0, policy_version 14080 (0.0003)
+[2023-07-14 20:02:13,698][97365] Fps is (10 sec: 12288.6, 60 sec: 11810.1, 300 sec: 11815.9). Total num frames: 7221248. Throughput: 0: 11787.1. Samples: 7193716. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:02:13,699][97365] Avg episode reward: [(0, '5015.985')]
+[2023-07-14 20:02:15,927][97411] Updated weights for policy 0, policy_version 14160 (0.0003)
+[2023-07-14 20:02:18,695][97365] Fps is (10 sec: 12287.3, 60 sec: 11811.0, 300 sec: 11829.9). Total num frames: 7282688. Throughput: 0: 11958.6. Samples: 7268232. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:02:18,695][97365] Avg episode reward: [(0, '4974.742')]
+[2023-07-14 20:02:18,699][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000014224_7282688.pth...
+[2023-07-14 20:02:18,702][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013512_6918144.pth
+[2023-07-14 20:02:19,240][97411] Updated weights for policy 0, policy_version 14240 (0.0003)
+[2023-07-14 20:02:22,612][97411] Updated weights for policy 0, policy_version 14320 (0.0003)
+[2023-07-14 20:02:23,698][97365] Fps is (10 sec: 12288.0, 60 sec: 11878.7, 300 sec: 11843.6). Total num frames: 7344128. Throughput: 0: 12050.5. Samples: 7341032. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:02:23,699][97365] Avg episode reward: [(0, '4981.518')]
+[2023-07-14 20:02:26,012][97411] Updated weights for policy 0, policy_version 14400 (0.0003)
+[2023-07-14 20:02:28,698][97365] Fps is (10 sec: 11874.8, 60 sec: 11946.6, 300 sec: 11829.8). Total num frames: 7401472. Throughput: 0: 12037.6. Samples: 7376972. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 20:02:28,698][97365] Avg episode reward: [(0, '4658.650')]
+[2023-07-14 20:02:29,425][97411] Updated weights for policy 0, policy_version 14480 (0.0003)
+[2023-07-14 20:02:32,780][97411] Updated weights for policy 0, policy_version 14560 (0.0003)
+[2023-07-14 20:02:33,698][97365] Fps is (10 sec: 11878.3, 60 sec: 12014.9, 300 sec: 11829.7). Total num frames: 7462912. Throughput: 0: 12103.7. Samples: 7450536. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 20:02:33,700][97365] Avg episode reward: [(0, '4694.729')]
+[2023-07-14 20:02:33,703][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000014576_7462912.pth...
+[2023-07-14 20:02:33,707][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000013864_7098368.pth
+[2023-07-14 20:02:36,090][97411] Updated weights for policy 0, policy_version 14640 (0.0003)
+[2023-07-14 20:02:38,696][97365] Fps is (10 sec: 12290.5, 60 sec: 12084.0, 300 sec: 11843.8). Total num frames: 7524352. Throughput: 0: 12105.2. Samples: 7523240. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:02:38,697][97365] Avg episode reward: [(0, '4959.764')]
+[2023-07-14 20:02:39,537][97411] Updated weights for policy 0, policy_version 14720 (0.0003)
+[2023-07-14 20:02:43,130][97411] Updated weights for policy 0, policy_version 14800 (0.0003)
+[2023-07-14 20:02:43,699][97365] Fps is (10 sec: 11878.1, 60 sec: 12014.8, 300 sec: 11829.8). Total num frames: 7581696. Throughput: 0: 12063.1. Samples: 7558092. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:02:43,699][97365] Avg episode reward: [(0, '4840.998')]
+[2023-07-14 20:02:46,524][97411] Updated weights for policy 0, policy_version 14880 (0.0003)
+[2023-07-14 20:02:48,697][97365] Fps is (10 sec: 11877.4, 60 sec: 12083.3, 300 sec: 11843.6). Total num frames: 7643136. Throughput: 0: 12048.3. Samples: 7629492. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:02:48,697][97365] Avg episode reward: [(0, '4875.378')]
+[2023-07-14 20:02:48,701][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000014928_7643136.pth...
+[2023-07-14 20:02:48,703][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000014224_7282688.pth
+[2023-07-14 20:02:49,888][97411] Updated weights for policy 0, policy_version 14960 (0.0003)
+[2023-07-14 20:02:53,237][97411] Updated weights for policy 0, policy_version 15040 (0.0003)
+[2023-07-14 20:02:53,696][97365] Fps is (10 sec: 12291.4, 60 sec: 12083.9, 300 sec: 11857.6). Total num frames: 7704576. Throughput: 0: 12111.1. Samples: 7702576. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:02:53,696][97365] Avg episode reward: [(0, '5056.365')]
+[2023-07-14 20:02:56,593][97411] Updated weights for policy 0, policy_version 15120 (0.0003)
+[2023-07-14 20:02:58,695][97365] Fps is (10 sec: 11881.0, 60 sec: 12015.2, 300 sec: 11857.6). Total num frames: 7761920. Throughput: 0: 12120.2. Samples: 7739084. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 20:02:58,695][97365] Avg episode reward: [(0, '5132.251')]
+[2023-07-14 20:03:00,148][97411] Updated weights for policy 0, policy_version 15200 (0.0003)
+[2023-07-14 20:03:03,566][97411] Updated weights for policy 0, policy_version 15280 (0.0003)
+[2023-07-14 20:03:03,697][97365] Fps is (10 sec: 11877.2, 60 sec: 12083.6, 300 sec: 11857.7). Total num frames: 7823360. Throughput: 0: 12035.5. Samples: 7809852. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 20:03:03,697][97365] Avg episode reward: [(0, '4960.125')]
+[2023-07-14 20:03:03,700][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000015280_7823360.pth...
+[2023-07-14 20:03:03,703][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000014576_7462912.pth
+[2023-07-14 20:03:07,084][97411] Updated weights for policy 0, policy_version 15360 (0.0003)
+[2023-07-14 20:03:08,699][97365] Fps is (10 sec: 11873.6, 60 sec: 12014.1, 300 sec: 11843.5). Total num frames: 7880704. Throughput: 0: 11985.5. Samples: 7880388. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-14 20:03:08,699][97365] Avg episode reward: [(0, '4990.063')]
+[2023-07-14 20:03:10,539][97411] Updated weights for policy 0, policy_version 15440 (0.0003)
+[2023-07-14 20:03:13,699][97365] Fps is (10 sec: 11875.7, 60 sec: 12014.8, 300 sec: 11843.5). Total num frames: 7942144. Throughput: 0: 11970.8. Samples: 7915668. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:03:13,699][97365] Avg episode reward: [(0, '4910.901')]
+[2023-07-14 20:03:13,897][97411] Updated weights for policy 0, policy_version 15520 (0.0003)
+[2023-07-14 20:03:17,272][97411] Updated weights for policy 0, policy_version 15600 (0.0003)
+[2023-07-14 20:03:18,695][97365] Fps is (10 sec: 11883.3, 60 sec: 11946.8, 300 sec: 11829.9). Total num frames: 7999488. Throughput: 0: 11957.1. Samples: 7988560. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:03:18,695][97365] Avg episode reward: [(0, '5136.920')]
+[2023-07-14 20:03:18,718][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000015632_8003584.pth...
+[2023-07-14 20:03:18,719][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000014928_7643136.pth
+[2023-07-14 20:03:20,797][97411] Updated weights for policy 0, policy_version 15680 (0.0003)
+[2023-07-14 20:03:23,699][97365] Fps is (10 sec: 11878.3, 60 sec: 11946.5, 300 sec: 11843.7). Total num frames: 8060928. Throughput: 0: 11919.8. Samples: 8059668. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 20:03:23,699][97365] Avg episode reward: [(0, '5035.446')]
+[2023-07-14 20:03:24,203][97411] Updated weights for policy 0, policy_version 15760 (0.0003)
+[2023-07-14 20:03:27,725][97411] Updated weights for policy 0, policy_version 15840 (0.0003)
+[2023-07-14 20:03:28,699][97365] Fps is (10 sec: 11873.6, 60 sec: 11946.6, 300 sec: 11829.6). Total num frames: 8118272. Throughput: 0: 11920.1. Samples: 8094496. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-14 20:03:28,699][97365] Avg episode reward: [(0, '4933.029')]
+[2023-07-14 20:03:31,146][97411] Updated weights for policy 0, policy_version 15920 (0.0003)
+[2023-07-14 20:03:33,699][97365] Fps is (10 sec: 11878.7, 60 sec: 11946.5, 300 sec: 11829.8). Total num frames: 8179712. Throughput: 0: 11928.6. Samples: 8166304. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:03:33,699][97365] Avg episode reward: [(0, '5247.720')]
+[2023-07-14 20:03:33,703][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000015976_8179712.pth...
+[2023-07-14 20:03:33,707][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000015280_7823360.pth
+[2023-07-14 20:03:34,559][97411] Updated weights for policy 0, policy_version 16000 (0.0003)
+[2023-07-14 20:03:37,905][97411] Updated weights for policy 0, policy_version 16080 (0.0003)
+[2023-07-14 20:03:38,695][97365] Fps is (10 sec: 12292.6, 60 sec: 11946.9, 300 sec: 11843.8). Total num frames: 8241152. Throughput: 0: 11924.8. Samples: 8239184. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:03:38,695][97365] Avg episode reward: [(0, '5212.416')]
+[2023-07-14 20:03:41,239][97411] Updated weights for policy 0, policy_version 16160 (0.0003)
+[2023-07-14 20:03:43,698][97365] Fps is (10 sec: 11879.8, 60 sec: 11946.8, 300 sec: 11843.6). Total num frames: 8298496. Throughput: 0: 11930.2. Samples: 8275980. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:03:43,698][97365] Avg episode reward: [(0, '5349.262')]
+[2023-07-14 20:03:43,719][97409] Saving new best policy, reward=5349.262!
+[2023-07-14 20:03:44,740][97411] Updated weights for policy 0, policy_version 16240 (0.0003)
+[2023-07-14 20:03:48,147][97411] Updated weights for policy 0, policy_version 16320 (0.0003)
+[2023-07-14 20:03:48,695][97365] Fps is (10 sec: 11878.0, 60 sec: 11947.0, 300 sec: 11843.8). Total num frames: 8359936. Throughput: 0: 11934.5. Samples: 8346888. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:03:48,696][97365] Avg episode reward: [(0, '5401.850')]
+[2023-07-14 20:03:48,699][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000016328_8359936.pth...
+[2023-07-14 20:03:48,702][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000015632_8003584.pth
+[2023-07-14 20:03:48,702][97409] Saving new best policy, reward=5401.850!
+[2023-07-14 20:03:51,598][97411] Updated weights for policy 0, policy_version 16400 (0.0003)
+[2023-07-14 20:03:53,697][97365] Fps is (10 sec: 12288.6, 60 sec: 11946.4, 300 sec: 11843.6). Total num frames: 8421376. Throughput: 0: 11962.3. Samples: 8418676. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:03:53,698][97365] Avg episode reward: [(0, '5405.301')]
+[2023-07-14 20:03:53,698][97409] Saving new best policy, reward=5405.301!
+[2023-07-14 20:03:55,018][97411] Updated weights for policy 0, policy_version 16480 (0.0003)
+[2023-07-14 20:03:58,508][97411] Updated weights for policy 0, policy_version 16560 (0.0003)
+[2023-07-14 20:03:58,696][97365] Fps is (10 sec: 11877.9, 60 sec: 11946.5, 300 sec: 11843.7). Total num frames: 8478720. Throughput: 0: 11952.9. Samples: 8453508. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-14 20:03:58,696][97365] Avg episode reward: [(0, '5425.277')]
+[2023-07-14 20:03:58,697][97409] Saving new best policy, reward=5425.277!
+[2023-07-14 20:04:01,893][97411] Updated weights for policy 0, policy_version 16640 (0.0003)
+[2023-07-14 20:04:03,696][97365] Fps is (10 sec: 11880.3, 60 sec: 11946.9, 300 sec: 11843.8). Total num frames: 8540160. Throughput: 0: 11941.4. Samples: 8525936. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-14 20:04:03,696][97365] Avg episode reward: [(0, '5119.192')]
+[2023-07-14 20:04:03,706][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000016680_8540160.pth...
+[2023-07-14 20:04:03,711][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000015976_8179712.pth
+[2023-07-14 20:04:05,350][97411] Updated weights for policy 0, policy_version 16720 (0.0003)
+[2023-07-14 20:04:08,696][97365] Fps is (10 sec: 11878.6, 60 sec: 11947.3, 300 sec: 11829.9). Total num frames: 8597504. Throughput: 0: 11955.3. Samples: 8597612. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:04:08,696][97365] Avg episode reward: [(0, '5393.928')]
+[2023-07-14 20:04:08,719][97411] Updated weights for policy 0, policy_version 16800 (0.0003)
+[2023-07-14 20:04:12,022][97411] Updated weights for policy 0, policy_version 16880 (0.0003)
+[2023-07-14 20:04:13,695][97365] Fps is (10 sec: 11879.5, 60 sec: 11947.5, 300 sec: 11830.0). Total num frames: 8658944. Throughput: 0: 12007.7. Samples: 8634796. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:04:13,695][97365] Avg episode reward: [(0, '5592.836')]
+[2023-07-14 20:04:13,709][97409] Saving new best policy, reward=5592.836!
+[2023-07-14 20:04:15,399][97411] Updated weights for policy 0, policy_version 16960 (0.0003)
+[2023-07-14 20:04:18,697][97365] Fps is (10 sec: 12286.9, 60 sec: 12014.6, 300 sec: 11843.6). Total num frames: 8720384. Throughput: 0: 12040.5. Samples: 8708096. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:04:18,697][97365] Avg episode reward: [(0, '5510.655')]
+[2023-07-14 20:04:18,701][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000017032_8720384.pth...
+[2023-07-14 20:04:18,703][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000016328_8359936.pth
+[2023-07-14 20:04:18,792][97411] Updated weights for policy 0, policy_version 17040 (0.0003)
+[2023-07-14 20:04:22,427][97411] Updated weights for policy 0, policy_version 17120 (0.0003)
+[2023-07-14 20:04:23,698][97365] Fps is (10 sec: 11875.1, 60 sec: 11947.0, 300 sec: 11830.0). Total num frames: 8777728. Throughput: 0: 11958.2. Samples: 8777336. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 20:04:23,698][97365] Avg episode reward: [(0, '5345.150')]
+[2023-07-14 20:04:25,944][97411] Updated weights for policy 0, policy_version 17200 (0.0003)
+[2023-07-14 20:04:28,697][97365] Fps is (10 sec: 11467.9, 60 sec: 11947.0, 300 sec: 11843.7). Total num frames: 8835072. Throughput: 0: 11908.3. Samples: 8811848. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-14 20:04:28,698][97365] Avg episode reward: [(0, '5415.237')]
+[2023-07-14 20:04:29,659][97411] Updated weights for policy 0, policy_version 17280 (0.0003)
+[2023-07-14 20:04:33,275][97411] Updated weights for policy 0, policy_version 17360 (0.0004)
+[2023-07-14 20:04:33,695][97365] Fps is (10 sec: 11471.5, 60 sec: 11879.1, 300 sec: 11829.9). Total num frames: 8892416. Throughput: 0: 11817.5. Samples: 8878676. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:04:33,696][97365] Avg episode reward: [(0, '5312.950')]
+[2023-07-14 20:04:33,704][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000017368_8892416.pth...
+[2023-07-14 20:04:33,706][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000016680_8540160.pth
+[2023-07-14 20:04:36,731][97411] Updated weights for policy 0, policy_version 17440 (0.0003)
+[2023-07-14 20:04:38,696][97365] Fps is (10 sec: 11470.2, 60 sec: 11809.9, 300 sec: 11829.9). Total num frames: 8949760. Throughput: 0: 11801.4. Samples: 8949724. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:04:38,696][97365] Avg episode reward: [(0, '5248.606')]
+[2023-07-14 20:04:40,098][97411] Updated weights for policy 0, policy_version 17520 (0.0003)
+[2023-07-14 20:04:43,544][97411] Updated weights for policy 0, policy_version 17600 (0.0003)
+[2023-07-14 20:04:43,699][97365] Fps is (10 sec: 11874.6, 60 sec: 11878.3, 300 sec: 11857.6). Total num frames: 9011200. Throughput: 0: 11839.8. Samples: 8986332. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:04:43,699][97365] Avg episode reward: [(0, '5397.832')]
+[2023-07-14 20:04:46,911][97411] Updated weights for policy 0, policy_version 17680 (0.0003)
+[2023-07-14 20:04:48,699][97365] Fps is (10 sec: 12283.9, 60 sec: 11877.6, 300 sec: 11857.6). Total num frames: 9072640. Throughput: 0: 11826.6. Samples: 9058176. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 20:04:48,700][97365] Avg episode reward: [(0, '5420.408')]
+[2023-07-14 20:04:48,703][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000017720_9072640.pth...
+[2023-07-14 20:04:48,706][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000017032_8720384.pth
+[2023-07-14 20:04:50,309][97411] Updated weights for policy 0, policy_version 17760 (0.0003)
+[2023-07-14 20:04:53,698][97365] Fps is (10 sec: 11878.4, 60 sec: 11809.9, 300 sec: 11871.3). Total num frames: 9129984. Throughput: 0: 11831.2. Samples: 9130048. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-14 20:04:53,699][97365] Avg episode reward: [(0, '5615.520')]
+[2023-07-14 20:04:53,701][97409] Saving new best policy, reward=5615.520!
+[2023-07-14 20:04:53,702][97411] Updated weights for policy 0, policy_version 17840 (0.0003)
+[2023-07-14 20:04:57,123][97411] Updated weights for policy 0, policy_version 17920 (0.0003)
+[2023-07-14 20:04:58,698][97365] Fps is (10 sec: 11879.5, 60 sec: 11877.9, 300 sec: 11885.3). Total num frames: 9191424. Throughput: 0: 11818.9. Samples: 9166688. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:04:58,699][97365] Avg episode reward: [(0, '5596.225')]
+[2023-07-14 20:05:00,508][97411] Updated weights for policy 0, policy_version 18000 (0.0003)
+[2023-07-14 20:05:03,696][97365] Fps is (10 sec: 12291.0, 60 sec: 11878.3, 300 sec: 11913.1). Total num frames: 9252864. Throughput: 0: 11746.0. Samples: 9236660. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:03,699][97365] Avg episode reward: [(0, '5655.760')]
+[2023-07-14 20:05:03,702][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000018072_9252864.pth...
+[2023-07-14 20:05:03,704][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000017368_8892416.pth
+[2023-07-14 20:05:03,705][97409] Saving new best policy, reward=5655.760!
+[2023-07-14 20:05:04,037][97411] Updated weights for policy 0, policy_version 18080 (0.0003)
+[2023-07-14 20:05:07,393][97411] Updated weights for policy 0, policy_version 18160 (0.0003)
+[2023-07-14 20:05:08,699][97365] Fps is (10 sec: 11878.0, 60 sec: 11877.8, 300 sec: 11913.0). Total num frames: 9310208. Throughput: 0: 11845.0. Samples: 9310372. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:08,699][97365] Avg episode reward: [(0, '5426.238')]
+[2023-07-14 20:05:11,001][97411] Updated weights for policy 0, policy_version 18240 (0.0003)
+[2023-07-14 20:05:13,697][97365] Fps is (10 sec: 11467.7, 60 sec: 11809.7, 300 sec: 11913.2). Total num frames: 9367552. Throughput: 0: 11811.8. Samples: 9343376. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:13,697][97365] Avg episode reward: [(0, '5476.325')]
+[2023-07-14 20:05:14,531][97411] Updated weights for policy 0, policy_version 18320 (0.0003)
+[2023-07-14 20:05:18,026][97411] Updated weights for policy 0, policy_version 18400 (0.0004)
+[2023-07-14 20:05:18,697][97365] Fps is (10 sec: 11470.6, 60 sec: 11741.7, 300 sec: 11899.3). Total num frames: 9424896. Throughput: 0: 11897.8. Samples: 9414100. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:18,697][97365] Avg episode reward: [(0, '5596.201')]
+[2023-07-14 20:05:18,699][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000018408_9424896.pth...
+[2023-07-14 20:05:18,701][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000017720_9072640.pth
+[2023-07-14 20:05:21,756][97411] Updated weights for policy 0, policy_version 18480 (0.0003)
+[2023-07-14 20:05:23,696][97365] Fps is (10 sec: 11470.5, 60 sec: 11742.3, 300 sec: 11885.4). Total num frames: 9482240. Throughput: 0: 11796.7. Samples: 9480572. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 20:05:23,696][97365] Avg episode reward: [(0, '5681.384')]
+[2023-07-14 20:05:23,696][97409] Saving new best policy, reward=5681.384!
+[2023-07-14 20:05:25,354][97411] Updated weights for policy 0, policy_version 18560 (0.0003)
+[2023-07-14 20:05:28,699][97365] Fps is (10 sec: 11466.1, 60 sec: 11741.4, 300 sec: 11871.4). Total num frames: 9539584. Throughput: 0: 11741.7. Samples: 9514720. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 20:05:28,701][97365] Avg episode reward: [(0, '5570.801')]
+[2023-07-14 20:05:28,917][97411] Updated weights for policy 0, policy_version 18640 (0.0003)
+[2023-07-14 20:05:32,444][97411] Updated weights for policy 0, policy_version 18720 (0.0003)
+[2023-07-14 20:05:33,699][97365] Fps is (10 sec: 11465.2, 60 sec: 11741.2, 300 sec: 11857.6). Total num frames: 9596928. Throughput: 0: 11692.3. Samples: 9584320. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-14 20:05:33,699][97365] Avg episode reward: [(0, '5729.083')]
+[2023-07-14 20:05:33,702][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000018744_9596928.pth...
+[2023-07-14 20:05:33,705][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000018072_9252864.pth
+[2023-07-14 20:05:33,706][97409] Saving new best policy, reward=5729.083!
+[2023-07-14 20:05:36,133][97411] Updated weights for policy 0, policy_version 18800 (0.0004)
+[2023-07-14 20:05:38,696][97365] Fps is (10 sec: 11063.0, 60 sec: 11673.6, 300 sec: 11843.8). Total num frames: 9650176. Throughput: 0: 11558.5. Samples: 9650152. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:38,696][97365] Avg episode reward: [(0, '5815.965')]
+[2023-07-14 20:05:38,700][97409] Saving new best policy, reward=5815.965!
+[2023-07-14 20:05:39,873][97411] Updated weights for policy 0, policy_version 18880 (0.0003)
+[2023-07-14 20:05:43,541][97411] Updated weights for policy 0, policy_version 18960 (0.0003)
+[2023-07-14 20:05:43,695][97365] Fps is (10 sec: 11063.3, 60 sec: 11606.0, 300 sec: 11829.8). Total num frames: 9707520. Throughput: 0: 11486.7. Samples: 9683548. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:43,695][97365] Avg episode reward: [(0, '5725.809')]
+[2023-07-14 20:05:47,095][97411] Updated weights for policy 0, policy_version 19040 (0.0003)
+[2023-07-14 20:05:48,698][97365] Fps is (10 sec: 11467.0, 60 sec: 11537.4, 300 sec: 11829.9). Total num frames: 9764864. Throughput: 0: 11459.7. Samples: 9752364. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:48,698][97365] Avg episode reward: [(0, '5652.244')]
+[2023-07-14 20:05:48,701][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000019072_9764864.pth...
+[2023-07-14 20:05:48,705][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000018408_9424896.pth
+[2023-07-14 20:05:50,529][97411] Updated weights for policy 0, policy_version 19120 (0.0003)
+[2023-07-14 20:05:53,699][97365] Fps is (10 sec: 11873.7, 60 sec: 11605.2, 300 sec: 11843.6). Total num frames: 9826304. Throughput: 0: 11415.8. Samples: 9824084. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:53,699][97365] Avg episode reward: [(0, '5669.801')]
+[2023-07-14 20:05:53,941][97411] Updated weights for policy 0, policy_version 19200 (0.0003)
+[2023-07-14 20:05:57,343][97411] Updated weights for policy 0, policy_version 19280 (0.0003)
+[2023-07-14 20:05:58,696][97365] Fps is (10 sec: 11879.8, 60 sec: 11537.4, 300 sec: 11829.9). Total num frames: 9883648. Throughput: 0: 11481.4. Samples: 9860032. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:05:58,697][97365] Avg episode reward: [(0, '5714.659')]
+[2023-07-14 20:06:00,970][97411] Updated weights for policy 0, policy_version 19360 (0.0003)
+[2023-07-14 20:06:03,698][97365] Fps is (10 sec: 11470.4, 60 sec: 11468.5, 300 sec: 11815.9). Total num frames: 9940992. Throughput: 0: 11428.8. Samples: 9928400. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:06:03,698][97365] Avg episode reward: [(0, '5830.139')]
+[2023-07-14 20:06:03,701][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000019416_9940992.pth...
+[2023-07-14 20:06:03,703][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000018744_9596928.pth
+[2023-07-14 20:06:03,703][97409] Saving new best policy, reward=5830.139!
+[2023-07-14 20:06:04,603][97411] Updated weights for policy 0, policy_version 19440 (0.0003)
+[2023-07-14 20:06:08,238][97411] Updated weights for policy 0, policy_version 19520 (0.0003)
+[2023-07-14 20:06:08,697][97365] Fps is (10 sec: 11468.7, 60 sec: 11469.2, 300 sec: 11816.0). Total num frames: 9998336. Throughput: 0: 11453.4. Samples: 9995984. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-14 20:06:08,697][97365] Avg episode reward: [(0, '5888.400')]
+[2023-07-14 20:06:08,697][97409] Saving new best policy, reward=5888.400!
+[2023-07-14 20:06:09,300][97409] Early stopping after 2 epochs (8 sgd steps), loss delta 0.0000000
+[2023-07-14 20:06:09,301][97365] Component RolloutWorker_w4 stopped!
+[2023-07-14 20:06:09,302][97409] Stopping Batcher_0...
+[2023-07-14 20:06:09,301][97415] Stopping RolloutWorker_w4...
+[2023-07-14 20:06:09,301][97414] Stopping RolloutWorker_w3...
+[2023-07-14 20:06:09,302][97418] Stopping RolloutWorker_w5...
+[2023-07-14 20:06:09,302][97414] Loop rollout_proc3_evt_loop terminating...
+[2023-07-14 20:06:09,302][97409] Loop batcher_evt_loop terminating...
+[2023-07-14 20:06:09,302][97416] Stopping RolloutWorker_w7...
+[2023-07-14 20:06:09,302][97418] Loop rollout_proc5_evt_loop terminating...
+[2023-07-14 20:06:09,302][97416] Loop rollout_proc7_evt_loop terminating...
+[2023-07-14 20:06:09,303][97365] Component RolloutWorker_w3 stopped!
+[2023-07-14 20:06:09,303][97365] Component RolloutWorker_w1 stopped!
+[2023-07-14 20:06:09,303][97365] Component RolloutWorker_w5 stopped!
+[2023-07-14 20:06:09,303][97365] Component RolloutWorker_w7 stopped!
+[2023-07-14 20:06:09,302][97410] Stopping RolloutWorker_w1...
+[2023-07-14 20:06:09,303][97365] Component Batcher_0 stopped!
+[2023-07-14 20:06:09,302][97415] Loop rollout_proc4_evt_loop terminating...
+[2023-07-14 20:06:09,303][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000019544_10006528.pth...
+[2023-07-14 20:06:09,303][97410] Loop rollout_proc1_evt_loop terminating...
+[2023-07-14 20:06:09,304][97365] Component RolloutWorker_w0 stopped!
+[2023-07-14 20:06:09,304][97365] Component RolloutWorker_w2 stopped!
+[2023-07-14 20:06:09,304][97365] Component RolloutWorker_w6 stopped!
+[2023-07-14 20:06:09,304][97412] Stopping RolloutWorker_w0...
+[2023-07-14 20:06:09,306][97412] Loop rollout_proc0_evt_loop terminating...
+[2023-07-14 20:06:09,307][97409] Removing ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000019072_9764864.pth
+[2023-07-14 20:06:09,308][97409] Saving ./src/rl-training/train_dir/ant_x_direction_task/checkpoint_p0/checkpoint_000019544_10006528.pth...
+[2023-07-14 20:06:09,308][97413] Stopping RolloutWorker_w2...
+[2023-07-14 20:06:09,310][97413] Loop rollout_proc2_evt_loop terminating...
+[2023-07-14 20:06:09,316][97409] Stopping LearnerWorker_p0...
+[2023-07-14 20:06:09,317][97409] Loop learner_proc0_evt_loop terminating...
+[2023-07-14 20:06:09,317][97365] Component LearnerWorker_p0 stopped!
+[2023-07-14 20:06:09,308][97417] Stopping RolloutWorker_w6...
+[2023-07-14 20:06:09,325][97417] Loop rollout_proc6_evt_loop terminating...
+[2023-07-14 20:06:09,469][97411] Weights refcount: 2 0
+[2023-07-14 20:06:09,471][97411] Stopping InferenceWorker_p0-w0...
+[2023-07-14 20:06:09,471][97411] Loop inference_proc0-0_evt_loop terminating...
+[2023-07-14 20:06:09,472][97365] Component InferenceWorker_p0-w0 stopped!
+[2023-07-14 20:06:09,472][97365] Waiting for process learner_proc0 to stop...
+[2023-07-14 20:06:10,202][97365] Waiting for process inference_proc0-0 to join...
+[2023-07-14 20:06:10,202][97365] Waiting for process rollout_proc0 to join...
+[2023-07-14 20:06:10,202][97365] Waiting for process rollout_proc1 to join...
+[2023-07-14 20:06:10,202][97365] Waiting for process rollout_proc2 to join...
+[2023-07-14 20:06:10,202][97365] Waiting for process rollout_proc3 to join...
+[2023-07-14 20:06:10,202][97365] Waiting for process rollout_proc4 to join...
+[2023-07-14 20:06:10,202][97365] Waiting for process rollout_proc5 to join...
+[2023-07-14 20:06:10,202][97365] Waiting for process rollout_proc6 to join...
+[2023-07-14 20:06:10,202][97365] Waiting for process rollout_proc7 to join...
+[2023-07-14 20:06:10,203][97365] Batcher 0 profile tree view:
+batching: 1.3778, releasing_batches: 1.1558
+[2023-07-14 20:06:10,203][97365] InferenceWorker_p0-w0 profile tree view:
+wait_policy: 0.0059
+  wait_policy_total: 270.3942
+update_model: 10.5088
+  weight_update: 0.0003
+one_step: 0.0005
+  handle_policy_step: 494.2736
+    deserialize: 19.5425, stack: 4.8365, obs_to_device_normalize: 88.7016, forward: 246.7753, send_messages: 55.5258
+    prepare_outputs: 42.8621
+      to_cpu: 5.3276
+[2023-07-14 20:06:10,203][97365] Learner 0 profile tree view:
+misc: 0.0037, prepare_batch: 10.5097
+train: 60.4391
+  epoch_init: 0.0232, minibatch_init: 0.6441, losses_postprocess: 0.9583, kl_divergence: 0.2134, after_optimizer: 0.3032
+  calculate_losses: 32.7764
+    losses_init: 0.0277, forward_head: 19.9708, bptt_initial: 0.0728, bptt: 0.0751, tail: 6.1308, advantages_returns: 0.6622, losses: 5.1482
+  update: 24.7805
+    clip: 3.0116
+[2023-07-14 20:06:10,203][97365] RolloutWorker_w0 profile tree view:
+wait_for_trajectories: 0.4040, enqueue_policy_requests: 15.5080, env_step: 492.0347, overhead: 37.2017, complete_rollouts: 0.3670
+save_policy_outputs: 43.1707
+  split_output_tensors: 21.3175
+[2023-07-14 20:06:10,203][97365] RolloutWorker_w7 profile tree view:
+wait_for_trajectories: 0.2647, enqueue_policy_requests: 15.4269, env_step: 492.5216, overhead: 37.4770, complete_rollouts: 0.3634
+save_policy_outputs: 42.5528
+  split_output_tensors: 21.0512
+[2023-07-14 20:06:10,204][97365] Loop Runner_EvtLoop terminating...
+[2023-07-14 20:06:10,204][97365] Runner profile tree view:
+main_loop: 830.0287
+[2023-07-14 20:06:10,204][97365] Collected {0: 10006528}, FPS: 12055.6
