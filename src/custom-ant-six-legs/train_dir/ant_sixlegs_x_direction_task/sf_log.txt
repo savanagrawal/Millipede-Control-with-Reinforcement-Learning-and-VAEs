@@ -1,0 +1,509 @@
+[2023-07-11 12:55:37,584][08267] Saving configuration to ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/config.json...
+[2023-07-11 12:55:37,585][08267] Rollout worker 0 uses device cpu
+[2023-07-11 12:55:37,585][08267] Rollout worker 1 uses device cpu
+[2023-07-11 12:55:37,585][08267] Rollout worker 2 uses device cpu
+[2023-07-11 12:55:37,585][08267] Rollout worker 3 uses device cpu
+[2023-07-11 12:55:37,585][08267] Rollout worker 4 uses device cpu
+[2023-07-11 12:55:37,585][08267] Rollout worker 5 uses device cpu
+[2023-07-11 12:55:37,585][08267] Rollout worker 6 uses device cpu
+[2023-07-11 12:55:37,585][08267] Rollout worker 7 uses device cpu
+[2023-07-11 12:55:37,586][08267] In synchronous mode, we only accumulate one batch. Setting num_batches_to_accumulate to 1
+[2023-07-11 12:55:37,770][08267] InferenceWorker_p0-w0: min num requests: 2
+[2023-07-11 12:55:37,804][08267] Starting all processes...
+[2023-07-11 12:55:37,804][08267] Starting process learner_proc0
+[2023-07-11 12:55:37,857][08267] Starting all processes...
+[2023-07-11 12:55:37,875][08267] Starting process inference_proc0-0
+[2023-07-11 12:55:37,882][08267] Starting process rollout_proc0
+[2023-07-11 12:55:37,899][08267] Starting process rollout_proc1
+[2023-07-11 12:55:37,917][08267] Starting process rollout_proc2
+[2023-07-11 12:55:37,928][08267] Starting process rollout_proc3
+[2023-07-11 12:55:37,932][08267] Starting process rollout_proc4
+[2023-07-11 12:55:37,937][08267] Starting process rollout_proc5
+[2023-07-11 12:55:37,938][08267] Starting process rollout_proc6
+[2023-07-11 12:55:37,939][08267] Starting process rollout_proc7
+[2023-07-11 12:55:40,713][08319] On MacOS, not setting affinity
+[2023-07-11 12:55:40,723][08323] On MacOS, not setting affinity
+[2023-07-11 12:55:40,764][08314] Starting seed is not provided
+[2023-07-11 12:55:40,765][08314] Initializing actor-critic model on device cpu
+[2023-07-11 12:55:40,766][08314] RunningMeanStd input shape: (35,)
+[2023-07-11 12:55:40,768][08314] RunningMeanStd input shape: (1,)
+[2023-07-11 12:55:40,817][08316] On MacOS, not setting affinity
+[2023-07-11 12:55:40,821][08318] On MacOS, not setting affinity
+[2023-07-11 12:55:40,832][08320] On MacOS, not setting affinity
+[2023-07-11 12:55:40,842][08321] On MacOS, not setting affinity
+[2023-07-11 12:55:40,849][08314] Created Actor Critic model with architecture:
+[2023-07-11 12:55:40,849][08314] ActorCriticSharedWeights(
+  (obs_normalizer): ObservationNormalizer(
+    (running_mean_std): RunningMeanStdDictInPlace(
+      (running_mean_std): ModuleDict(
+        (obs): RunningMeanStdInPlace()
+      )
+    )
+  )
+  (returns_normalizer): RecursiveScriptModule(original_name=RunningMeanStdInPlace)
+  (encoder): MultiInputEncoder(
+    (encoders): ModuleDict(
+      (obs): MlpEncoder(
+        (mlp_head): RecursiveScriptModule(
+          original_name=Sequential
+          (0): RecursiveScriptModule(original_name=Linear)
+          (1): RecursiveScriptModule(original_name=Tanh)
+          (2): RecursiveScriptModule(original_name=Linear)
+          (3): RecursiveScriptModule(original_name=Tanh)
+        )
+      )
+    )
+  )
+  (core): ModelCoreIdentity()
+  (decoder): MlpDecoder(
+    (mlp): Identity()
+  )
+  (critic_linear): Linear(in_features=64, out_features=1, bias=True)
+  (action_parameterization): ActionParameterizationContinuousNonAdaptiveStddev(
+    (distribution_linear): Linear(in_features=64, out_features=12, bias=True)
+  )
+)
+[2023-07-11 12:55:40,850][08314] Using optimizer <class 'torch.optim.adam.Adam'>
+[2023-07-11 12:55:40,851][08314] No checkpoints found
+[2023-07-11 12:55:40,851][08314] Did not load from checkpoint, starting from scratch!
+[2023-07-11 12:55:40,851][08314] Initialized policy 0 weights for model version 0
+[2023-07-11 12:55:40,852][08314] LearnerWorker_p0 finished initialization!
+[2023-07-11 12:55:40,854][08315] RunningMeanStd input shape: (35,)
+[2023-07-11 12:55:40,854][08315] RunningMeanStd input shape: (1,)
+[2023-07-11 12:55:40,867][08317] On MacOS, not setting affinity
+[2023-07-11 12:55:40,868][08322] On MacOS, not setting affinity
+[2023-07-11 12:55:40,902][08267] Inference worker 0-0 is ready!
+[2023-07-11 12:55:40,902][08267] All inference workers are ready! Signal rollout workers to start!
+[2023-07-11 12:55:41,068][08316] Decorrelating experience for 0 frames...
+[2023-07-11 12:55:41,069][08316] Decorrelating experience for 64 frames...
+[2023-07-11 12:55:41,080][08317] Decorrelating experience for 0 frames...
+[2023-07-11 12:55:41,080][08317] Decorrelating experience for 64 frames...
+[2023-07-11 12:55:41,088][08321] Decorrelating experience for 0 frames...
+[2023-07-11 12:55:41,089][08321] Decorrelating experience for 64 frames...
+[2023-07-11 12:55:41,090][08320] Decorrelating experience for 0 frames...
+[2023-07-11 12:55:41,091][08320] Decorrelating experience for 64 frames...
+[2023-07-11 12:55:41,092][08322] Decorrelating experience for 0 frames...
+[2023-07-11 12:55:41,094][08322] Decorrelating experience for 64 frames...
+[2023-07-11 12:55:41,098][08319] Decorrelating experience for 0 frames...
+[2023-07-11 12:55:41,098][08319] Decorrelating experience for 64 frames...
+[2023-07-11 12:55:41,104][08318] Decorrelating experience for 0 frames...
+[2023-07-11 12:55:41,105][08318] Decorrelating experience for 64 frames...
+[2023-07-11 12:55:41,125][08323] Decorrelating experience for 0 frames...
+[2023-07-11 12:55:41,125][08323] Decorrelating experience for 64 frames...
+[2023-07-11 12:55:41,127][08320] Decorrelating experience for 128 frames...
+[2023-07-11 12:55:41,129][08319] Decorrelating experience for 128 frames...
+[2023-07-11 12:55:41,132][08318] Decorrelating experience for 128 frames...
+[2023-07-11 12:55:41,136][08321] Decorrelating experience for 128 frames...
+[2023-07-11 12:55:41,138][08316] Decorrelating experience for 128 frames...
+[2023-07-11 12:55:41,144][08323] Decorrelating experience for 128 frames...
+[2023-07-11 12:55:41,149][08322] Decorrelating experience for 128 frames...
+[2023-07-11 12:55:41,151][08317] Decorrelating experience for 128 frames...
+[2023-07-11 12:55:41,169][08319] Decorrelating experience for 192 frames...
+[2023-07-11 12:55:41,188][08320] Decorrelating experience for 192 frames...
+[2023-07-11 12:55:41,189][08323] Decorrelating experience for 192 frames...
+[2023-07-11 12:55:41,195][08318] Decorrelating experience for 192 frames...
+[2023-07-11 12:55:41,213][08322] Decorrelating experience for 192 frames...
+[2023-07-11 12:55:41,222][08316] Decorrelating experience for 192 frames...
+[2023-07-11 12:55:41,229][08321] Decorrelating experience for 192 frames...
+[2023-07-11 12:55:41,233][08317] Decorrelating experience for 192 frames...
+[2023-07-11 12:55:41,277][08319] Decorrelating experience for 256 frames...
+[2023-07-11 12:55:41,284][08323] Decorrelating experience for 256 frames...
+[2023-07-11 12:55:41,300][08320] Decorrelating experience for 256 frames...
+[2023-07-11 12:55:41,304][08318] Decorrelating experience for 256 frames...
+[2023-07-11 12:55:41,332][08317] Decorrelating experience for 256 frames...
+[2023-07-11 12:55:41,332][08321] Decorrelating experience for 256 frames...
+[2023-07-11 12:55:41,332][08322] Decorrelating experience for 256 frames...
+[2023-07-11 12:55:41,332][08316] Decorrelating experience for 256 frames...
+[2023-07-11 12:55:41,380][08267] Fps is (10 sec: nan, 60 sec: nan, 300 sec: nan). Total num frames: 0. Throughput: 0: nan. Samples: 0. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-07-11 12:55:41,392][08323] Decorrelating experience for 320 frames...
+[2023-07-11 12:55:41,405][08319] Decorrelating experience for 320 frames...
+[2023-07-11 12:55:41,415][08320] Decorrelating experience for 320 frames...
+[2023-07-11 12:55:41,438][08318] Decorrelating experience for 320 frames...
+[2023-07-11 12:55:41,447][08321] Decorrelating experience for 320 frames...
+[2023-07-11 12:55:41,467][08317] Decorrelating experience for 320 frames...
+[2023-07-11 12:55:41,468][08316] Decorrelating experience for 320 frames...
+[2023-07-11 12:55:41,485][08322] Decorrelating experience for 320 frames...
+[2023-07-11 12:55:41,553][08323] Decorrelating experience for 384 frames...
+[2023-07-11 12:55:41,555][08319] Decorrelating experience for 384 frames...
+[2023-07-11 12:55:41,580][08320] Decorrelating experience for 384 frames...
+[2023-07-11 12:55:41,592][08318] Decorrelating experience for 384 frames...
+[2023-07-11 12:55:41,613][08316] Decorrelating experience for 384 frames...
+[2023-07-11 12:55:41,615][08322] Decorrelating experience for 384 frames...
+[2023-07-11 12:55:41,643][08321] Decorrelating experience for 384 frames...
+[2023-07-11 12:55:41,648][08317] Decorrelating experience for 384 frames...
+[2023-07-11 12:55:41,711][08323] Decorrelating experience for 448 frames...
+[2023-07-11 12:55:41,744][08319] Decorrelating experience for 448 frames...
+[2023-07-11 12:55:41,767][08318] Decorrelating experience for 448 frames...
+[2023-07-11 12:55:41,792][08316] Decorrelating experience for 448 frames...
+[2023-07-11 12:55:41,794][08320] Decorrelating experience for 448 frames...
+[2023-07-11 12:55:41,810][08322] Decorrelating experience for 448 frames...
+[2023-07-11 12:55:41,817][08321] Decorrelating experience for 448 frames...
+[2023-07-11 12:55:41,833][08317] Decorrelating experience for 448 frames...
+[2023-07-11 12:55:45,499][08315] Updated weights for policy 0, policy_version 80 (0.0003)
+[2023-07-11 12:55:46,380][08267] Fps is (10 sec: 9829.8, 60 sec: 9829.8, 300 sec: 9829.8). Total num frames: 49152. Throughput: 0: 4556.5. Samples: 22784. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-11 12:55:46,381][08267] Avg episode reward: [(0, '-313.512')]
+[2023-07-11 12:55:49,003][08315] Updated weights for policy 0, policy_version 160 (0.0002)
+[2023-07-11 12:55:51,379][08267] Fps is (10 sec: 10650.2, 60 sec: 10650.2, 300 sec: 10650.2). Total num frames: 106496. Throughput: 0: 9236.9. Samples: 92364. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:55:51,380][08267] Avg episode reward: [(0, '-223.458')]
+[2023-07-11 12:55:51,383][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000000208_106496.pth...
+[2023-07-11 12:55:51,387][08314] Saving new best policy, reward=-223.458!
+[2023-07-11 12:55:52,498][08315] Updated weights for policy 0, policy_version 240 (0.0003)
+[2023-07-11 12:55:55,923][08315] Updated weights for policy 0, policy_version 320 (0.0002)
+[2023-07-11 12:55:56,381][08267] Fps is (10 sec: 11877.9, 60 sec: 11195.2, 300 sec: 11195.2). Total num frames: 167936. Throughput: 0: 10927.0. Samples: 163912. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:55:56,381][08267] Avg episode reward: [(0, '-98.318')]
+[2023-07-11 12:55:56,381][08314] Saving new best policy, reward=-98.318!
+[2023-07-11 12:55:57,762][08267] Heartbeat connected on Batcher_0
+[2023-07-11 12:55:57,763][08267] Heartbeat connected on LearnerWorker_p0
+[2023-07-11 12:55:57,771][08267] Heartbeat connected on InferenceWorker_p0-w0
+[2023-07-11 12:55:57,783][08267] Heartbeat connected on RolloutWorker_w0
+[2023-07-11 12:55:57,783][08267] Heartbeat connected on RolloutWorker_w1
+[2023-07-11 12:55:57,789][08267] Heartbeat connected on RolloutWorker_w2
+[2023-07-11 12:55:57,792][08267] Heartbeat connected on RolloutWorker_w3
+[2023-07-11 12:55:57,792][08267] Heartbeat connected on RolloutWorker_w4
+[2023-07-11 12:55:57,799][08267] Heartbeat connected on RolloutWorker_w5
+[2023-07-11 12:55:57,801][08267] Heartbeat connected on RolloutWorker_w6
+[2023-07-11 12:55:57,805][08267] Heartbeat connected on RolloutWorker_w7
+[2023-07-11 12:55:59,590][08315] Updated weights for policy 0, policy_version 400 (0.0003)
+[2023-07-11 12:56:01,379][08267] Fps is (10 sec: 11878.3, 60 sec: 11264.3, 300 sec: 11264.3). Total num frames: 225280. Throughput: 0: 9833.8. Samples: 196672. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-11 12:56:01,380][08267] Avg episode reward: [(0, '-76.542')]
+[2023-07-11 12:56:01,380][08314] Saving new best policy, reward=-76.542!
+[2023-07-11 12:56:03,008][08315] Updated weights for policy 0, policy_version 480 (0.0002)
+[2023-07-11 12:56:06,380][08267] Fps is (10 sec: 11060.3, 60 sec: 11141.3, 300 sec: 11141.3). Total num frames: 278528. Throughput: 0: 10716.6. Samples: 267912. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-11 12:56:06,381][08267] Avg episode reward: [(0, '-51.169')]
+[2023-07-11 12:56:06,388][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000000544_278528.pth...
+[2023-07-11 12:56:06,392][08314] Saving new best policy, reward=-51.169!
+[2023-07-11 12:56:06,804][08315] Updated weights for policy 0, policy_version 560 (0.0003)
+[2023-07-11 12:56:10,473][08315] Updated weights for policy 0, policy_version 640 (0.0002)
+[2023-07-11 12:56:11,379][08267] Fps is (10 sec: 11059.1, 60 sec: 11195.9, 300 sec: 11195.9). Total num frames: 335872. Throughput: 0: 11096.0. Samples: 332876. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-11 12:56:11,380][08267] Avg episode reward: [(0, '-36.605')]
+[2023-07-11 12:56:11,381][08314] Saving new best policy, reward=-36.605!
+[2023-07-11 12:56:14,179][08315] Updated weights for policy 0, policy_version 720 (0.0002)
+[2023-07-11 12:56:16,379][08267] Fps is (10 sec: 11469.1, 60 sec: 11234.9, 300 sec: 11234.9). Total num frames: 393216. Throughput: 0: 10450.6. Samples: 365764. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:56:16,379][08267] Avg episode reward: [(0, '-54.540')]
+[2023-07-11 12:56:17,883][08315] Updated weights for policy 0, policy_version 800 (0.0003)
+[2023-07-11 12:56:21,380][08267] Fps is (10 sec: 11058.7, 60 sec: 11161.6, 300 sec: 11161.6). Total num frames: 446464. Throughput: 0: 10822.8. Samples: 432912. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:56:21,380][08267] Avg episode reward: [(0, '-7.343')]
+[2023-07-11 12:56:21,383][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000000872_446464.pth...
+[2023-07-11 12:56:21,388][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000000208_106496.pth
+[2023-07-11 12:56:21,388][08314] Saving new best policy, reward=-7.343!
+[2023-07-11 12:56:21,518][08315] Updated weights for policy 0, policy_version 880 (0.0003)
+[2023-07-11 12:56:25,252][08315] Updated weights for policy 0, policy_version 960 (0.0002)
+[2023-07-11 12:56:26,383][08267] Fps is (10 sec: 10645.8, 60 sec: 11104.0, 300 sec: 11104.0). Total num frames: 499712. Throughput: 0: 11088.8. Samples: 499028. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:56:26,383][08267] Avg episode reward: [(0, '5.627')]
+[2023-07-11 12:56:26,383][08314] Saving new best policy, reward=5.627!
+[2023-07-11 12:56:29,096][08315] Updated weights for policy 0, policy_version 1040 (0.0003)
+[2023-07-11 12:56:31,380][08267] Fps is (10 sec: 10649.0, 60 sec: 11059.1, 300 sec: 11059.1). Total num frames: 552960. Throughput: 0: 11293.3. Samples: 530984. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-11 12:56:31,381][08267] Avg episode reward: [(0, '37.996')]
+[2023-07-11 12:56:31,381][08314] Saving new best policy, reward=37.996!
+[2023-07-11 12:56:32,985][08315] Updated weights for policy 0, policy_version 1120 (0.0002)
+[2023-07-11 12:56:36,383][08267] Fps is (10 sec: 10649.0, 60 sec: 11021.3, 300 sec: 11021.3). Total num frames: 606208. Throughput: 0: 11147.0. Samples: 594024. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-11 12:56:36,383][08267] Avg episode reward: [(0, '79.290')]
+[2023-07-11 12:56:36,401][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000001192_610304.pth...
+[2023-07-11 12:56:36,402][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000000544_278528.pth
+[2023-07-11 12:56:36,402][08314] Saving new best policy, reward=79.290!
+[2023-07-11 12:56:36,790][08315] Updated weights for policy 0, policy_version 1200 (0.0003)
+[2023-07-11 12:56:40,601][08315] Updated weights for policy 0, policy_version 1280 (0.0002)
+[2023-07-11 12:56:41,383][08267] Fps is (10 sec: 11056.0, 60 sec: 11058.6, 300 sec: 11058.6). Total num frames: 663552. Throughput: 0: 11005.1. Samples: 659172. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:56:41,384][08267] Avg episode reward: [(0, '165.473')]
+[2023-07-11 12:56:41,384][08314] Saving new best policy, reward=165.473!
+[2023-07-11 12:56:44,430][08315] Updated weights for policy 0, policy_version 1360 (0.0003)
+[2023-07-11 12:56:46,382][08267] Fps is (10 sec: 11061.3, 60 sec: 11127.2, 300 sec: 11027.4). Total num frames: 716800. Throughput: 0: 10977.0. Samples: 690660. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:56:46,382][08267] Avg episode reward: [(0, '359.376')]
+[2023-07-11 12:56:46,383][08314] Saving new best policy, reward=359.376!
+[2023-07-11 12:56:48,050][08315] Updated weights for policy 0, policy_version 1440 (0.0003)
+[2023-07-11 12:56:51,384][08267] Fps is (10 sec: 10648.8, 60 sec: 11058.3, 300 sec: 11000.0). Total num frames: 770048. Throughput: 0: 10885.8. Samples: 757824. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:56:51,384][08267] Avg episode reward: [(0, '525.517')]
+[2023-07-11 12:56:51,400][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000001512_774144.pth...
+[2023-07-11 12:56:51,402][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000000872_446464.pth
+[2023-07-11 12:56:51,402][08314] Saving new best policy, reward=525.517!
+[2023-07-11 12:56:51,748][08315] Updated weights for policy 0, policy_version 1520 (0.0002)
+[2023-07-11 12:56:55,532][08315] Updated weights for policy 0, policy_version 1600 (0.0003)
+[2023-07-11 12:56:56,381][08267] Fps is (10 sec: 11059.9, 60 sec: 10990.9, 300 sec: 11031.8). Total num frames: 827392. Throughput: 0: 10903.2. Samples: 823536. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:56:56,381][08267] Avg episode reward: [(0, '733.682')]
+[2023-07-11 12:56:56,382][08314] Saving new best policy, reward=733.682!
+[2023-07-11 12:56:59,277][08315] Updated weights for policy 0, policy_version 1680 (0.0002)
+[2023-07-11 12:57:01,380][08267] Fps is (10 sec: 11064.2, 60 sec: 10922.6, 300 sec: 11008.0). Total num frames: 880640. Throughput: 0: 10906.9. Samples: 856576. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-11 12:57:01,380][08267] Avg episode reward: [(0, '1295.677')]
+[2023-07-11 12:57:01,380][08314] Saving new best policy, reward=1295.677!
+[2023-07-11 12:57:03,200][08315] Updated weights for policy 0, policy_version 1760 (0.0002)
+[2023-07-11 12:57:06,380][08267] Fps is (10 sec: 10650.4, 60 sec: 10922.6, 300 sec: 10986.9). Total num frames: 933888. Throughput: 0: 10808.6. Samples: 919300. Policy #0 lag: (min: 4.0, avg: 4.0, max: 4.0)
+[2023-07-11 12:57:06,380][08267] Avg episode reward: [(0, '1243.090')]
+[2023-07-11 12:57:06,389][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000001824_933888.pth...
+[2023-07-11 12:57:06,391][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000001192_610304.pth
+[2023-07-11 12:57:07,175][08315] Updated weights for policy 0, policy_version 1840 (0.0003)
+[2023-07-11 12:57:11,104][08315] Updated weights for policy 0, policy_version 1920 (0.0003)
+[2023-07-11 12:57:11,381][08267] Fps is (10 sec: 10238.6, 60 sec: 10785.9, 300 sec: 10922.5). Total num frames: 983040. Throughput: 0: 10711.2. Samples: 981012. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:57:11,381][08267] Avg episode reward: [(0, '1738.708')]
+[2023-07-11 12:57:11,382][08314] Saving new best policy, reward=1738.708!
+[2023-07-11 12:57:14,886][08315] Updated weights for policy 0, policy_version 2000 (0.0003)
+[2023-07-11 12:57:16,382][08267] Fps is (10 sec: 10238.3, 60 sec: 10717.4, 300 sec: 10908.1). Total num frames: 1036288. Throughput: 0: 10724.3. Samples: 1013592. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-11 12:57:16,382][08267] Avg episode reward: [(0, '2065.151')]
+[2023-07-11 12:57:16,386][08314] Saving new best policy, reward=2065.151!
+[2023-07-11 12:57:18,626][08315] Updated weights for policy 0, policy_version 2080 (0.0003)
+[2023-07-11 12:57:21,381][08267] Fps is (10 sec: 11058.9, 60 sec: 10785.9, 300 sec: 10936.2). Total num frames: 1093632. Throughput: 0: 10781.7. Samples: 1079176. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:57:21,382][08267] Avg episode reward: [(0, '2482.148')]
+[2023-07-11 12:57:21,384][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000002136_1093632.pth...
+[2023-07-11 12:57:21,388][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000001512_774144.pth
+[2023-07-11 12:57:21,388][08314] Saving new best policy, reward=2482.148!
+[2023-07-11 12:57:22,366][08315] Updated weights for policy 0, policy_version 2160 (0.0003)
+[2023-07-11 12:57:26,144][08315] Updated weights for policy 0, policy_version 2240 (0.0003)
+[2023-07-11 12:57:26,384][08267] Fps is (10 sec: 11056.4, 60 sec: 10785.9, 300 sec: 10922.2). Total num frames: 1146880. Throughput: 0: 10788.8. Samples: 1144676. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:57:26,385][08267] Avg episode reward: [(0, '2628.339')]
+[2023-07-11 12:57:26,385][08314] Saving new best policy, reward=2628.339!
+[2023-07-11 12:57:30,040][08315] Updated weights for policy 0, policy_version 2320 (0.0003)
+[2023-07-11 12:57:31,385][08267] Fps is (10 sec: 10645.8, 60 sec: 10785.4, 300 sec: 10909.8). Total num frames: 1200128. Throughput: 0: 10776.2. Samples: 1175624. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:57:31,385][08267] Avg episode reward: [(0, '2250.482')]
+[2023-07-11 12:57:33,831][08315] Updated weights for policy 0, policy_version 2400 (0.0003)
+[2023-07-11 12:57:36,381][08267] Fps is (10 sec: 10653.0, 60 sec: 10786.5, 300 sec: 10898.8). Total num frames: 1253376. Throughput: 0: 10739.0. Samples: 1241044. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:57:36,381][08267] Avg episode reward: [(0, '2508.156')]
+[2023-07-11 12:57:36,384][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000002448_1253376.pth...
+[2023-07-11 12:57:36,388][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000001824_933888.pth
+[2023-07-11 12:57:37,636][08315] Updated weights for policy 0, policy_version 2480 (0.0002)
+[2023-07-11 12:57:41,384][08267] Fps is (10 sec: 10650.3, 60 sec: 10717.7, 300 sec: 10888.2). Total num frames: 1306624. Throughput: 0: 10715.1. Samples: 1305752. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:57:41,384][08267] Avg episode reward: [(0, '2940.035')]
+[2023-07-11 12:57:41,390][08314] Saving new best policy, reward=2940.035!
+[2023-07-11 12:57:41,391][08315] Updated weights for policy 0, policy_version 2560 (0.0003)
+[2023-07-11 12:57:45,184][08315] Updated weights for policy 0, policy_version 2640 (0.0003)
+[2023-07-11 12:57:46,385][08267] Fps is (10 sec: 11054.7, 60 sec: 10785.5, 300 sec: 10911.3). Total num frames: 1363968. Throughput: 0: 10703.0. Samples: 1338272. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-11 12:57:46,385][08267] Avg episode reward: [(0, '3196.498')]
+[2023-07-11 12:57:46,387][08314] Saving new best policy, reward=3196.498!
+[2023-07-11 12:57:49,003][08315] Updated weights for policy 0, policy_version 2720 (0.0002)
+[2023-07-11 12:57:51,381][08267] Fps is (10 sec: 11062.2, 60 sec: 10786.6, 300 sec: 10901.5). Total num frames: 1417216. Throughput: 0: 10745.3. Samples: 1402852. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:57:51,382][08267] Avg episode reward: [(0, '3475.479')]
+[2023-07-11 12:57:51,385][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000002768_1417216.pth...
+[2023-07-11 12:57:51,388][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000002136_1093632.pth
+[2023-07-11 12:57:51,389][08314] Saving new best policy, reward=3475.479!
+[2023-07-11 12:57:52,829][08315] Updated weights for policy 0, policy_version 2800 (0.0003)
+[2023-07-11 12:57:56,382][08267] Fps is (10 sec: 10652.8, 60 sec: 10717.6, 300 sec: 10892.1). Total num frames: 1470464. Throughput: 0: 10799.9. Samples: 1467020. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-11 12:57:56,382][08267] Avg episode reward: [(0, '3930.002')]
+[2023-07-11 12:57:56,383][08314] Saving new best policy, reward=3930.002!
+[2023-07-11 12:57:56,624][08315] Updated weights for policy 0, policy_version 2880 (0.0002)
+[2023-07-11 12:58:00,399][08315] Updated weights for policy 0, policy_version 2960 (0.0003)
+[2023-07-11 12:58:01,381][08267] Fps is (10 sec: 10649.5, 60 sec: 10717.5, 300 sec: 10883.5). Total num frames: 1523712. Throughput: 0: 10796.6. Samples: 1499436. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:01,382][08267] Avg episode reward: [(0, '3969.104')]
+[2023-07-11 12:58:01,382][08314] Saving new best policy, reward=3969.104!
+[2023-07-11 12:58:04,172][08315] Updated weights for policy 0, policy_version 3040 (0.0002)
+[2023-07-11 12:58:06,381][08267] Fps is (10 sec: 10650.6, 60 sec: 10717.7, 300 sec: 10875.5). Total num frames: 1576960. Throughput: 0: 10790.2. Samples: 1564736. Policy #0 lag: (min: 5.0, avg: 5.0, max: 5.0)
+[2023-07-11 12:58:06,381][08267] Avg episode reward: [(0, '3850.624')]
+[2023-07-11 12:58:06,384][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000003080_1576960.pth...
+[2023-07-11 12:58:06,387][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000002448_1253376.pth
+[2023-07-11 12:58:07,942][08315] Updated weights for policy 0, policy_version 3120 (0.0003)
+[2023-07-11 12:58:11,383][08267] Fps is (10 sec: 11057.5, 60 sec: 10854.0, 300 sec: 10895.1). Total num frames: 1634304. Throughput: 0: 10786.2. Samples: 1630044. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-11 12:58:11,384][08267] Avg episode reward: [(0, '4458.153')]
+[2023-07-11 12:58:11,385][08314] Saving new best policy, reward=4458.153!
+[2023-07-11 12:58:11,766][08315] Updated weights for policy 0, policy_version 3200 (0.0003)
+[2023-07-11 12:58:15,612][08315] Updated weights for policy 0, policy_version 3280 (0.0003)
+[2023-07-11 12:58:16,381][08267] Fps is (10 sec: 11059.2, 60 sec: 10854.5, 300 sec: 10887.3). Total num frames: 1687552. Throughput: 0: 10803.2. Samples: 1661728. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-11 12:58:16,382][08267] Avg episode reward: [(0, '4538.205')]
+[2023-07-11 12:58:16,382][08314] Saving new best policy, reward=4538.205!
+[2023-07-11 12:58:19,362][08315] Updated weights for policy 0, policy_version 3360 (0.0003)
+[2023-07-11 12:58:21,384][08267] Fps is (10 sec: 10648.3, 60 sec: 10785.6, 300 sec: 10879.7). Total num frames: 1740800. Throughput: 0: 10787.1. Samples: 1726500. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:21,384][08267] Avg episode reward: [(0, '4624.458')]
+[2023-07-11 12:58:21,387][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000003400_1740800.pth...
+[2023-07-11 12:58:21,389][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000002768_1417216.pth
+[2023-07-11 12:58:21,389][08314] Saving new best policy, reward=4624.458!
+[2023-07-11 12:58:23,202][08315] Updated weights for policy 0, policy_version 3440 (0.0003)
+[2023-07-11 12:58:26,385][08267] Fps is (10 sec: 10645.5, 60 sec: 10786.0, 300 sec: 10872.7). Total num frames: 1794048. Throughput: 0: 10760.4. Samples: 1789980. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:26,385][08267] Avg episode reward: [(0, '4960.845')]
+[2023-07-11 12:58:26,386][08314] Saving new best policy, reward=4960.845!
+[2023-07-11 12:58:27,103][08315] Updated weights for policy 0, policy_version 3520 (0.0003)
+[2023-07-11 12:58:31,001][08315] Updated weights for policy 0, policy_version 3600 (0.0003)
+[2023-07-11 12:58:31,381][08267] Fps is (10 sec: 10243.6, 60 sec: 10718.6, 300 sec: 10842.3). Total num frames: 1843200. Throughput: 0: 10750.4. Samples: 1821992. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:31,381][08267] Avg episode reward: [(0, '4801.594')]
+[2023-07-11 12:58:35,384][08315] Updated weights for policy 0, policy_version 3680 (0.0004)
+[2023-07-11 12:58:36,382][08267] Fps is (10 sec: 9833.8, 60 sec: 10649.5, 300 sec: 10813.3). Total num frames: 1892352. Throughput: 0: 10603.2. Samples: 1879996. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:36,382][08267] Avg episode reward: [(0, '4628.548')]
+[2023-07-11 12:58:36,386][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000003696_1892352.pth...
+[2023-07-11 12:58:36,389][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000003080_1576960.pth
+[2023-07-11 12:58:39,634][08315] Updated weights for policy 0, policy_version 3760 (0.0003)
+[2023-07-11 12:58:41,380][08267] Fps is (10 sec: 9830.7, 60 sec: 10582.0, 300 sec: 10786.1). Total num frames: 1941504. Throughput: 0: 10482.4. Samples: 1938712. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:41,381][08267] Avg episode reward: [(0, '4587.591')]
+[2023-07-11 12:58:43,727][08315] Updated weights for policy 0, policy_version 3840 (0.0002)
+[2023-07-11 12:58:46,380][08267] Fps is (10 sec: 9831.4, 60 sec: 10445.6, 300 sec: 10760.3). Total num frames: 1990656. Throughput: 0: 10420.2. Samples: 1968336. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:46,381][08267] Avg episode reward: [(0, '4932.935')]
+[2023-07-11 12:58:47,542][08315] Updated weights for policy 0, policy_version 3920 (0.0003)
+[2023-07-11 12:58:51,377][08315] Updated weights for policy 0, policy_version 4000 (0.0003)
+[2023-07-11 12:58:51,382][08267] Fps is (10 sec: 10648.1, 60 sec: 10513.0, 300 sec: 10778.8). Total num frames: 2048000. Throughput: 0: 10393.2. Samples: 2032436. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:51,382][08267] Avg episode reward: [(0, '5466.810')]
+[2023-07-11 12:58:51,392][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000004000_2048000.pth...
+[2023-07-11 12:58:51,394][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000003400_1740800.pth
+[2023-07-11 12:58:51,394][08314] Saving new best policy, reward=5466.810!
+[2023-07-11 12:58:55,229][08315] Updated weights for policy 0, policy_version 4080 (0.0003)
+[2023-07-11 12:58:56,380][08267] Fps is (10 sec: 10650.3, 60 sec: 10445.2, 300 sec: 10754.6). Total num frames: 2097152. Throughput: 0: 10372.3. Samples: 2096764. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:58:56,380][08267] Avg episode reward: [(0, '5751.347')]
+[2023-07-11 12:58:56,400][08314] Saving new best policy, reward=5751.347!
+[2023-07-11 12:58:59,177][08315] Updated weights for policy 0, policy_version 4160 (0.0003)
+[2023-07-11 12:59:01,379][08267] Fps is (10 sec: 10242.7, 60 sec: 10445.2, 300 sec: 10752.0). Total num frames: 2150400. Throughput: 0: 10354.8. Samples: 2127672. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:01,380][08267] Avg episode reward: [(0, '5695.203')]
+[2023-07-11 12:59:03,134][08315] Updated weights for policy 0, policy_version 4240 (0.0003)
+[2023-07-11 12:59:06,383][08267] Fps is (10 sec: 10236.5, 60 sec: 10376.2, 300 sec: 10729.3). Total num frames: 2199552. Throughput: 0: 10269.7. Samples: 2188628. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:06,384][08267] Avg episode reward: [(0, '5471.850')]
+[2023-07-11 12:59:06,387][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000004296_2199552.pth...
+[2023-07-11 12:59:06,391][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000003696_1892352.pth
+[2023-07-11 12:59:07,274][08315] Updated weights for policy 0, policy_version 4320 (0.0003)
+[2023-07-11 12:59:11,384][08267] Fps is (10 sec: 9825.6, 60 sec: 10239.8, 300 sec: 10707.9). Total num frames: 2248704. Throughput: 0: 10182.1. Samples: 2248164. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:11,385][08267] Avg episode reward: [(0, '5121.203')]
+[2023-07-11 12:59:11,429][08315] Updated weights for policy 0, policy_version 4400 (0.0003)
+[2023-07-11 12:59:15,659][08315] Updated weights for policy 0, policy_version 4480 (0.0003)
+[2023-07-11 12:59:16,381][08267] Fps is (10 sec: 9832.2, 60 sec: 10171.7, 300 sec: 10687.6). Total num frames: 2297856. Throughput: 0: 10124.8. Samples: 2277612. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-11 12:59:16,382][08267] Avg episode reward: [(0, '5514.728')]
+[2023-07-11 12:59:20,035][08315] Updated weights for policy 0, policy_version 4560 (0.0003)
+[2023-07-11 12:59:21,382][08267] Fps is (10 sec: 9422.6, 60 sec: 10035.6, 300 sec: 10649.5). Total num frames: 2342912. Throughput: 0: 10090.6. Samples: 2334080. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:21,383][08267] Avg episode reward: [(0, '5919.380')]
+[2023-07-11 12:59:21,387][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000004576_2342912.pth...
+[2023-07-11 12:59:21,390][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000004000_2048000.pth
+[2023-07-11 12:59:21,391][08314] Saving new best policy, reward=5919.380!
+[2023-07-11 12:59:24,906][08315] Updated weights for policy 0, policy_version 4640 (0.0003)
+[2023-07-11 12:59:26,384][08267] Fps is (10 sec: 8599.3, 60 sec: 9830.5, 300 sec: 10594.8). Total num frames: 2383872. Throughput: 0: 9893.1. Samples: 2383936. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:26,384][08267] Avg episode reward: [(0, '5738.874')]
+[2023-07-11 12:59:29,465][08315] Updated weights for policy 0, policy_version 4720 (0.0003)
+[2023-07-11 12:59:31,384][08267] Fps is (10 sec: 9009.4, 60 sec: 9829.8, 300 sec: 10578.2). Total num frames: 2433024. Throughput: 0: 9848.8. Samples: 2411568. Policy #0 lag: (min: 3.0, avg: 3.0, max: 3.0)
+[2023-07-11 12:59:31,385][08267] Avg episode reward: [(0, '5870.805')]
+[2023-07-11 12:59:33,536][08315] Updated weights for policy 0, policy_version 4800 (0.0003)
+[2023-07-11 12:59:36,384][08267] Fps is (10 sec: 10239.9, 60 sec: 9898.2, 300 sec: 10579.7). Total num frames: 2486272. Throughput: 0: 9774.2. Samples: 2472296. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:36,385][08267] Avg episode reward: [(0, '5701.353')]
+[2023-07-11 12:59:36,388][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000004856_2486272.pth...
+[2023-07-11 12:59:36,392][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000004296_2199552.pth
+[2023-07-11 12:59:37,469][08315] Updated weights for policy 0, policy_version 4880 (0.0003)
+[2023-07-11 12:59:41,382][08267] Fps is (10 sec: 10242.6, 60 sec: 9898.5, 300 sec: 10564.2). Total num frames: 2535424. Throughput: 0: 9659.4. Samples: 2531456. Policy #0 lag: (min: 1.0, avg: 1.0, max: 1.0)
+[2023-07-11 12:59:41,382][08267] Avg episode reward: [(0, '5644.076')]
+[2023-07-11 12:59:41,716][08315] Updated weights for policy 0, policy_version 4960 (0.0004)
+[2023-07-11 12:59:45,928][08315] Updated weights for policy 0, policy_version 5040 (0.0003)
+[2023-07-11 12:59:46,380][08267] Fps is (10 sec: 9834.7, 60 sec: 9898.8, 300 sec: 10549.3). Total num frames: 2584576. Throughput: 0: 9606.6. Samples: 2559976. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:46,380][08267] Avg episode reward: [(0, '5683.898')]
+[2023-07-11 12:59:49,783][08315] Updated weights for policy 0, policy_version 5120 (0.0003)
+[2023-07-11 12:59:51,384][08267] Fps is (10 sec: 10237.3, 60 sec: 9830.0, 300 sec: 10551.1). Total num frames: 2637824. Throughput: 0: 9652.7. Samples: 2623012. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:51,386][08267] Avg episode reward: [(0, '5723.119')]
+[2023-07-11 12:59:51,398][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000005152_2637824.pth...
+[2023-07-11 12:59:51,401][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000004576_2342912.pth
+[2023-07-11 12:59:53,956][08315] Updated weights for policy 0, policy_version 5200 (0.0003)
+[2023-07-11 12:59:56,383][08267] Fps is (10 sec: 9827.8, 60 sec: 9761.7, 300 sec: 10521.0). Total num frames: 2682880. Throughput: 0: 9626.8. Samples: 2681356. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 12:59:56,384][08267] Avg episode reward: [(0, '6014.185')]
+[2023-07-11 12:59:56,386][08314] Saving new best policy, reward=6014.185!
+[2023-07-11 12:59:58,167][08315] Updated weights for policy 0, policy_version 5280 (0.0003)
+[2023-07-11 13:00:01,379][08267] Fps is (10 sec: 9425.4, 60 sec: 9693.8, 300 sec: 10507.8). Total num frames: 2732032. Throughput: 0: 9627.5. Samples: 2710832. Policy #0 lag: (min: 6.0, avg: 6.0, max: 6.0)
+[2023-07-11 13:00:01,380][08267] Avg episode reward: [(0, '5661.364')]
+[2023-07-11 13:00:02,477][08315] Updated weights for policy 0, policy_version 5360 (0.0003)
+[2023-07-11 13:00:06,381][08267] Fps is (10 sec: 9832.2, 60 sec: 9694.3, 300 sec: 10495.0). Total num frames: 2781184. Throughput: 0: 9653.3. Samples: 2768464. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:06,381][08267] Avg episode reward: [(0, '5527.633')]
+[2023-07-11 13:00:06,384][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000005432_2781184.pth...
+[2023-07-11 13:00:06,386][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000004856_2486272.pth
+[2023-07-11 13:00:06,591][08315] Updated weights for policy 0, policy_version 5440 (0.0003)
+[2023-07-11 13:00:10,650][08315] Updated weights for policy 0, policy_version 5520 (0.0003)
+[2023-07-11 13:00:11,383][08267] Fps is (10 sec: 9826.5, 60 sec: 9694.0, 300 sec: 10482.6). Total num frames: 2830336. Throughput: 0: 9899.7. Samples: 2829416. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:11,384][08267] Avg episode reward: [(0, '5319.853')]
+[2023-07-11 13:00:14,653][08315] Updated weights for policy 0, policy_version 5600 (0.0003)
+[2023-07-11 13:00:16,384][08267] Fps is (10 sec: 10236.5, 60 sec: 9761.7, 300 sec: 10485.6). Total num frames: 2883584. Throughput: 0: 9957.8. Samples: 2859668. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:16,384][08267] Avg episode reward: [(0, '5274.768')]
+[2023-07-11 13:00:18,616][08315] Updated weights for policy 0, policy_version 5680 (0.0003)
+[2023-07-11 13:00:21,382][08267] Fps is (10 sec: 10241.7, 60 sec: 9830.5, 300 sec: 10474.0). Total num frames: 2932736. Throughput: 0: 9983.1. Samples: 2921512. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:21,382][08267] Avg episode reward: [(0, '5720.405')]
+[2023-07-11 13:00:21,385][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000005728_2932736.pth...
+[2023-07-11 13:00:21,387][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000005152_2637824.pth
+[2023-07-11 13:00:22,644][08315] Updated weights for policy 0, policy_version 5760 (0.0003)
+[2023-07-11 13:00:26,380][08267] Fps is (10 sec: 9834.3, 60 sec: 9967.6, 300 sec: 10462.8). Total num frames: 2981888. Throughput: 0: 10007.9. Samples: 2981796. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:26,381][08267] Avg episode reward: [(0, '5998.685')]
+[2023-07-11 13:00:26,830][08315] Updated weights for policy 0, policy_version 5840 (0.0003)
+[2023-07-11 13:00:30,819][08315] Updated weights for policy 0, policy_version 5920 (0.0003)
+[2023-07-11 13:00:31,381][08267] Fps is (10 sec: 10241.0, 60 sec: 10035.8, 300 sec: 10466.0). Total num frames: 3035136. Throughput: 0: 10023.3. Samples: 3011032. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:31,381][08267] Avg episode reward: [(0, '6005.127')]
+[2023-07-11 13:00:34,777][08315] Updated weights for policy 0, policy_version 6000 (0.0003)
+[2023-07-11 13:00:36,383][08267] Fps is (10 sec: 10237.6, 60 sec: 9967.2, 300 sec: 10455.1). Total num frames: 3084288. Throughput: 0: 10013.8. Samples: 3073616. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:36,383][08267] Avg episode reward: [(0, '5830.768')]
+[2023-07-11 13:00:36,384][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000006024_3084288.pth...
+[2023-07-11 13:00:36,386][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000005432_2781184.pth
+[2023-07-11 13:00:39,102][08315] Updated weights for policy 0, policy_version 6080 (0.0003)
+[2023-07-11 13:00:41,382][08267] Fps is (10 sec: 9829.2, 60 sec: 9966.9, 300 sec: 10455.1). Total num frames: 3133440. Throughput: 0: 9964.8. Samples: 3129764. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:41,382][08267] Avg episode reward: [(0, '5740.282')]
+[2023-07-11 13:00:43,391][08315] Updated weights for policy 0, policy_version 6160 (0.0003)
+[2023-07-11 13:00:46,385][08267] Fps is (10 sec: 9827.9, 60 sec: 9966.1, 300 sec: 10427.2). Total num frames: 3182592. Throughput: 0: 9963.0. Samples: 3159224. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:46,385][08267] Avg episode reward: [(0, '5913.320')]
+[2023-07-11 13:00:47,423][08315] Updated weights for policy 0, policy_version 6240 (0.0003)
+[2023-07-11 13:00:51,380][08267] Fps is (10 sec: 9832.6, 60 sec: 9899.4, 300 sec: 10385.8). Total num frames: 3231744. Throughput: 0: 10036.8. Samples: 3220108. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:51,380][08267] Avg episode reward: [(0, '6169.546')]
+[2023-07-11 13:00:51,384][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000006312_3231744.pth...
+[2023-07-11 13:00:51,388][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000005728_2932736.pth
+[2023-07-11 13:00:51,389][08314] Saving new best policy, reward=6169.546!
+[2023-07-11 13:00:51,609][08315] Updated weights for policy 0, policy_version 6320 (0.0003)
+[2023-07-11 13:00:55,790][08315] Updated weights for policy 0, policy_version 6400 (0.0003)
+[2023-07-11 13:00:56,384][08267] Fps is (10 sec: 9831.3, 60 sec: 9966.7, 300 sec: 10357.9). Total num frames: 3280896. Throughput: 0: 9972.2. Samples: 3278172. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:00:56,385][08267] Avg episode reward: [(0, '5982.502')]
+[2023-07-11 13:01:00,080][08315] Updated weights for policy 0, policy_version 6480 (0.0003)
+[2023-07-11 13:01:01,381][08267] Fps is (10 sec: 9419.4, 60 sec: 9898.4, 300 sec: 10330.2). Total num frames: 3325952. Throughput: 0: 9929.4. Samples: 3306464. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:01,381][08267] Avg episode reward: [(0, '5725.173')]
+[2023-07-11 13:01:04,590][08315] Updated weights for policy 0, policy_version 6560 (0.0003)
+[2023-07-11 13:01:06,384][08267] Fps is (10 sec: 9011.5, 60 sec: 9829.9, 300 sec: 10288.4). Total num frames: 3371008. Throughput: 0: 9801.1. Samples: 3362580. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:06,385][08267] Avg episode reward: [(0, '5793.974')]
+[2023-07-11 13:01:06,388][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000006584_3371008.pth...
+[2023-07-11 13:01:06,391][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000006024_3084288.pth
+[2023-07-11 13:01:09,613][08315] Updated weights for policy 0, policy_version 6640 (0.0003)
+[2023-07-11 13:01:11,386][08267] Fps is (10 sec: 9006.8, 60 sec: 9761.7, 300 sec: 10246.7). Total num frames: 3416064. Throughput: 0: 9590.1. Samples: 3413408. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:11,386][08267] Avg episode reward: [(0, '5426.325')]
+[2023-07-11 13:01:13,566][08315] Updated weights for policy 0, policy_version 6720 (0.0003)
+[2023-07-11 13:01:16,383][08267] Fps is (10 sec: 9831.4, 60 sec: 9762.4, 300 sec: 10246.8). Total num frames: 3469312. Throughput: 0: 9637.2. Samples: 3444728. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:16,384][08267] Avg episode reward: [(0, '5267.411')]
+[2023-07-11 13:01:17,481][08315] Updated weights for policy 0, policy_version 6800 (0.0003)
+[2023-07-11 13:01:21,384][08267] Fps is (10 sec: 10241.9, 60 sec: 9761.7, 300 sec: 10233.0). Total num frames: 3518464. Throughput: 0: 9621.2. Samples: 3506588. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:21,385][08267] Avg episode reward: [(0, '5379.554')]
+[2023-07-11 13:01:21,388][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000006872_3518464.pth...
+[2023-07-11 13:01:21,391][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000006312_3231744.pth
+[2023-07-11 13:01:21,454][08315] Updated weights for policy 0, policy_version 6880 (0.0003)
+[2023-07-11 13:01:25,414][08315] Updated weights for policy 0, policy_version 6960 (0.0003)
+[2023-07-11 13:01:26,384][08267] Fps is (10 sec: 10238.6, 60 sec: 9829.7, 300 sec: 10232.9). Total num frames: 3571712. Throughput: 0: 9759.5. Samples: 3568964. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:26,385][08267] Avg episode reward: [(0, '5532.877')]
+[2023-07-11 13:01:29,403][08315] Updated weights for policy 0, policy_version 7040 (0.0003)
+[2023-07-11 13:01:31,382][08267] Fps is (10 sec: 10651.9, 60 sec: 9830.2, 300 sec: 10233.1). Total num frames: 3624960. Throughput: 0: 9787.5. Samples: 3599632. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:31,382][08267] Avg episode reward: [(0, '5332.896')]
+[2023-07-11 13:01:33,272][08315] Updated weights for policy 0, policy_version 7120 (0.0003)
+[2023-07-11 13:01:36,384][08267] Fps is (10 sec: 10240.6, 60 sec: 9830.2, 300 sec: 10205.3). Total num frames: 3674112. Throughput: 0: 9813.0. Samples: 3661732. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:36,385][08267] Avg episode reward: [(0, '5665.223')]
+[2023-07-11 13:01:36,393][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000007176_3674112.pth...
+[2023-07-11 13:01:36,402][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000006584_3371008.pth
+[2023-07-11 13:01:37,726][08315] Updated weights for policy 0, policy_version 7200 (0.0003)
+[2023-07-11 13:01:41,380][08267] Fps is (10 sec: 9422.6, 60 sec: 9762.4, 300 sec: 10177.6). Total num frames: 3719168. Throughput: 0: 9750.9. Samples: 3716924. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:41,380][08267] Avg episode reward: [(0, '5602.529')]
+[2023-07-11 13:01:42,038][08315] Updated weights for policy 0, policy_version 7280 (0.0003)
+[2023-07-11 13:01:46,259][08315] Updated weights for policy 0, policy_version 7360 (0.0003)
+[2023-07-11 13:01:46,383][08267] Fps is (10 sec: 9421.8, 60 sec: 9762.5, 300 sec: 10163.7). Total num frames: 3768320. Throughput: 0: 9752.3. Samples: 3745328. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:46,383][08267] Avg episode reward: [(0, '5592.196')]
+[2023-07-11 13:01:50,361][08315] Updated weights for policy 0, policy_version 7440 (0.0003)
+[2023-07-11 13:01:51,380][08267] Fps is (10 sec: 9830.6, 60 sec: 9762.1, 300 sec: 10135.9). Total num frames: 3817472. Throughput: 0: 9836.5. Samples: 3805184. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:01:51,380][08267] Avg episode reward: [(0, '5742.894')]
+[2023-07-11 13:01:51,385][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000007456_3817472.pth...
+[2023-07-11 13:01:51,389][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000006872_3518464.pth
+[2023-07-11 13:01:54,429][08315] Updated weights for policy 0, policy_version 7520 (0.0003)
+[2023-07-11 13:01:56,384][08267] Fps is (10 sec: 9828.9, 60 sec: 9762.1, 300 sec: 10121.8). Total num frames: 3866624. Throughput: 0: 10053.3. Samples: 3865788. Policy #0 lag: (min: 0.0, avg: 0.0, max: 0.0)
+[2023-07-11 13:01:56,384][08267] Avg episode reward: [(0, '5760.617')]
+[2023-07-11 13:01:58,437][08315] Updated weights for policy 0, policy_version 7600 (0.0003)
+[2023-07-11 13:02:01,380][08267] Fps is (10 sec: 9830.8, 60 sec: 9830.7, 300 sec: 10108.1). Total num frames: 3915776. Throughput: 0: 10024.7. Samples: 3895808. Policy #0 lag: (min: 7.0, avg: 7.0, max: 7.0)
+[2023-07-11 13:02:01,380][08267] Avg episode reward: [(0, '5708.475')]
+[2023-07-11 13:02:02,812][08315] Updated weights for policy 0, policy_version 7680 (0.0003)
+[2023-07-11 13:02:03,608][08267] Keyboard interrupt detected in the event loop EvtLoop [Runner_EvtLoop, process=main process 8267], exiting...
+[2023-07-11 13:02:03,609][08314] Stopping Batcher_0...
+[2023-07-11 13:02:03,609][08267] Runner profile tree view:
+main_loop: 385.8052
+[2023-07-11 13:02:03,609][08314] Loop batcher_evt_loop terminating...
+[2023-07-11 13:02:03,610][08267] Collected {0: 3936256}, FPS: 10202.7
+[2023-07-11 13:02:03,610][08317] Stopping RolloutWorker_w1...
+[2023-07-11 13:02:03,609][08322] Stopping RolloutWorker_w6...
+[2023-07-11 13:02:03,610][08318] Stopping RolloutWorker_w2...
+[2023-07-11 13:02:03,611][08317] Loop rollout_proc1_evt_loop terminating...
+[2023-07-11 13:02:03,611][08322] Loop rollout_proc6_evt_loop terminating...
+[2023-07-11 13:02:03,611][08318] Loop rollout_proc2_evt_loop terminating...
+[2023-07-11 13:02:03,610][08319] Stopping RolloutWorker_w3...
+[2023-07-11 13:02:03,610][08320] Stopping RolloutWorker_w4...
+[2023-07-11 13:02:03,610][08323] Stopping RolloutWorker_w7...
+[2023-07-11 13:02:03,612][08319] Loop rollout_proc3_evt_loop terminating...
+[2023-07-11 13:02:03,612][08320] Loop rollout_proc4_evt_loop terminating...
+[2023-07-11 13:02:03,612][08323] Loop rollout_proc7_evt_loop terminating...
+[2023-07-11 13:02:03,611][08321] Stopping RolloutWorker_w5...
+[2023-07-11 13:02:03,612][08321] Loop rollout_proc5_evt_loop terminating...
+[2023-07-11 13:02:03,611][08316] Stopping RolloutWorker_w0...
+[2023-07-11 13:02:03,613][08316] Loop rollout_proc0_evt_loop terminating...
+[2023-07-11 13:02:03,661][08314] Saving ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000007696_3940352.pth...
+[2023-07-11 13:02:03,665][08314] Removing ./src/custom-ant-six-legs/train_dir/ant_sixlegs_x_direction_task/checkpoint_p0/checkpoint_000007176_3674112.pth
+[2023-07-11 13:02:03,667][08314] Stopping LearnerWorker_p0...
+[2023-07-11 13:02:03,667][08314] Loop learner_proc0_evt_loop terminating...
+[2023-07-11 13:02:03,762][08315] Weights refcount: 2 0
+[2023-07-11 13:02:03,764][08315] Stopping InferenceWorker_p0-w0...
+[2023-07-11 13:02:03,765][08315] Loop inference_proc0-0_evt_loop terminating...

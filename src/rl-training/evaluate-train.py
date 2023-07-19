@@ -56,7 +56,9 @@ def get_experiment():
     '''
     This function asks the user to choose an experiment to run and returns the choice.
     '''
-    experiments = ['ant_x_direction_task', 'ant_x_opp_direction_task', 'ant_y_direction_task', 'ant_y_opp_direction_task']
+    experiments = ['ant_x_direction_task', 'ant_x_opp_direction_task', 'ant_y_direction_task', 
+                   'ant_y_opp_direction_task', 'ant_circular_task', 'ant_stand', 'ant_x_direction_sync_task',
+                   'ant_x_direction_pbt_task', 'ant_x_direction_rnn_task']
     print("Select an experiment to run:")
     for i, experiment in enumerate(experiments):
         print(f"{i+1}. {experiment}")
@@ -71,7 +73,7 @@ def main():
     '''
     register_custom_components()
     experiment = get_experiment()
-    argv = ["--env=Ant-v4", f"--experiment={experiment}", "--train_dir=./src/rl-training/train_dir"]
+    argv = ["--env=Ant-v4", f"--experiment={experiment}", "--train_dir=src/rl-training/train_dir"]
     cfg = parse_mujoco_cfg(argv=argv, evaluation=True)
     status = enjoy(cfg)
     return status

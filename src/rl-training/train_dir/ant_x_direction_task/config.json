@@ -3,7 +3,7 @@
   "algo": "APPO",
   "env": "Ant-v4",
   "experiment": "ant_x_direction_task",
-  "train_dir": "./sample-factory/code/train_dir",
+  "train_dir": "./src/rl-training/train_dir",
   "restart_behavior": "resume",
   "device": "cpu",
   "seed": null,
@@ -120,10 +120,11 @@
   "pbt_target_objective": "true_objective",
   "pbt_perturb_min": 1.1,
   "pbt_perturb_max": 1.5,
-  "command_line": "--env=Ant-v4 --device=cpu --experiment=ant_x_direction_task",
+  "command_line": "--env=Ant-v4 --device=cpu --experiment=ant_x_direction_task --train_dir=./src/rl-training/train_dir",
   "cli_args": {
     "env": "Ant-v4",
     "experiment": "ant_x_direction_task",
+    "train_dir": "./src/rl-training/train_dir",
     "device": "cpu"
   },
   "git_hash": "unknown",
