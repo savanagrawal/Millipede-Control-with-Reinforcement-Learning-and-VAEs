@@ -47,45 +47,26 @@ from sample_factory.utils.utils import debug_log_every_n, experiment_dir, log
 def render_frame(cfg, env, video_frames, num_episodes, last_render_start) -> float:
     render_start = time.time()
 
-    if cfg.save_video:
-        need_video_frame = len(video_frames) < cfg.video_frames or cfg.video_frames < 0 and num_episodes == 0
-        if need_video_frame:
-            frame = env.render()
-            if frame is not None:
-                video_frames.append(frame.copy())
-    else:
-        if not cfg.no_render:
-            target_delay = 1.0 / cfg.fps if cfg.fps > 0 else 0
-            current_delay = render_start - last_render_start
-            time_wait = target_delay - current_delay
+    # if not cfg.no_render:
+    target_delay = 1.0 / cfg.fps if cfg.fps > 0 else 0
+    current_delay = render_start - last_render_start
+    time_wait = target_delay - current_delay
 
-            if time_wait > 0:
-                # log.info("Wait time %.3f", time_wait)
-                time.sleep(time_wait)
+    if time_wait > 0:
+        time.sleep(time_wait)
 
-            try:
-                env.render()
-            except (gym.error.Error, TypeError) as ex:
-                debug_log_every_n(1000, f"Exception when calling env.render() {str(ex)}")
+    env.render()
 
     return render_start
 
 
-def enjoy(cfg: Config, steps, observations, actions_data, rewards) -> Tuple[StatusCode, float]:
+def enjoy(cfg: Config, steps, observations, actions_data, rewards, info) -> Tuple[StatusCode, float]:
     cfg = load_from_checkpoint(cfg)
-
-    eval_env_frameskip: int = cfg.env_frameskip if cfg.eval_env_frameskip is None else cfg.eval_env_frameskip
-    assert (
-        cfg.env_frameskip % eval_env_frameskip == 0
-    ), f"{cfg.env_frameskip=} must be divisible by {eval_env_frameskip=}"
-    
-    render_action_repeat: int = cfg.env_frameskip // eval_env_frameskip
-    cfg.env_frameskip = cfg.eval_env_frameskip = eval_env_frameskip
-    log.debug(f"Using frameskip {cfg.env_frameskip} and {render_action_repeat=} for evaluation")
 
     cfg.num_envs = 1
 
     render_mode = "human"
+    # render_mode = "rgb_array"
 
     env = make_env_func_batched(
         cfg, env_config=AttrDict(worker_index=0, vector_index=0, env_id=0), render_mode=render_mode
@@ -122,27 +103,31 @@ def enjoy(cfg: Config, steps, observations, actions_data, rewards) -> Tuple[Stat
     with torch.no_grad():
         while count <= steps:
             normalized_obs = prepare_and_normalize_obs(actor_critic, obs)
-
+            # print(normalized_obs.shape)
+            # print(normalized_obs['obs'].numpy())
+            observations.append(obs['obs'].numpy())
             policy_outputs = actor_critic(normalized_obs, rnn_states)
 
             # sample actions from the distribution by default
             actions = policy_outputs["actions"]
-
+            # print(actions)
             actions = preprocess_actions(env_info, actions)
+            
+            last_render_start = render_frame(cfg, env, video_frames, num_episodes, last_render_start)
 
-            rnn_states = policy_outputs["new_rnn_states"]
+            obs, rew, terminated, truncated, infos = env.step(actions)
+            # print(actions)
+            # print(obs['obs'])
+            # print(infos)
 
-            for _ in range(render_action_repeat):
-                last_render_start = render_frame(cfg, env, video_frames, num_episodes, last_render_start)
-
-                obs, rew, terminated, truncated, infos = env.step(actions)
-                print(obs['obs'].shape)
-
-                observations.append(obs['obs'].numpy())
-                actions_data.append(actions)
-                rewards.append(rew.numpy())
+            # observations.append(obs['obs'].numpy())
+            actions_data.append(actions)
+            rewards.append(rew.numpy())
+            info.append(infos)
 
             count += 1
+            print(count)
+
 
     env.close()
 
