@@ -64,7 +64,7 @@ def create_dataset(experiments):
     for exp in experiments:
         argv = ["--env=Ant-v4", f"--experiment={exp}", "--train_dir=src/rl-training/train_dir"]
         cfg = parse_mujoco_cfg(argv=argv, evaluation=True)
-        observations, actions, rewards = enjoy(cfg, 1000000-1, observations, actions, rewards, infos)
+        observations, actions, rewards = enjoy(cfg, 1000-1, observations, actions, rewards, infos)
 
     print(np.shape(observations))
     print(np.shape(actions))
